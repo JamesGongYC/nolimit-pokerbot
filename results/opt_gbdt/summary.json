@@ -1,0 +1,111 @@
+{
+ "history": [
+  {
+   "round": 0,
+   "samples": 947019,
+   "gbdt_r0": [
+    20.45,
+    0.91
+   ],
+   "gbdt_r0_pre": [
+    24.98,
+    0.91
+   ],
+   "heur_tag_g9_mean": [
+    25.65,
+    0.89
+   ]
+  },
+  {
+   "round": 1,
+   "samples": 874611,
+   "gbdt_r1": [
+    21.27,
+    0.92
+   ],
+   "gbdt_r1_pre": [
+    26.36,
+    0.91
+   ],
+   "gbdt_r0_pre": [
+    24.99,
+    0.91
+   ],
+   "heur_tag_g9_mean": [
+    25.17,
+    0.9
+   ]
+  },
+  {
+   "round": 2,
+   "samples": 927527,
+   "gbdt_r2": [
+    21.21,
+    0.92
+   ],
+   "gbdt_r2_pre": [
+    27.19,
+    0.92
+   ],
+   "gbdt_r1_pre": [
+    26.84,
+    0.9
+   ],
+   "heur_tag_g9_mean": [
+    25.49,
+    0.89
+   ]
+  }
+ ],
+ "best": {
+  "type": "tree",
+  "name": "gbdt_r2_pre",
+  "params": {
+   "open_pct": 0.3517,
+   "pos_widen": 0.1352,
+   "steal_widen": 0.1803,
+   "open_size": 2.3768,
+   "threebet_pct": 0.021,
+   "resteal_rate": 0.0858,
+   "call_margin": 0.0946,
+   "value_eq": 0.586,
+   "raise_eq": 0.5991,
+   "value_size": 0.7046,
+   "bluff_size": 0.6598,
+   "bluff_rate": 0.3283,
+   "semibluff_rate": 0.5473,
+   "cbet_rate": 0.7394,
+   "shove_bb": 9.1229,
+   "push_widen": 1.0237,
+   "call_shove_margin": 0.0334,
+   "commit_spr": 1.4768,
+   "icm_risk": 1.0103,
+   "bigstack_pressure": 0.1432,
+   "multiway_tighten": 0.3545,
+   "adapt": 0.4735,
+   "implied": 0.0597,
+   "endgame_push": 0.1829,
+   "value_class": 5,
+   "call_class": 1,
+   "raise_class": 10,
+   "big_bet_call_class": 6,
+   "model": "pokerbot/data/gbdt_r2.json",
+   "margin": 0.25,
+   "tree_streets": "pre"
+  },
+  "train_cpu_s": 2468.3
+ },
+ "wall_s": 400.6,
+ "fit_wall_s": 34.5,
+ "settings": {
+  "rounds": 3,
+  "tables": 10000,
+  "eps": 0.15,
+  "algo": "gbdt",
+  "trees": 150,
+  "depth": 4,
+  "leaf": 1500,
+  "lr": 0.06,
+  "window": 2
+ }
+}

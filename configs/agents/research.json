@@ -1,0 +1,13 @@
+{
+  "jam_always":  {"type": "allin"},
+  "jam_50":      {"type": "allin", "params": {"push_pct": 0.5, "call_pct": 0.3}},
+  "jam_25":      {"type": "allin", "params": {"push_pct": 0.25, "call_pct": 0.12}},
+  "jam_12":      {"type": "allin", "params": {"push_pct": 0.12, "call_pct": 0.06}},
+  "jam_nash":    {"type": "allin", "params": {"nash": 1}},
+  "jam_nash_icm":{"type": "allin", "params": {"nash": 1, "lam": 0.7}},
+  "jam_stack":   {"type": "allin", "params": {"push_pct": 0.2, "call_pct": 0.1, "ref_bb": 15, "stack_exp": 1.0}},
+  "potodds":     {"type": "potodds"},
+  "mc_default":  {"type": "montecarlo"},
+  "mc_tag":      {"type": "montecarlo", "styles": ["tight", "aggressive"]},
+  "mc_exploit":  {"type": "montecarlo", "styles": ["tight", "aggressive", "exploitative"]}
+}

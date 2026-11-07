@@ -1,0 +1,823 @@
+{
+ "tables": 400,
+ "seed": 777000111,
+ "fields": [
+  "ho_adaptive",
+  "ho_aggressive",
+  "ho_balanced",
+  "ho_mixed",
+  "ho_passive"
+ ],
+ "event": "sequoia-nolimit-2026-provisional",
+ "payouts": [
+  50,
+  30,
+  20,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "rows": [
+  {
+   "name": "heur_tag",
+   "points": 23.876,
+   "ci95": 1.804,
+   "tables": 400,
+   "place_dist": [
+    0.237,
+    0.27,
+    0.193,
+    0.12,
+    0.083,
+    0.045,
+    0.035,
+    0.018
+   ],
+   "lat_p50_us": 20,
+   "lat_p99_us": 70,
+   "lat_max_us": 11035.7,
+   "mean_us": 29.7,
+   "decisions": 52627,
+   "errors": 0,
+   "timeouts": 101,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.227,
+    "pfr": 0.163,
+    "open": 0.263,
+    "steal": 0.304,
+    "3bet": 0.052,
+    "af": 2.41,
+    "fold_to_bet": 0.728,
+    "wtsd": 0.364,
+    "allin_per_hand": 0.043
+   },
+   "sim_cpu_s": 11.9,
+   "mechanism": "heuristic",
+   "by_field": {
+    "ho_adaptive": 26.1,
+    "ho_aggressive": 22.68,
+    "ho_balanced": 21.25,
+    "ho_mixed": 22.59,
+    "ho_passive": 26.75
+   },
+   "worst_field": 21.25,
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag"
+   },
+   "vs_leader": 0.0,
+   "vs_leader_ci95": 0.0
+  },
+  {
+   "name": "heur_default",
+   "points": 23.359,
+   "ci95": 1.908,
+   "tables": 400,
+   "place_dist": [
+    0.268,
+    0.23,
+    0.16,
+    0.115,
+    0.098,
+    0.055,
+    0.058,
+    0.018
+   ],
+   "lat_p50_us": 20,
+   "lat_p99_us": 70,
+   "lat_max_us": 16931.6,
+   "mean_us": 30.6,
+   "decisions": 56141,
+   "errors": 0,
+   "timeouts": 107,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.326,
+    "pfr": 0.221,
+    "open": 0.363,
+    "steal": 0.402,
+    "3bet": 0.058,
+    "af": 2.01,
+    "fold_to_bet": 0.634,
+    "wtsd": 0.348,
+    "allin_per_hand": 0.044
+   },
+   "sim_cpu_s": 12.1,
+   "mechanism": "heuristic",
+   "by_field": {
+    "ho_adaptive": 23.07,
+    "ho_aggressive": 24.98,
+    "ho_balanced": 18.12,
+    "ho_mixed": 21.93,
+    "ho_passive": 28.7
+   },
+   "worst_field": 18.12,
+   "spec": {
+    "type": "heuristic",
+    "name": "heur_default"
+   },
+   "vs_leader": -0.517,
+   "vs_leader_ci95": 2.043
+  },
+  {
+   "name": "linear_default",
+   "points": 20.91,
+   "ci95": 1.7,
+   "tables": 400,
+   "place_dist": [
+    0.158,
+    0.28,
+    0.23,
+    0.138,
+    0.11,
+    0.058,
+    0.022,
+    0.005
+   ],
+   "lat_p50_us": 40,
+   "lat_p99_us": 80,
+   "lat_max_us": 11967.7,
+   "mean_us": 48.2,
+   "decisions": 80155,
+   "errors": 0,
+   "timeouts": 240,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.376,
+    "pfr": 0.0,
+    "open": 0.0,
+    "steal": 0.0,
+    "3bet": 0.0,
+    "af": 0.0,
+    "fold_to_bet": 0.494,
+    "wtsd": 0.669,
+    "allin_per_hand": 0.018
+   },
+   "sim_cpu_s": 14.5,
+   "mechanism": "learned (CEM)",
+   "by_field": {
+    "ho_adaptive": 27.63,
+    "ho_aggressive": 23.25,
+    "ho_balanced": 15.96,
+    "ho_mixed": 20.42,
+    "ho_passive": 17.29
+   },
+   "worst_field": 15.96,
+   "spec": {
+    "type": "linear",
+    "name": "linear_default"
+   },
+   "vs_leader": -2.966,
+   "vs_leader_ci95": 2.363
+  },
+  {
+   "name": "eq_tag",
+   "points": 20.542,
+   "ci95": 1.952,
+   "tables": 400,
+   "place_dist": [
+    0.24,
+    0.19,
+    0.145,
+    0.117,
+    0.125,
+    0.07,
+    0.065,
+    0.048
+   ],
+   "lat_p50_us": 20,
+   "lat_p99_us": 100,
+   "lat_max_us": 12666.0,
+   "mean_us": 40.3,
+   "decisions": 40017,
+   "errors": 0,
+   "timeouts": 106,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.221,
+    "pfr": 0.161,
+    "open": 0.263,
+    "steal": 0.304,
+    "3bet": 0.048,
+    "af": 4.5,
+    "fold_to_bet": 0.715,
+    "wtsd": 0.393,
+    "allin_per_hand": 0.055
+   },
+   "sim_cpu_s": 11.4,
+   "mechanism": "statistical+oppmodel",
+   "by_field": {
+    "ho_adaptive": 23.41,
+    "ho_aggressive": 23.24,
+    "ho_balanced": 13.11,
+    "ho_mixed": 20.02,
+    "ho_passive": 22.93
+   },
+   "worst_field": 13.11,
+   "spec": {
+    "type": "equity",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "eq_tag"
+   },
+   "vs_leader": -3.334,
+   "vs_leader_ci95": 2.176
+  },
+  {
+   "name": "eq_icm",
+   "points": 19.733,
+   "ci95": 1.791,
+   "tables": 400,
+   "place_dist": [
+    0.18,
+    0.23,
+    0.195,
+    0.128,
+    0.115,
+    0.052,
+    0.055,
+    0.045
+   ],
+   "lat_p50_us": 20,
+   "lat_p99_us": 100,
+   "lat_max_us": 10336.7,
+   "mean_us": 40.4,
+   "decisions": 42284,
+   "errors": 0,
+   "timeouts": 118,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.195,
+    "pfr": 0.137,
+    "open": 0.22,
+    "steal": 0.256,
+    "3bet": 0.047,
+    "af": 4.28,
+    "fold_to_bet": 0.749,
+    "wtsd": 0.397,
+    "allin_per_hand": 0.054
+   },
+   "sim_cpu_s": 11.7,
+   "mechanism": "statistical+oppmodel",
+   "by_field": {
+    "ho_adaptive": 21.23,
+    "ho_aggressive": 23.4,
+    "ho_balanced": 10.56,
+    "ho_mixed": 21.68,
+    "ho_passive": 21.79
+   },
+   "worst_field": 10.56,
+   "spec": {
+    "type": "equity",
+    "styles": [
+     "tight",
+     "icm_survival"
+    ],
+    "name": "eq_icm"
+   },
+   "vs_leader": -4.143,
+   "vs_leader_ci95": 1.988
+  },
+  {
+   "name": "hybrid_tag",
+   "points": 19.229,
+   "ci95": 1.956,
+   "tables": 400,
+   "place_dist": [
+    0.23,
+    0.168,
+    0.142,
+    0.11,
+    0.142,
+    0.077,
+    0.07,
+    0.06
+   ],
+   "lat_p50_us": 20,
+   "lat_p99_us": 100,
+   "lat_max_us": 9302.9,
+   "mean_us": 40.5,
+   "decisions": 36565,
+   "errors": 0,
+   "timeouts": 91,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.213,
+    "pfr": 0.159,
+    "open": 0.261,
+    "steal": 0.31,
+    "3bet": 0.046,
+    "af": 4.38,
+    "fold_to_bet": 0.714,
+    "wtsd": 0.413,
+    "allin_per_hand": 0.06
+   },
+   "sim_cpu_s": 11.1,
+   "mechanism": "hybrid (CFR push/fold + table + equity + oppmodel)",
+   "by_field": {
+    "ho_adaptive": 22.75,
+    "ho_aggressive": 20.62,
+    "ho_balanced": 9.1,
+    "ho_mixed": 19.25,
+    "ho_passive": 24.42
+   },
+   "worst_field": 9.1,
+   "spec": {
+    "type": "hybrid",
+    "styles": [
+     "tight",
+     "aggressive",
+     "exploitative"
+    ],
+    "name": "hybrid_tag"
+   },
+   "vs_leader": -4.646,
+   "vs_leader_ci95": 2.218
+  },
+  {
+   "name": "hybrid_icm",
+   "points": 18.44,
+   "ci95": 1.771,
+   "tables": 400,
+   "place_dist": [
+    0.158,
+    0.203,
+    0.22,
+    0.135,
+    0.12,
+    0.05,
+    0.068,
+    0.048
+   ],
+   "lat_p50_us": 20,
+   "lat_p99_us": 100,
+   "lat_max_us": 10237.9,
+   "mean_us": 41.2,
+   "decisions": 39687,
+   "errors": 0,
+   "timeouts": 117,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.19,
+    "pfr": 0.14,
+    "open": 0.226,
+    "steal": 0.267,
+    "3bet": 0.044,
+    "af": 4.33,
+    "fold_to_bet": 0.75,
+    "wtsd": 0.433,
+    "allin_per_hand": 0.06
+   },
+   "sim_cpu_s": 11.8,
+   "mechanism": "hybrid (CFR push/fold + table + equity + oppmodel)",
+   "by_field": {
+    "ho_adaptive": 19.48,
+    "ho_aggressive": 20.99,
+    "ho_balanced": 7.47,
+    "ho_mixed": 21.46,
+    "ho_passive": 22.8
+   },
+   "worst_field": 7.47,
+   "spec": {
+    "type": "hybrid",
+    "styles": [
+     "tight",
+     "icm_survival",
+     "exploitative"
+    ],
+    "name": "hybrid_icm"
+   },
+   "vs_leader": -5.436,
+   "vs_leader_ci95": 2.009
+  },
+  {
+   "name": "nit",
+   "points": 17.875,
+   "ci95": 1.416,
+   "tables": 400,
+   "place_dist": [
+    0.037,
+    0.378,
+    0.228,
+    0.155,
+    0.09,
+    0.052,
+    0.02,
+    0.04
+   ],
+   "lat_p50_us": 10,
+   "lat_p99_us": 30,
+   "lat_max_us": 9322.6,
+   "mean_us": 4.2,
+   "decisions": 44856,
+   "errors": 0,
+   "timeouts": 11,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.053,
+    "pfr": 0.049,
+    "open": 0.062,
+    "steal": 0.058,
+    "3bet": 0.044,
+    "af": 3.93,
+    "fold_to_bet": 0.917,
+    "wtsd": 0.786,
+    "allin_per_hand": 0.014
+   },
+   "sim_cpu_s": 10.6,
+   "mechanism": "baseline",
+   "by_field": {
+    "ho_adaptive": 23.22,
+    "ho_aggressive": 17.61,
+    "ho_balanced": 10.61,
+    "ho_mixed": 20.62,
+    "ho_passive": 17.32
+   },
+   "worst_field": 10.61,
+   "spec": {
+    "type": "nit",
+    "name": "nit"
+   },
+   "vs_leader": -6.001,
+   "vs_leader_ci95": 1.988
+  },
+  {
+   "name": "eq_default",
+   "points": 17.777,
+   "ci95": 1.949,
+   "tables": 400,
+   "place_dist": [
+    0.215,
+    0.14,
+    0.147,
+    0.122,
+    0.107,
+    0.102,
+    0.085,
+    0.08
+   ],
+   "lat_p50_us": 30,
+   "lat_p99_us": 100,
+   "lat_max_us": 10306.8,
+   "mean_us": 43.6,
+   "decisions": 37636,
+   "errors": 0,
+   "timeouts": 101,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.325,
+    "pfr": 0.22,
+    "open": 0.359,
+    "steal": 0.397,
+    "3bet": 0.06,
+    "af": 3.61,
+    "fold_to_bet": 0.61,
+    "wtsd": 0.364,
+    "allin_per_hand": 0.065
+   },
+   "sim_cpu_s": 11.4,
+   "mechanism": "statistical+oppmodel",
+   "by_field": {
+    "ho_adaptive": 15.12,
+    "ho_aggressive": 21.5,
+    "ho_balanced": 11.0,
+    "ho_mixed": 17.77,
+    "ho_passive": 23.49
+   },
+   "worst_field": 11.0,
+   "spec": {
+    "type": "equity",
+    "name": "eq_default"
+   },
+   "vs_leader": -6.098,
+   "vs_leader_ci95": 2.242
+  },
+  {
+   "name": "eq_bully",
+   "points": 17.4,
+   "ci95": 1.947,
+   "tables": 400,
+   "place_dist": [
+    0.203,
+    0.155,
+    0.133,
+    0.135,
+    0.107,
+    0.1,
+    0.098,
+    0.07
+   ],
+   "lat_p50_us": 30,
+   "lat_p99_us": 100,
+   "lat_max_us": 10120.4,
+   "mean_us": 46.6,
+   "decisions": 35329,
+   "errors": 0,
+   "timeouts": 113,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.455,
+    "pfr": 0.374,
+    "open": 0.588,
+    "steal": 0.717,
+    "3bet": 0.147,
+    "af": 5.83,
+    "fold_to_bet": 0.494,
+    "wtsd": 0.367,
+    "allin_per_hand": 0.078
+   },
+   "sim_cpu_s": 11.1,
+   "mechanism": "statistical+oppmodel",
+   "by_field": {
+    "ho_adaptive": 15.62,
+    "ho_aggressive": 19.62,
+    "ho_balanced": 9.88,
+    "ho_mixed": 18.0,
+    "ho_passive": 23.88
+   },
+   "worst_field": 9.88,
+   "spec": {
+    "type": "equity",
+    "styles": [
+     "bigstack_bully",
+     "stealer",
+     "restealer"
+    ],
+    "name": "eq_bully"
+   },
+   "vs_leader": -6.475,
+   "vs_leader_ci95": 2.328
+  },
+  {
+   "name": "eq_exploit",
+   "points": 16.686,
+   "ci95": 1.927,
+   "tables": 400,
+   "place_dist": [
+    0.195,
+    0.147,
+    0.13,
+    0.12,
+    0.13,
+    0.102,
+    0.083,
+    0.092
+   ],
+   "lat_p50_us": 30,
+   "lat_p99_us": 100,
+   "lat_max_us": 10145.0,
+   "mean_us": 44.4,
+   "decisions": 34263,
+   "errors": 0,
+   "timeouts": 88,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.316,
+    "pfr": 0.218,
+    "open": 0.361,
+    "steal": 0.403,
+    "3bet": 0.055,
+    "af": 3.66,
+    "fold_to_bet": 0.61,
+    "wtsd": 0.381,
+    "allin_per_hand": 0.068
+   },
+   "sim_cpu_s": 11.1,
+   "mechanism": "statistical+oppmodel",
+   "by_field": {
+    "ho_adaptive": 19.0,
+    "ho_aggressive": 17.75,
+    "ho_balanced": 6.12,
+    "ho_mixed": 16.8,
+    "ho_passive": 23.75
+   },
+   "worst_field": 6.12,
+   "spec": {
+    "type": "equity",
+    "styles": [
+     "exploitative"
+    ],
+    "name": "eq_exploit"
+   },
+   "vs_leader": -7.19,
+   "vs_leader_ci95": 2.178
+  },
+  {
+   "name": "hybrid_default",
+   "points": 15.436,
+   "ci95": 1.828,
+   "tables": 400,
+   "place_dist": [
+    0.163,
+    0.138,
+    0.165,
+    0.107,
+    0.133,
+    0.117,
+    0.102,
+    0.075
+   ],
+   "lat_p50_us": 30,
+   "lat_p99_us": 110,
+   "lat_max_us": 9309.4,
+   "mean_us": 47.7,
+   "decisions": 34313,
+   "errors": 0,
+   "timeouts": 103,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.322,
+    "pfr": 0.219,
+    "open": 0.359,
+    "steal": 0.399,
+    "3bet": 0.059,
+    "af": 3.5,
+    "fold_to_bet": 0.605,
+    "wtsd": 0.38,
+    "allin_per_hand": 0.065
+   },
+   "sim_cpu_s": 11.4,
+   "mechanism": "hybrid (CFR push/fold + table + equity + oppmodel)",
+   "by_field": {
+    "ho_adaptive": 13.5,
+    "ho_aggressive": 18.62,
+    "ho_balanced": 6.1,
+    "ho_mixed": 17.27,
+    "ho_passive": 21.68
+   },
+   "worst_field": 6.1,
+   "spec": {
+    "type": "hybrid",
+    "name": "hybrid_default"
+   },
+   "vs_leader": -8.439,
+   "vs_leader_ci95": 2.184
+  },
+  {
+   "name": "shover20",
+   "points": 13.541,
+   "ci95": 1.718,
+   "tables": 400,
+   "place_dist": [
+    0.12,
+    0.155,
+    0.147,
+    0.13,
+    0.133,
+    0.16,
+    0.098,
+    0.058
+   ],
+   "lat_p50_us": 10,
+   "lat_p99_us": 10,
+   "lat_max_us": 6346.9,
+   "mean_us": 2.1,
+   "decisions": 27192,
+   "errors": 0,
+   "timeouts": 4,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.146,
+    "pfr": 0.115,
+    "open": 0.21,
+    "steal": 0.204,
+    "3bet": 0.0,
+    "af": 1.21,
+    "fold_to_bet": 0.776,
+    "wtsd": 1.0,
+    "allin_per_hand": 0.125
+   },
+   "sim_cpu_s": 9.9,
+   "mechanism": "baseline",
+   "by_field": {
+    "ho_adaptive": 16.83,
+    "ho_aggressive": 15.88,
+    "ho_balanced": 9.53,
+    "ho_mixed": 15.69,
+    "ho_passive": 9.78
+   },
+   "worst_field": 9.53,
+   "spec": {
+    "type": "shover",
+    "params": {
+     "push_pct": 0.2,
+     "call_pct": 0.1
+    },
+    "name": "shover20"
+   },
+   "vs_leader": -10.335,
+   "vs_leader_ci95": 2.327
+  },
+  {
+   "name": "station",
+   "points": 2.633,
+   "ci95": 0.914,
+   "tables": 400,
+   "place_dist": [
+    0.022,
+    0.025,
+    0.04,
+    0.035,
+    0.107,
+    0.205,
+    0.217,
+    0.347
+   ],
+   "lat_p50_us": 10,
+   "lat_p99_us": 30,
+   "lat_max_us": 9490.9,
+   "mean_us": 13.1,
+   "decisions": 17504,
+   "errors": 0,
+   "timeouts": 14,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.871,
+    "pfr": 0.019,
+    "open": 0.027,
+    "steal": 0.02,
+    "3bet": 0.008,
+    "af": 0.16,
+    "fold_to_bet": 0.001,
+    "wtsd": 0.882,
+    "allin_per_hand": 0.132
+   },
+   "sim_cpu_s": 10.1,
+   "mechanism": "baseline",
+   "by_field": {
+    "ho_adaptive": 0.0,
+    "ho_aggressive": 1.62,
+    "ho_balanced": 0.62,
+    "ho_mixed": 2.42,
+    "ho_passive": 8.5
+   },
+   "worst_field": 0.0,
+   "spec": {
+    "type": "station",
+    "name": "station"
+   },
+   "vs_leader": -21.242,
+   "vs_leader_ci95": 1.949
+  },
+  {
+   "name": "maniac",
+   "points": 2.442,
+   "ci95": 0.914,
+   "tables": 400,
+   "place_dist": [
+    0.025,
+    0.022,
+    0.03,
+    0.065,
+    0.13,
+    0.19,
+    0.21,
+    0.328
+   ],
+   "lat_p50_us": 10,
+   "lat_p99_us": 10,
+   "lat_max_us": 3034.4,
+   "mean_us": 2.0,
+   "decisions": 5779,
+   "errors": 0,
+   "timeouts": 1,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.864,
+    "pfr": 0.672,
+    "open": 0.719,
+    "steal": 0.679,
+    "3bet": 0.651,
+    "af": 2.8,
+    "fold_to_bet": 0.048,
+    "wtsd": 0.591,
+    "allin_per_hand": 0.548
+   },
+   "sim_cpu_s": 9.5,
+   "mechanism": "baseline",
+   "by_field": {
+    "ho_adaptive": 0.62,
+    "ho_aggressive": 3.0,
+    "ho_balanced": 0.62,
+    "ho_mixed": 3.5,
+    "ho_passive": 4.46
+   },
+   "worst_field": 0.62,
+   "spec": {
+    "type": "maniac",
+    "name": "maniac"
+   },
+   "vs_leader": -21.434,
+   "vs_leader_ci95": 2.038
+  }
+ ]
+}

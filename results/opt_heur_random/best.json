@@ -1,0 +1,40 @@
+{
+ "type": "heuristic",
+ "styles": [
+  "tight",
+  "aggressive"
+ ],
+ "name": "heur_tag_r57",
+ "params": {
+  "open_pct": 0.1333,
+  "pos_widen": 0.4861,
+  "steal_widen": 0.3553,
+  "open_size": 2.4038,
+  "threebet_pct": 0.0343,
+  "resteal_rate": 0.1782,
+  "call_margin": 0.1084,
+  "value_eq": 0.5641,
+  "raise_eq": 0.9274,
+  "value_size": 0.4204,
+  "bluff_size": 1.0045,
+  "bluff_rate": 0.2794,
+  "semibluff_rate": 0.3901,
+  "cbet_rate": 0.336,
+  "shove_bb": 21.3208,
+  "push_widen": 1.5534,
+  "call_shove_margin": -0.0984,
+  "commit_spr": 1.8162,
+  "icm_risk": 2.267,
+  "bigstack_pressure": 0.2573,
+  "multiway_tighten": 0.0584,
+  "adapt": 0.864,
+  "implied": 0.1455,
+  "endgame_push": 0.7627,
+  "value_class": 9,
+  "call_class": 1,
+  "raise_class": 9,
+  "big_bet_call_class": 8
+ },
+ "train_cpu_s": 666.2,
+ "train_wall_s": 102.5
+}

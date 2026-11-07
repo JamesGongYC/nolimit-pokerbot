@@ -1,0 +1,106 @@
+{
+  "_comment": "CONFIRMED values come from the competition format page (Bay Area, read 2026-11-06). PROVISIONAL values ship with the starter kit at the event (see docs/ASSUMPTIONS.md).",
+  "name": "sequoia-nolimit-2026-bayarea",
+  "table_size": 8,
+  "starting_stack": 2000,
+  "max_hands": 250,
+  "hands_per_level": 20,
+  "_blinds_comment": "CONFIRMED: start 10/20, +1 level every 20 hands, 250-hand cap (13 levels). PROVISIONAL: every level after the first (blind schedule ships with the starter kit).",
+  "blind_levels": [
+    [
+      10,
+      20,
+      0
+    ],
+    [
+      15,
+      30,
+      0
+    ],
+    [
+      25,
+      50,
+      0
+    ],
+    [
+      50,
+      100,
+      0
+    ],
+    [
+      75,
+      150,
+      0
+    ],
+    [
+      100,
+      200,
+      0
+    ],
+    [
+      150,
+      300,
+      0
+    ],
+    [
+      200,
+      400,
+      0
+    ],
+    [
+      300,
+      600,
+      0
+    ],
+    [
+      400,
+      800,
+      0
+    ],
+    [
+      500,
+      1000,
+      0
+    ],
+    [
+      600,
+      1200,
+      0
+    ],
+    [
+      800,
+      1600,
+      0
+    ]
+  ],
+  "_payouts_comment": "CONFIRMED default table payouts (format page): 1st 50, 2nd 30, 3rd 20, 4th-8th 0. At the cap survivors split remaining points by ICM.",
+  "payouts": [
+    50,
+    30,
+    20,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "_tie_comment": "CONFIRMED: when several bots bust on one hand, more chips at hand start places higher. Equal start stacks splitting is our assumption.",
+  "bust_tie_rule": "stack",
+  "variant": {
+    "name": "nlhe"
+  },
+  "decision_time_limit_ms": 1.0,
+  "enforce_time_limit": true,
+  "invalid_raise_policy": "fallback",
+  "submission_size_limit_mb": 50,
+  "tournament_weights": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "iterations_per_tournament": 5000,
+  "_rounds_comment": "CONFIRMED: 6 scored rounds, weights 1..6, each >= 5,000 iterations, rounds start 20 min apart from build end; each round snapshots the active bot."
+}

@@ -1,0 +1,10 @@
+{
+  "random":        {"type": "random"},
+  "station":       {"type": "station"},
+  "maniac":        {"type": "maniac"},
+  "maniac_soft":   {"type": "maniac", "params": {"aggr": 0.45, "shove": 0.1, "fold": 0.3}},
+  "shover20":      {"type": "shover", "params": {"push_pct": 0.2, "call_pct": 0.1}},
+  "shover40":      {"type": "shover", "params": {"push_pct": 0.4, "call_pct": 0.2}},
+  "nit":           {"type": "nit"},
+  "nit_loose":     {"type": "nit", "params": {"play_pct": 0.12}}
+}

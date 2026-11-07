@@ -1,0 +1,40 @@
+{
+ "type": "equity",
+ "styles": [
+  "tight",
+  "aggressive"
+ ],
+ "name": "eq_tag_g6_8",
+ "params": {
+  "open_pct": 0.127,
+  "pos_widen": 0.2449,
+  "steal_widen": 0.0777,
+  "open_size": 3.4582,
+  "threebet_pct": 0.0257,
+  "resteal_rate": 0.1328,
+  "call_margin": 0.0954,
+  "value_eq": 0.5291,
+  "raise_eq": 0.71,
+  "value_size": 0.9901,
+  "bluff_size": 0.688,
+  "bluff_rate": 0.1671,
+  "semibluff_rate": 0.1715,
+  "cbet_rate": 0.7323,
+  "shove_bb": 15.9356,
+  "push_widen": 1.1817,
+  "call_shove_margin": 0.0194,
+  "commit_spr": 1.2132,
+  "icm_risk": 0.7162,
+  "bigstack_pressure": 0.4018,
+  "multiway_tighten": 0.3329,
+  "adapt": 0.6097,
+  "implied": 0.0186,
+  "endgame_push": 0.2085,
+  "fold_prior": 0.3731,
+  "fold_slope": 0.101,
+  "called_penalty": 0.0813,
+  "realize": 0.7461
+ },
+ "train_cpu_s": 2181.6,
+ "train_wall_s": 363.2
+}

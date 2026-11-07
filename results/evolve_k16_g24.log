@@ -1,0 +1,4 @@
+resumed k16 at generation 24 (hall of fame 192, group 16)
+  [gen 24] evaluation 42s
+  [gen 24] duels 60s
+gen  24   66.2s  fit 17.08  vs-prev 13.75  vs-anchor 17.26  group 16 ['equity', 'gbdt', 'linear', 'montecarlo', 'rf']  hof 200

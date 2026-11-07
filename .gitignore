@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+submission/
+.venv-train/
+submission_heuristic/
+results/treedata/
+.DS_Store
+*.zip
+*.jpg
+starter-kit/
+results/hands/
+results/kittreedata/
+results/tf/r_*.npz
+results/tf/scored*.npz
+results/tf/*.pt
+*.part

@@ -1,0 +1,42 @@
+{
+ "type": "montecarlo",
+ "styles": [
+  "tight",
+  "aggressive"
+ ],
+ "name": "mc_tag_g7_6",
+ "params": {
+  "open_pct": 0.1385,
+  "pos_widen": 0.1369,
+  "steal_widen": 0.0928,
+  "open_size": 2.8807,
+  "threebet_pct": 0.0288,
+  "resteal_rate": 0.1537,
+  "call_margin": 0.0998,
+  "value_eq": 0.5263,
+  "raise_eq": 0.6552,
+  "value_size": 1.109,
+  "bluff_size": 0.7662,
+  "bluff_rate": 0.2431,
+  "semibluff_rate": 0.8328,
+  "cbet_rate": 0.8857,
+  "shove_bb": 12.1539,
+  "push_widen": 1.3076,
+  "call_shove_margin": 0.016,
+  "commit_spr": 1.3127,
+  "icm_risk": 0.7487,
+  "bigstack_pressure": 0.3727,
+  "multiway_tighten": 0.4426,
+  "adapt": 0.5327,
+  "implied": 0.0466,
+  "endgame_push": 0.1353,
+  "fold_prior": 0.2647,
+  "fold_slope": 0.1316,
+  "called_penalty": 0.1127,
+  "realize": 0.7469,
+  "prior_n": 1.76,
+  "range_tighten": 0.4556
+ },
+ "train_cpu_s": 1084.0,
+ "train_wall_s": 198.1
+}

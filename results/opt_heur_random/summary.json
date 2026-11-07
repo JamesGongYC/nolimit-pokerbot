@@ -1,0 +1,273 @@
+{
+ "method": "random",
+ "space": "core",
+ "base": "heur_tag",
+ "objective": "mean",
+ "train_cpu_s": 666.2,
+ "wall_s": 102.5,
+ "finalists": [
+  {
+   "name": "heur_tag_r57",
+   "score": 23.231282427501696,
+   "mean": 23.231282427501696,
+   "ci95": 1.0071805778082648,
+   "by_field": {
+    "aggressive": 24.6,
+    "balanced": 21.06,
+    "exploitative": 20.83,
+    "mixed": 23.87,
+    "passive": 25.8
+   },
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag_r57",
+    "params": {
+     "open_pct": 0.1333,
+     "pos_widen": 0.4861,
+     "steal_widen": 0.3553,
+     "open_size": 2.4038,
+     "threebet_pct": 0.0343,
+     "resteal_rate": 0.1782,
+     "call_margin": 0.1084,
+     "value_eq": 0.5641,
+     "raise_eq": 0.9274,
+     "value_size": 0.4204,
+     "bluff_size": 1.0045,
+     "bluff_rate": 0.2794,
+     "semibluff_rate": 0.3901,
+     "cbet_rate": 0.336,
+     "shove_bb": 21.3208,
+     "push_widen": 1.5534,
+     "call_shove_margin": -0.0984,
+     "commit_spr": 1.8162,
+     "icm_risk": 2.267,
+     "bigstack_pressure": 0.2573,
+     "multiway_tighten": 0.0584,
+     "adapt": 0.864,
+     "implied": 0.1455,
+     "endgame_push": 0.7627,
+     "value_class": 9,
+     "call_class": 1,
+     "raise_class": 9,
+     "big_bet_call_class": 8
+    }
+   }
+  },
+  {
+   "name": "heur_tag_r49",
+   "score": 21.53009601716608,
+   "mean": 21.53009601716608,
+   "ci95": 1.0702680004168772,
+   "by_field": {
+    "aggressive": 25.06,
+    "balanced": 18.52,
+    "exploitative": 17.25,
+    "mixed": 20.08,
+    "passive": 26.74
+   },
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag_r49",
+    "params": {
+     "open_pct": 0.2961,
+     "pos_widen": 0.4301,
+     "steal_widen": 0.189,
+     "open_size": 2.7409,
+     "threebet_pct": 0.0974,
+     "resteal_rate": 0.0829,
+     "call_margin": 0.0189,
+     "value_eq": 0.7053,
+     "raise_eq": 0.6093,
+     "value_size": 0.3389,
+     "bluff_size": 0.8167,
+     "bluff_rate": 0.5961,
+     "semibluff_rate": 0.9318,
+     "cbet_rate": 0.9979,
+     "shove_bb": 16.8766,
+     "push_widen": 1.6784,
+     "call_shove_margin": 0.0912,
+     "commit_spr": 1.8827,
+     "icm_risk": 1.3546,
+     "bigstack_pressure": 0.4689,
+     "multiway_tighten": 0.7544,
+     "adapt": 0.2984,
+     "implied": 0.1266,
+     "endgame_push": 0.8722,
+     "value_class": 8,
+     "call_class": 3,
+     "raise_class": 9,
+     "big_bet_call_class": 5
+    }
+   }
+  },
+  {
+   "name": "heur_tag_r0",
+   "score": 21.4703043161457,
+   "mean": 21.4703043161457,
+   "ci95": 1.0378440401096634,
+   "by_field": {
+    "aggressive": 20.99,
+    "balanced": 18.71,
+    "exploitative": 19.27,
+    "mixed": 23.43,
+    "passive": 24.94
+   },
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag_r0",
+    "params": {
+     "open_pct": 0.5805,
+     "pos_widen": 0.0058,
+     "steal_widen": 0.2944,
+     "open_size": 2.316,
+     "threebet_pct": 0.1973,
+     "resteal_rate": 0.0101,
+     "call_margin": 0.1199,
+     "value_eq": 0.7225,
+     "raise_eq": 0.8929,
+     "value_size": 1.4998,
+     "bluff_size": 0.4777,
+     "bluff_rate": 0.2028,
+     "semibluff_rate": 0.7082,
+     "cbet_rate": 0.2806,
+     "shove_bb": 6.5829,
+     "push_widen": 0.8429,
+     "call_shove_margin": 0.1145,
+     "commit_spr": 2.6612,
+     "icm_risk": 1.994,
+     "bigstack_pressure": 0.2234,
+     "multiway_tighten": 0.9248,
+     "adapt": 0.5114,
+     "implied": 0.0347,
+     "endgame_push": 0.4555,
+     "value_class": 6,
+     "call_class": 1,
+     "raise_class": 9,
+     "big_bet_call_class": 5
+    }
+   }
+  },
+  {
+   "name": "heur_tag_base",
+   "score": 21.320597283707894,
+   "mean": 21.320597283707894,
+   "ci95": 0.9255427292259795,
+   "by_field": {
+    "aggressive": 24.53,
+    "balanced": 15.16,
+    "exploitative": 21.26,
+    "mixed": 21.51,
+    "passive": 24.14
+   },
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag_base",
+    "params": {
+     "open_pct": 0.11,
+     "pos_widen": 0.14,
+     "steal_widen": 0.1,
+     "open_size": 2.5,
+     "threebet_pct": 0.035,
+     "resteal_rate": 0.08,
+     "call_margin": 0.06,
+     "value_eq": 0.56,
+     "raise_eq": 0.68,
+     "value_size": 0.85,
+     "bluff_size": 0.5,
+     "bluff_rate": 0.25,
+     "semibluff_rate": 0.6,
+     "cbet_rate": 0.8,
+     "shove_bb": 10.0,
+     "push_widen": 1.0,
+     "call_shove_margin": 0.0,
+     "commit_spr": 1.2,
+     "icm_risk": 1.0,
+     "bigstack_pressure": 0.3,
+     "multiway_tighten": 0.3,
+     "adapt": 0.5,
+     "implied": 0.04,
+     "endgame_push": 0.0,
+     "value_class": 5,
+     "call_class": 3,
+     "raise_class": 8,
+     "big_bet_call_class": 5
+    }
+   }
+  },
+  {
+   "name": "heur_tag_r35",
+   "score": 20.864273684244818,
+   "mean": 20.864273684244818,
+   "ci95": 1.1125659427292165,
+   "by_field": {
+    "aggressive": 19.4,
+    "balanced": 20.58,
+    "exploitative": 16.85,
+    "mixed": 19.29,
+    "passive": 28.21
+   },
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag_r35",
+    "params": {
+     "open_pct": 0.4517,
+     "pos_widen": 0.4999,
+     "steal_widen": 0.2333,
+     "open_size": 2.5229,
+     "threebet_pct": 0.1145,
+     "resteal_rate": 0.3621,
+     "call_margin": 0.1111,
+     "value_eq": 0.6968,
+     "raise_eq": 0.7186,
+     "value_size": 1.1799,
+     "bluff_size": 0.7067,
+     "bluff_rate": 0.1403,
+     "semibluff_rate": 0.9669,
+     "cbet_rate": 0.666,
+     "shove_bb": 14.9672,
+     "push_widen": 1.6903,
+     "call_shove_margin": 0.0389,
+     "commit_spr": 1.5448,
+     "icm_risk": 0.1382,
+     "bigstack_pressure": 0.6261,
+     "multiway_tighten": 0.2749,
+     "adapt": 0.606,
+     "implied": 0.1356,
+     "endgame_push": 0.7037,
+     "value_class": 8,
+     "call_class": 2,
+     "raise_class": 10,
+     "big_bet_call_class": 8
+    }
+   }
+  }
+ ],
+ "settings": {
+  "generations": 8,
+  "popsize": 16,
+  "screen_tables": 200,
+  "final_tables": 1500,
+  "seed": 15,
+  "n_random": 64
+ }
+}

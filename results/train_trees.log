@@ -1,0 +1,42 @@
+round 0: collected 947019 samples around heur_tag_g9_mean (61s)
+action 0: n=464472 val_r2=0.3610 mean=-0.103
+action 1: n=179852 val_r2=0.1625 mean=0.034
+action 2: n=212559 val_r2=0.0497 mean=0.249
+action 3: n=48070 val_r2=0.0827 mean=0.294
+action 4: n=42066 val_r2=0.1315 mean=-0.795
+wrote /Users/jamesgyc/Desktop/coding projects/poker/pokerbot/data/gbdt_r0.json
+round 0 eval: {"round": 0, "samples": 947019, "gbdt_r0": [20.45, 0.91], "gbdt_r0_pre": [24.98, 0.91], "heur_tag_g9_mean": [25.65, 0.89]}
+round 1: collected 874611 samples around gbdt_r0_pre (182s)
+action 0: n=862872 val_r2=0.3799 mean=-0.099
+action 1: n=341237 val_r2=0.1696 mean=0.016
+action 2: n=384701 val_r2=0.0580 mean=0.246
+action 3: n=130670 val_r2=0.0897 mean=0.244
+action 4: n=102150 val_r2=0.1317 mean=-0.549
+wrote /Users/jamesgyc/Desktop/coding projects/poker/pokerbot/data/gbdt_r1.json
+round 1 eval: {"round": 1, "samples": 874611, "gbdt_r1": [21.27, 0.92], "gbdt_r1_pre": [26.36, 0.91], "gbdt_r0_pre": [24.99, 0.91], "heur_tag_g9_mean": [25.17, 0.9]}
+round 2: collected 927527 samples around gbdt_r1_pre (328s)
+action 0: n=828217 val_r2=0.3773 mean=-0.093
+action 1: n=334311 val_r2=0.1800 mean=0.032
+action 2: n=373136 val_r2=0.0595 mean=0.251
+action 3: n=153937 val_r2=0.0727 mean=0.237
+action 4: n=112537 val_r2=0.1384 mean=-0.377
+wrote /Users/jamesgyc/Desktop/coding projects/poker/pokerbot/data/gbdt_r2.json
+round 2 eval: {"round": 2, "samples": 927527, "gbdt_r2": [21.21, 0.92], "gbdt_r2_pre": [27.19, 0.92], "gbdt_r1_pre": [26.84, 0.9], "heur_tag_g9_mean": [25.49, 0.89]}
+best gbdt_r2_pre 27.19 -> /Users/jamesgyc/Desktop/coding projects/poker/results/opt_gbdt/best.json
+round 0: collected 958466 samples around heur_tag_g9_mean (62s)
+action 0: n=469826 val_r2=0.2708 mean=-0.103
+action 1: n=180167 val_r2=0.0964 mean=0.067
+action 2: n=216638 val_r2=0.0383 mean=0.271
+action 3: n=49139 val_r2=0.0496 mean=0.281
+action 4: n=42696 val_r2=0.0768 mean=-0.757
+wrote /Users/jamesgyc/Desktop/coding projects/poker/pokerbot/data/rf_r0.json
+round 0 eval: {"round": 0, "samples": 958466, "rf_r0": [12.91, 0.79], "rf_r0_pre": [26.23, 0.89], "heur_tag_g9_mean": [24.4, 0.9]}
+round 1: collected 937728 samples around rf_r0_pre (178s)
+action 0: n=918156 val_r2=0.3099 mean=-0.101
+action 1: n=355595 val_r2=0.1065 mean=0.034
+action 2: n=420671 val_r2=0.0402 mean=0.257
+action 3: n=120043 val_r2=0.0560 mean=0.251
+action 4: n=81729 val_r2=0.0967 mean=-0.692
+wrote /Users/jamesgyc/Desktop/coding projects/poker/pokerbot/data/rf_r1.json
+round 1 eval: {"round": 1, "samples": 937728, "rf_r1": [16.77, 0.86], "rf_r1_pre": [25.33, 0.89], "rf_r0_pre": [25.46, 0.89], "heur_tag_g9_mean": [24.67, 0.89]}
+best rf_r0_pre 26.23 -> /Users/jamesgyc/Desktop/coding projects/poker/results/opt_rf/best.json

@@ -1,0 +1,13 @@
+{
+ "type": "allin",
+ "params": {
+  "push_pct": 0.1119,
+  "call_pct": 0.1249,
+  "ref_bb": 5.0393,
+  "stack_exp": 0.6235,
+  "post_class": 4
+ },
+ "name": "jam_25_g3_5",
+ "train_cpu_s": 1397.8,
+ "train_wall_s": 235.5
+}

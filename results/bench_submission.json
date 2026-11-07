@@ -1,0 +1,17 @@
+{
+ "decisions": 14817,
+ "p50_us": 50,
+ "p99_us": 150,
+ "p999_us": 210,
+ "max_us": 278.9,
+ "over_limit": 0,
+ "timeouts": 0,
+ "errors": 0,
+ "illegal": 0,
+ "import_ms": 30.8,
+ "py_peak_kb": 379,
+ "rss_mb": 18.0,
+ "size_mb": 0.482,
+ "size_ok": true,
+ "forbidden_imports": []
+}

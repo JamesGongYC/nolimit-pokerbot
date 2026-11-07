@@ -1,0 +1,21 @@
+ep 0 step 100/1790 loss 3.139 10s
+ep 0 step 200/1790 loss 2.943 20s
+ep 0 step 300/1790 loss 3.721 30s
+ep 0 step 400/1790 loss 3.682 40s
+ep 0 step 500/1790 loss 2.697 50s
+ep 0 step 600/1790 loss 2.615 60s
+ep 0 step 700/1790 loss 3.266 71s
+ep 0 step 800/1790 loss 2.836 82s
+ep 1 step 900/1790 loss 2.289 96s
+ep 1 step 1000/1790 loss 3.157 111s
+ep 1 step 1100/1790 loss 2.932 125s
+ep 1 step 1200/1790 loss 2.836 140s
+ep 1 step 1300/1790 loss 2.943 154s
+ep 1 step 1400/1790 loss 3.621 170s
+ep 1 step 1500/1790 loss 2.060 184s
+ep 1 step 1600/1790 loss 3.292 200s
+ep 1 step 1700/1790 loss 2.920 212s
+held-out action 0: n=169753 r2=0.1982 mean_y -0.059 mean_pred -0.060
+held-out action 1: n=3287 r2=0.0314 mean_y -0.038 mean_pred -0.000
+held-out action 3: n=19912 r2=0.0174 mean_y 0.596 mean_pred 0.595
+saved results/tf/model_v1.npz params 18980 train 228s

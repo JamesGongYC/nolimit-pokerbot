@@ -1,0 +1,105 @@
+{
+ "_comment": "Values marked PROVISIONAL are not published; replace them with the starter-kit files at the event (see docs/ASSUMPTIONS.md). Confirmed values cite rules.html.",
+ "name": "provisional-blinds_fast",
+ "table_size": 8,
+ "starting_stack": 2000,
+ "max_hands": 250,
+ "hands_per_level": 20,
+ "_blinds_comment": "Sensitivity variant. CONFIRMED: start 10/20, 20 hands/level, 250-hand cap; later levels varied deliberately.",
+ "blind_levels": [
+  [
+   10,
+   20,
+   0
+  ],
+  [
+   20,
+   40,
+   0
+  ],
+  [
+   40,
+   80,
+   0
+  ],
+  [
+   75,
+   150,
+   0
+  ],
+  [
+   100,
+   200,
+   0
+  ],
+  [
+   150,
+   300,
+   0
+  ],
+  [
+   250,
+   500,
+   0
+  ],
+  [
+   400,
+   800,
+   0
+  ],
+  [
+   640,
+   1280,
+   0
+  ],
+  [
+   1025,
+   2050,
+   0
+  ],
+  [
+   1640,
+   3280,
+   0
+  ],
+  [
+   2625,
+   5250,
+   0
+  ],
+  [
+   4200,
+   8400,
+   0
+  ]
+ ],
+ "_payouts_comment": "PROVISIONAL placement points for 1st..8th. Official payout structure ships with the starter kit.",
+ "payouts": [
+  50,
+  30,
+  20,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "_tie_comment": "Players busting on the same hand: 'stack' = larger start-of-hand stack places higher (equal stacks split); 'split' = split those places evenly. PROVISIONAL.",
+ "bust_tie_rule": "stack",
+ "variant": {
+  "name": "nlhe"
+ },
+ "decision_time_limit_ms": 1.0,
+ "enforce_time_limit": true,
+ "invalid_raise_policy": "fallback",
+ "submission_size_limit_mb": 50,
+ "tournament_weights": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "iterations_per_tournament": 5000
+}

@@ -1,0 +1,336 @@
+{
+ "method": "cem",
+ "space": "core",
+ "base": "heur_tag_g9_mean",
+ "objective": "mean",
+ "train_cpu_s": 2317.4,
+ "wall_s": 508.9,
+ "finalists": [
+  {
+   "name": "heur_tag_g9_mean_g6_7",
+   "score": 26.564724343204475,
+   "mean": 26.564724343204475,
+   "ci95": 0.9299861001308425,
+   "by_field": {
+    "aggressive": 27.96,
+    "balanced": 25.33,
+    "exploitative": 23.15,
+    "mixed": 25.91,
+    "passive": 30.48
+   },
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag_g9_mean_g6_7",
+    "params": {
+     "open_pct": 0.3755,
+     "pos_widen": 0.1791,
+     "steal_widen": 0.1731,
+     "open_size": 2.2954,
+     "threebet_pct": 0.014,
+     "resteal_rate": 0.0903,
+     "call_margin": 0.1155,
+     "value_eq": 0.5519,
+     "raise_eq": 0.5556,
+     "value_size": 0.8099,
+     "bluff_size": 0.6694,
+     "bluff_rate": 0.373,
+     "semibluff_rate": 0.7936,
+     "cbet_rate": 0.9495,
+     "shove_bb": 11.3547,
+     "push_widen": 0.9253,
+     "call_shove_margin": 0.0552,
+     "commit_spr": 1.2112,
+     "icm_risk": 0.5916,
+     "bigstack_pressure": 0.1527,
+     "multiway_tighten": 0.2413,
+     "adapt": 0.4603,
+     "implied": 0.0838,
+     "endgame_push": 0.1254,
+     "value_class": 5,
+     "call_class": 1,
+     "raise_class": 10,
+     "big_bet_call_class": 5
+    },
+    "train_cpu_s": 1955.4,
+    "train_wall_s": 301.8
+   }
+  },
+  {
+   "name": "heur_tag_g9_mean_g7_mean",
+   "score": 26.49543039541542,
+   "mean": 26.49543039541542,
+   "ci95": 0.9318206891415817,
+   "by_field": {
+    "aggressive": 27.64,
+    "balanced": 24.34,
+    "exploitative": 22.02,
+    "mixed": 28.2,
+    "passive": 30.28
+   },
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag_g9_mean_g7_mean",
+    "params": {
+     "open_pct": 0.3643,
+     "pos_widen": 0.2007,
+     "steal_widen": 0.1623,
+     "open_size": 2.3019,
+     "threebet_pct": 0.0196,
+     "resteal_rate": 0.0996,
+     "call_margin": 0.1134,
+     "value_eq": 0.5434,
+     "raise_eq": 0.566,
+     "value_size": 0.7819,
+     "bluff_size": 0.6718,
+     "bluff_rate": 0.3774,
+     "semibluff_rate": 0.7858,
+     "cbet_rate": 0.8581,
+     "shove_bb": 6.5579,
+     "push_widen": 0.9461,
+     "call_shove_margin": 0.0391,
+     "commit_spr": 1.253,
+     "icm_risk": 0.6439,
+     "bigstack_pressure": 0.1575,
+     "multiway_tighten": 0.3467,
+     "adapt": 0.5333,
+     "implied": 0.0771,
+     "endgame_push": 0.0972,
+     "value_class": 5,
+     "call_class": 1,
+     "raise_class": 10,
+     "big_bet_call_class": 5
+    },
+    "train_cpu_s": 1955.4,
+    "train_wall_s": 301.8
+   }
+  },
+  {
+   "name": "heur_tag_g9_mean_g7_13",
+   "score": 26.358003239103375,
+   "mean": 26.358003239103375,
+   "ci95": 0.9259930042580303,
+   "by_field": {
+    "aggressive": 27.59,
+    "balanced": 24.02,
+    "exploitative": 21.15,
+    "mixed": 27.65,
+    "passive": 31.38
+   },
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag_g9_mean_g7_13",
+    "params": {
+     "open_pct": 0.3926,
+     "pos_widen": 0.2022,
+     "steal_widen": 0.1854,
+     "open_size": 2.2933,
+     "threebet_pct": 0.0251,
+     "resteal_rate": 0.0656,
+     "call_margin": 0.1054,
+     "value_eq": 0.5346,
+     "raise_eq": 0.5706,
+     "value_size": 0.7779,
+     "bluff_size": 0.6415,
+     "bluff_rate": 0.3744,
+     "semibluff_rate": 0.7269,
+     "cbet_rate": 0.8681,
+     "shove_bb": 7.8334,
+     "push_widen": 0.9422,
+     "call_shove_margin": 0.0483,
+     "commit_spr": 1.1914,
+     "icm_risk": 0.8409,
+     "bigstack_pressure": 0.12,
+     "multiway_tighten": 0.3569,
+     "adapt": 0.514,
+     "implied": 0.0767,
+     "endgame_push": 0.0438,
+     "value_class": 5,
+     "call_class": 1,
+     "raise_class": 10,
+     "big_bet_call_class": 5
+    },
+    "train_cpu_s": 1955.4,
+    "train_wall_s": 301.8
+   }
+  },
+  {
+   "name": "heur_tag_g9_mean_g4_9",
+   "score": 26.272225345939326,
+   "mean": 26.272225345939326,
+   "ci95": 0.9295563529224531,
+   "by_field": {
+    "aggressive": 27.41,
+    "balanced": 23.02,
+    "exploitative": 24.33,
+    "mixed": 26.89,
+    "passive": 29.72
+   },
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag_g9_mean_g4_9",
+    "params": {
+     "open_pct": 0.3504,
+     "pos_widen": 0.2011,
+     "steal_widen": 0.1623,
+     "open_size": 2.2404,
+     "threebet_pct": 0.0082,
+     "resteal_rate": 0.1043,
+     "call_margin": 0.1181,
+     "value_eq": 0.5428,
+     "raise_eq": 0.5864,
+     "value_size": 0.7226,
+     "bluff_size": 0.6334,
+     "bluff_rate": 0.3829,
+     "semibluff_rate": 0.7805,
+     "cbet_rate": 0.8201,
+     "shove_bb": 9.4784,
+     "push_widen": 0.9208,
+     "call_shove_margin": 0.0263,
+     "commit_spr": 1.3633,
+     "icm_risk": 0.601,
+     "bigstack_pressure": 0.1751,
+     "multiway_tighten": 0.2495,
+     "adapt": 0.4876,
+     "implied": 0.0912,
+     "endgame_push": 0.1473,
+     "value_class": 4,
+     "call_class": 1,
+     "raise_class": 10,
+     "big_bet_call_class": 5
+    },
+    "train_cpu_s": 1955.4,
+    "train_wall_s": 301.8
+   }
+  },
+  {
+   "name": "heur_tag_g9_mean_base",
+   "score": 25.38859410757461,
+   "mean": 25.38859410757461,
+   "ci95": 0.9080896238706202,
+   "by_field": {
+    "aggressive": 26.7,
+    "balanced": 22.21,
+    "exploitative": 21.48,
+    "mixed": 25.95,
+    "passive": 30.6
+   },
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag_g9_mean_base",
+    "params": {
+     "open_pct": 0.3517,
+     "pos_widen": 0.1352,
+     "steal_widen": 0.1803,
+     "open_size": 2.3768,
+     "threebet_pct": 0.021,
+     "resteal_rate": 0.0858,
+     "call_margin": 0.0946,
+     "value_eq": 0.586,
+     "raise_eq": 0.5991,
+     "value_size": 0.7046,
+     "bluff_size": 0.6598,
+     "bluff_rate": 0.3283,
+     "semibluff_rate": 0.5473,
+     "cbet_rate": 0.7394,
+     "shove_bb": 9.1229,
+     "push_widen": 1.0237,
+     "call_shove_margin": 0.0334,
+     "commit_spr": 1.4768,
+     "icm_risk": 1.0103,
+     "bigstack_pressure": 0.1432,
+     "multiway_tighten": 0.3545,
+     "adapt": 0.4735,
+     "implied": 0.0597,
+     "endgame_push": 0.1829,
+     "value_class": 5,
+     "call_class": 1,
+     "raise_class": 10,
+     "big_bet_call_class": 6
+    },
+    "train_cpu_s": 1955.4,
+    "train_wall_s": 301.8
+   }
+  },
+  {
+   "name": "heur_tag_g9_mean_g0_mu",
+   "score": 25.387768950412234,
+   "mean": 25.387768950412234,
+   "ci95": 0.9070685626584641,
+   "by_field": {
+    "aggressive": 27.06,
+    "balanced": 22.19,
+    "exploitative": 22.05,
+    "mixed": 25.51,
+    "passive": 30.13
+   },
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag_g9_mean_g0_mu",
+    "params": {
+     "open_pct": 0.3517,
+     "pos_widen": 0.1352,
+     "steal_widen": 0.1803,
+     "open_size": 2.3768,
+     "threebet_pct": 0.021,
+     "resteal_rate": 0.0858,
+     "call_margin": 0.0946,
+     "value_eq": 0.586,
+     "raise_eq": 0.5991,
+     "value_size": 0.7046,
+     "bluff_size": 0.6598,
+     "bluff_rate": 0.3283,
+     "semibluff_rate": 0.5473,
+     "cbet_rate": 0.7394,
+     "shove_bb": 9.1229,
+     "push_widen": 1.0237,
+     "call_shove_margin": 0.0334,
+     "commit_spr": 1.4768,
+     "icm_risk": 1.0103,
+     "bigstack_pressure": 0.1432,
+     "multiway_tighten": 0.3545,
+     "adapt": 0.4735,
+     "implied": 0.0597,
+     "endgame_push": 0.1829,
+     "value_class": 5,
+     "call_class": 1,
+     "raise_class": 10,
+     "big_bet_call_class": 6
+    },
+    "train_cpu_s": 1955.4,
+    "train_wall_s": 301.8
+   }
+  }
+ ],
+ "settings": {
+  "generations": 8,
+  "popsize": 16,
+  "screen_tables": 400,
+  "final_tables": 2000,
+  "seed": 24,
+  "n_random": 48
+ }
+}

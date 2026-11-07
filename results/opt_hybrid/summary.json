@@ -1,0 +1,312 @@
+{
+ "method": "cem",
+ "space": "core",
+ "base": "hybrid_q",
+ "objective": "mean",
+ "train_cpu_s": 1626.7,
+ "wall_s": 253.3,
+ "finalists": [
+  {
+   "name": "hybrid_q_g9_mean",
+   "score": 19.310669654061456,
+   "mean": 19.310669654061456,
+   "ci95": 0.9284221703809894,
+   "by_field": {
+    "aggressive": 24.15,
+    "balanced": 11.78,
+    "exploitative": 17.56,
+    "mixed": 21.41,
+    "passive": 21.66
+   },
+   "spec": {
+    "type": "hybrid",
+    "styles": [
+     "tight",
+     "aggressive",
+     "exploitative"
+    ],
+    "params": {
+     "table": "pokerbot/data/qtable_pf.json",
+     "open_pct": 0.2271,
+     "pos_widen": 0.0686,
+     "steal_widen": 0.0746,
+     "open_size": 3.6168,
+     "threebet_pct": 0.0221,
+     "resteal_rate": 0.1143,
+     "call_margin": 0.143,
+     "value_eq": 0.6736,
+     "raise_eq": 0.6182,
+     "value_size": 0.9222,
+     "bluff_size": 0.7417,
+     "bluff_rate": 0.3724,
+     "semibluff_rate": 0.46,
+     "cbet_rate": 0.8685,
+     "shove_bb": 2.9997,
+     "push_widen": 0.6633,
+     "call_shove_margin": -0.0565,
+     "commit_spr": 1.2315,
+     "icm_risk": 0.2537,
+     "bigstack_pressure": 0.4583,
+     "multiway_tighten": 0.2078,
+     "adapt": 0.895,
+     "implied": 0.0876,
+     "endgame_push": 0.1718
+    },
+    "name": "hybrid_q_g9_mean"
+   }
+  },
+  {
+   "name": "hybrid_q_g6_7",
+   "score": 19.30232819823929,
+   "mean": 19.30232819823929,
+   "ci95": 0.9262495281989485,
+   "by_field": {
+    "aggressive": 24.4,
+    "balanced": 10.83,
+    "exploitative": 18.31,
+    "mixed": 21.89,
+    "passive": 21.09
+   },
+   "spec": {
+    "type": "hybrid",
+    "styles": [
+     "tight",
+     "aggressive",
+     "exploitative"
+    ],
+    "params": {
+     "table": "pokerbot/data/qtable_pf.json",
+     "open_pct": 0.2558,
+     "pos_widen": 0.0653,
+     "steal_widen": 0.0755,
+     "open_size": 4.0,
+     "threebet_pct": 0.0244,
+     "resteal_rate": 0.1857,
+     "call_margin": 0.1347,
+     "value_eq": 0.6995,
+     "raise_eq": 0.6164,
+     "value_size": 0.8982,
+     "bluff_size": 0.6749,
+     "bluff_rate": 0.353,
+     "semibluff_rate": 0.4735,
+     "cbet_rate": 0.7656,
+     "shove_bb": 4.7875,
+     "push_widen": 0.8168,
+     "call_shove_margin": -0.0895,
+     "commit_spr": 1.3145,
+     "icm_risk": 0.1822,
+     "bigstack_pressure": 0.4174,
+     "multiway_tighten": 0.1912,
+     "adapt": 0.9619,
+     "implied": 0.0972,
+     "endgame_push": 0.2094
+    },
+    "name": "hybrid_q_g6_7"
+   }
+  },
+  {
+   "name": "hybrid_q_g0_11",
+   "score": 18.995227584684095,
+   "mean": 18.995227584684095,
+   "ci95": 0.9216410616628644,
+   "by_field": {
+    "aggressive": 24.78,
+    "balanced": 11.75,
+    "exploitative": 16.87,
+    "mixed": 20.32,
+    "passive": 21.25
+   },
+   "spec": {
+    "type": "hybrid",
+    "styles": [
+     "tight",
+     "aggressive",
+     "exploitative"
+    ],
+    "params": {
+     "table": "pokerbot/data/qtable_pf.json",
+     "open_pct": 0.1149,
+     "pos_widen": 0.2506,
+     "steal_widen": 0.1785,
+     "open_size": 2.5237,
+     "threebet_pct": 0.037,
+     "resteal_rate": 0.0,
+     "call_margin": 0.0627,
+     "value_eq": 0.5829,
+     "raise_eq": 0.6568,
+     "value_size": 0.6238,
+     "bluff_size": 0.7409,
+     "bluff_rate": 0.1588,
+     "semibluff_rate": 0.9221,
+     "cbet_rate": 1.0,
+     "shove_bb": 17.5448,
+     "push_widen": 0.7934,
+     "call_shove_margin": 0.0333,
+     "commit_spr": 0.5588,
+     "icm_risk": 0.8784,
+     "bigstack_pressure": 0.0375,
+     "multiway_tighten": 0.1831,
+     "adapt": 0.9251,
+     "implied": 0.069,
+     "endgame_push": 0.2155
+    },
+    "name": "hybrid_q_g0_11"
+   }
+  },
+  {
+   "name": "hybrid_q_g4_6",
+   "score": 18.527001228621668,
+   "mean": 18.527001228621668,
+   "ci95": 0.9201763975202224,
+   "by_field": {
+    "aggressive": 23.74,
+    "balanced": 11.9,
+    "exploitative": 16.43,
+    "mixed": 20.48,
+    "passive": 20.1
+   },
+   "spec": {
+    "type": "hybrid",
+    "styles": [
+     "tight",
+     "aggressive",
+     "exploitative"
+    ],
+    "params": {
+     "table": "pokerbot/data/qtable_pf.json",
+     "open_pct": 0.3749,
+     "pos_widen": 0.0888,
+     "steal_widen": 0.0709,
+     "open_size": 2.3964,
+     "threebet_pct": 0.0,
+     "resteal_rate": 0.2069,
+     "call_margin": 0.1086,
+     "value_eq": 0.6405,
+     "raise_eq": 0.613,
+     "value_size": 0.6659,
+     "bluff_size": 0.7031,
+     "bluff_rate": 0.335,
+     "semibluff_rate": 0.1157,
+     "cbet_rate": 0.8899,
+     "shove_bb": 3.7453,
+     "push_widen": 0.8083,
+     "call_shove_margin": -0.0728,
+     "commit_spr": 1.3428,
+     "icm_risk": 0.0698,
+     "bigstack_pressure": 0.4796,
+     "multiway_tighten": 0.2267,
+     "adapt": 0.9459,
+     "implied": 0.0606,
+     "endgame_push": 0.1783
+    },
+    "name": "hybrid_q_g4_6"
+   }
+  },
+  {
+   "name": "hybrid_q_base",
+   "score": 18.35431679114891,
+   "mean": 18.35431679114891,
+   "ci95": 0.8942808462656916,
+   "by_field": {
+    "aggressive": 23.49,
+    "balanced": 12.07,
+    "exploitative": 17.5,
+    "mixed": 20.12,
+    "passive": 18.59
+   },
+   "spec": {
+    "type": "hybrid",
+    "styles": [
+     "tight",
+     "aggressive",
+     "exploitative"
+    ],
+    "params": {
+     "table": "pokerbot/data/qtable_pf.json",
+     "open_pct": 0.11,
+     "pos_widen": 0.14,
+     "steal_widen": 0.1,
+     "open_size": 2.5,
+     "threebet_pct": 0.035,
+     "resteal_rate": 0.08,
+     "call_margin": 0.06,
+     "value_eq": 0.56,
+     "raise_eq": 0.68,
+     "value_size": 0.85,
+     "bluff_size": 0.5,
+     "bluff_rate": 0.25,
+     "semibluff_rate": 0.6,
+     "cbet_rate": 0.8,
+     "shove_bb": 10.0,
+     "push_widen": 1.0,
+     "call_shove_margin": 0.0,
+     "commit_spr": 1.2,
+     "icm_risk": 1.0,
+     "bigstack_pressure": 0.3,
+     "multiway_tighten": 0.3,
+     "adapt": 1.0,
+     "implied": 0.04,
+     "endgame_push": 0.0
+    },
+    "name": "hybrid_q_base"
+   }
+  },
+  {
+   "name": "hybrid_q_g1_6",
+   "score": 18.345044862036914,
+   "mean": 18.345044862036914,
+   "ci95": 0.9054451677186323,
+   "by_field": {
+    "aggressive": 23.97,
+    "balanced": 10.46,
+    "exploitative": 17.06,
+    "mixed": 20.52,
+    "passive": 19.72
+   },
+   "spec": {
+    "type": "hybrid",
+    "styles": [
+     "tight",
+     "aggressive",
+     "exploitative"
+    ],
+    "params": {
+     "table": "pokerbot/data/qtable_pf.json",
+     "open_pct": 0.3185,
+     "pos_widen": 0.14,
+     "steal_widen": 0.1323,
+     "open_size": 2.1595,
+     "threebet_pct": 0.0,
+     "resteal_rate": 0.0,
+     "call_margin": 0.145,
+     "value_eq": 0.6758,
+     "raise_eq": 0.6276,
+     "value_size": 0.7188,
+     "bluff_size": 0.6168,
+     "bluff_rate": 0.3729,
+     "semibluff_rate": 0.3325,
+     "cbet_rate": 0.7178,
+     "shove_bb": 8.8688,
+     "push_widen": 0.7735,
+     "call_shove_margin": 0.0656,
+     "commit_spr": 1.3597,
+     "icm_risk": 0.5362,
+     "bigstack_pressure": 0.336,
+     "multiway_tighten": 0.151,
+     "adapt": 0.9588,
+     "implied": 0.0478,
+     "endgame_push": 0.2322
+    },
+    "name": "hybrid_q_g1_6"
+   }
+  }
+ ],
+ "settings": {
+  "generations": 10,
+  "popsize": 16,
+  "screen_tables": 300,
+  "final_tables": 1500,
+  "seed": 13,
+  "n_random": 48
+ }
+}

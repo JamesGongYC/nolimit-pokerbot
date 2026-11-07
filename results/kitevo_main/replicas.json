@@ -1,0 +1,4901 @@
+{
+ "source": "results/hands/practice1_summary.json,results/hands/practice2_summary.json",
+ "teams": 115,
+ "built_s": 25.9,
+ "replicas": [
+  {
+   "team": "TeamBallHog",
+   "weight": 267,
+   "points_real": 27.525280898876403,
+   "dist": 0.789,
+   "team_stats": {
+    "vpip": 0.405,
+    "pfr": 0.3088951310861423,
+    "pf_allin": 0.10859550561797753,
+    "post_aggr": 0.5607902621722847,
+    "fold_to_bet": 0.5570861423220974
+   },
+   "replica_stats": {
+    "vpip": 0.379,
+    "pfr": 0.365,
+    "pf_allin": 0.11,
+    "post_aggr": 0.662,
+    "fold_to_bet": 0.677
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5739,
+     "pos_bonus": 0.1709,
+     "open_size": 2.3474,
+     "call_th": 0.7079,
+     "threebet_th": 0.7791,
+     "push_bb": 13.0885,
+     "push_th": 0.5994,
+     "call_push_th": 0.7888,
+     "bet_cat": 0.5947,
+     "call_cat": 1.6775,
+     "raise_cat": 1.9342,
+     "big_bet_extra": 1.439,
+     "cbet_rate": 0.6001,
+     "bluff_rate": 0.235,
+     "value_size": 0.7114,
+     "bluff_size": 0.7179
+    },
+    "name": "replica:TeamBallHog"
+   }
+  },
+  {
+   "team": "2 Curry",
+   "weight": 228,
+   "points_real": 23.24298245614035,
+   "dist": 0.956,
+   "team_stats": {
+    "vpip": 0.5684649122807018,
+    "pfr": 0.5428157894736843,
+    "pf_allin": 0.031508771929824556,
+    "post_aggr": 0.4595789473684211,
+    "fold_to_bet": 0.6578421052631579
+   },
+   "replica_stats": {
+    "vpip": 0.493,
+    "pfr": 0.485,
+    "pf_allin": 0.005,
+    "post_aggr": 0.322,
+    "fold_to_bet": 0.56
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.4265,
+     "pos_bonus": 0.1476,
+     "open_size": 2.7681,
+     "call_th": 0.7124,
+     "threebet_th": 0.7146,
+     "push_bb": 4.4468,
+     "push_th": 0.8923,
+     "call_push_th": 0.6671,
+     "bet_cat": 1.3251,
+     "call_cat": 0.3708,
+     "raise_cat": 3.2775,
+     "big_bet_extra": 1.3721,
+     "cbet_rate": 0.1804,
+     "bluff_rate": 0.2501,
+     "value_size": 0.7997,
+     "bluff_size": 0.8244
+    },
+    "name": "replica:2 Curry"
+   }
+  },
+  {
+   "team": "sandylikesfrogs",
+   "weight": 220,
+   "points_real": 22.958409090909093,
+   "dist": 0.405,
+   "team_stats": {
+    "vpip": 0.3084090909090909,
+    "pfr": 0.22497727272727275,
+    "pf_allin": 0.03156818181818182,
+    "post_aggr": 0.6180545454545455,
+    "fold_to_bet": 0.42811363636363636
+   },
+   "replica_stats": {
+    "vpip": 0.282,
+    "pfr": 0.172,
+    "pf_allin": 0.002,
+    "post_aggr": 0.611,
+    "fold_to_bet": 0.477
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0218,
+     "pos_bonus": 0.3733,
+     "open_size": 3.1336,
+     "threebet_ratio": 2.4744,
+     "threebet_mult": 2.3774,
+     "call_margin": 0.1085,
+     "push_bb": 5.9807,
+     "push_ratio": 1.3838,
+     "call_push_margin": 0.1402,
+     "value_eq": 0.5002,
+     "raise_eq": 0.6854,
+     "cbet_rate": 0.2993,
+     "bluff_rate": 0.1624,
+     "value_size": 0.3626,
+     "bluff_size": 0.9213,
+     "icm_weight": 2.0386,
+     "adapt": 0.3973,
+     "multiway_pow": 0.7278
+    },
+    "name": "replica:sandylikesfrogs"
+   }
+  },
+  {
+   "team": "Always Folds",
+   "weight": 253,
+   "points_real": 23.24110671936759,
+   "dist": 0.613,
+   "team_stats": {
+    "vpip": 0.3823438735177866,
+    "pfr": 0.29334387351778657,
+    "pf_allin": 0.0801897233201581,
+    "post_aggr": 0.36727272727272736,
+    "fold_to_bet": 0.433501976284585
+   },
+   "replica_stats": {
+    "vpip": 0.346,
+    "pfr": 0.342,
+    "pf_allin": 0.022,
+    "post_aggr": 0.43,
+    "fold_to_bet": 0.488
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.6167,
+     "pos_bonus": 0.2168,
+     "open_size": 3.7134,
+     "call_th": 0.8741,
+     "threebet_th": 0.8263,
+     "push_bb": 9.0835,
+     "push_th": 0.6289,
+     "call_push_th": 0.6407,
+     "bet_cat": 2.3541,
+     "call_cat": 1.1574,
+     "raise_cat": 3.5565,
+     "big_bet_extra": 0.2279,
+     "cbet_rate": 0.7828,
+     "bluff_rate": 0.4834,
+     "value_size": 0.503,
+     "bluff_size": 0.7124
+    },
+    "name": "replica:Always Folds"
+   }
+  },
+  {
+   "team": "AZ",
+   "weight": 239,
+   "points_real": 24.411004184100417,
+   "dist": 0.638,
+   "team_stats": {
+    "vpip": 0.3069330543933054,
+    "pfr": 0.252,
+    "pf_allin": 0.07354393305439332,
+    "post_aggr": 0.40588702928870296,
+    "fold_to_bet": 0.5398410041841004
+   },
+   "replica_stats": {
+    "vpip": 0.346,
+    "pfr": 0.342,
+    "pf_allin": 0.022,
+    "post_aggr": 0.43,
+    "fold_to_bet": 0.488
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.6167,
+     "pos_bonus": 0.2168,
+     "open_size": 3.7134,
+     "call_th": 0.8741,
+     "threebet_th": 0.8263,
+     "push_bb": 9.0835,
+     "push_th": 0.6289,
+     "call_push_th": 0.6407,
+     "bet_cat": 2.3541,
+     "call_cat": 1.1574,
+     "raise_cat": 3.5565,
+     "big_bet_extra": 0.2279,
+     "cbet_rate": 0.7828,
+     "bluff_rate": 0.4834,
+     "value_size": 0.503,
+     "bluff_size": 0.7124
+    },
+    "name": "replica:AZ"
+   }
+  },
+  {
+   "team": "TS",
+   "weight": 225,
+   "points_real": 18.177466666666664,
+   "dist": 0.42,
+   "team_stats": {
+    "vpip": 0.40197333333333335,
+    "pfr": 0.23926666666666668,
+    "pf_allin": 0.03234666666666666,
+    "post_aggr": 0.32513333333333333,
+    "fold_to_bet": 0.5324133333333334
+   },
+   "replica_stats": {
+    "vpip": 0.341,
+    "pfr": 0.298,
+    "pf_allin": 0.028,
+    "post_aggr": 0.308,
+    "fold_to_bet": 0.528
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.6143,
+     "pos_bonus": 0.2854,
+     "open_size": 2.2742,
+     "call_th": 0.8611,
+     "threebet_th": 0.9918,
+     "push_bb": 16.6582,
+     "push_th": 0.5758,
+     "call_push_th": 0.5086,
+     "bet_cat": 2.7013,
+     "call_cat": 0.171,
+     "raise_cat": 2.3949,
+     "big_bet_extra": 1.4083,
+     "cbet_rate": 0.6737,
+     "bluff_rate": 0.4119,
+     "value_size": 1.1337,
+     "bluff_size": 0.3837
+    },
+    "name": "replica:TS"
+   }
+  },
+  {
+   "team": "Beam",
+   "weight": 221,
+   "points_real": 20.08918552036199,
+   "dist": 0.583,
+   "team_stats": {
+    "vpip": 0.3548778280542986,
+    "pfr": 0.26359728506787333,
+    "pf_allin": 0.11775113122171946,
+    "post_aggr": 0.4083122171945701,
+    "fold_to_bet": 0.6362171945701357
+   },
+   "replica_stats": {
+    "vpip": 0.301,
+    "pfr": 0.273,
+    "pf_allin": 0.041,
+    "post_aggr": 0.409,
+    "fold_to_bet": 0.692
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5651,
+     "pos_bonus": 0.1302,
+     "open_size": 3.693,
+     "call_th": 0.7188,
+     "threebet_th": 0.8554,
+     "push_bb": 13.692,
+     "push_th": 0.6989,
+     "call_push_th": 0.8052,
+     "bet_cat": 1.8942,
+     "call_cat": 1.3817,
+     "raise_cat": 2.2079,
+     "big_bet_extra": 0.1853,
+     "cbet_rate": 0.4396,
+     "bluff_rate": 0.4433,
+     "value_size": 1.2467,
+     "bluff_size": 0.4699
+    },
+    "name": "replica:Beam"
+   }
+  },
+  {
+   "team": "QKV",
+   "weight": 248,
+   "points_real": 17.78451612903226,
+   "dist": 0.556,
+   "team_stats": {
+    "vpip": 0.49359677419354836,
+    "pfr": 0.4305322580645161,
+    "pf_allin": 0.015,
+    "post_aggr": 0.46414516129032257,
+    "fold_to_bet": 0.6649596774193549
+   },
+   "replica_stats": {
+    "vpip": 0.409,
+    "pfr": 0.373,
+    "pf_allin": 0.052,
+    "post_aggr": 0.484,
+    "fold_to_bet": 0.686
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5072,
+     "pos_bonus": 0.1963,
+     "open_size": 2.5205,
+     "call_th": 0.7091,
+     "threebet_th": 0.7765,
+     "push_bb": 18.0321,
+     "push_th": 0.533,
+     "call_push_th": 0.6045,
+     "bet_cat": 1.2537,
+     "call_cat": 0.824,
+     "raise_cat": 3.6793,
+     "big_bet_extra": 1.0112,
+     "cbet_rate": 0.7903,
+     "bluff_rate": 0.27,
+     "value_size": 0.3786,
+     "bluff_size": 0.8226
+    },
+    "name": "replica:QKV"
+   }
+  },
+  {
+   "team": "one in a krillion",
+   "weight": 239,
+   "points_real": 16.94410041841004,
+   "dist": 0.368,
+   "team_stats": {
+    "vpip": 0.27912970711297075,
+    "pfr": 0.19415062761506277,
+    "pf_allin": 0.03384518828451883,
+    "post_aggr": 0.5848368200836821,
+    "fold_to_bet": 0.3725271966527197
+   },
+   "replica_stats": {
+    "vpip": 0.296,
+    "pfr": 0.148,
+    "pf_allin": 0.045,
+    "post_aggr": 0.536,
+    "fold_to_bet": 0.36
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.164,
+     "pos_bonus": 0.1685,
+     "open_size": 3.9625,
+     "threebet_ratio": 2.0942,
+     "threebet_mult": 2.2714,
+     "call_margin": 0.0306,
+     "push_bb": 14.3967,
+     "push_ratio": 0.9527,
+     "call_push_margin": 0.0186,
+     "value_eq": 0.7431,
+     "raise_eq": 0.9025,
+     "cbet_rate": 0.5907,
+     "bluff_rate": 0.4432,
+     "value_size": 0.7626,
+     "bluff_size": 0.5447,
+     "icm_weight": 2.1076,
+     "adapt": 0.3811,
+     "multiway_pow": 1.2376
+    },
+    "name": "replica:one in a krillion"
+   }
+  },
+  {
+   "team": "Curious George",
+   "weight": 224,
+   "points_real": 17.946964285714284,
+   "dist": 0.39,
+   "team_stats": {
+    "vpip": 0.3242857142857143,
+    "pfr": 0.22089285714285717,
+    "pf_allin": 0.055875,
+    "post_aggr": 0.38069642857142855,
+    "fold_to_bet": 0.4412678571428571
+   },
+   "replica_stats": {
+    "vpip": 0.346,
+    "pfr": 0.202,
+    "pf_allin": 0.044,
+    "post_aggr": 0.443,
+    "fold_to_bet": 0.407
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.8753,
+     "pos_bonus": 0.1502,
+     "open_size": 3.3839,
+     "threebet_ratio": 2.1973,
+     "threebet_mult": 3.6912,
+     "call_margin": 0.026,
+     "push_bb": 8.3781,
+     "push_ratio": 1.2226,
+     "call_push_margin": 0.0575,
+     "value_eq": 0.5085,
+     "raise_eq": 0.7311,
+     "cbet_rate": 0.6572,
+     "bluff_rate": 0.0743,
+     "value_size": 0.6111,
+     "bluff_size": 0.9045,
+     "icm_weight": 2.3339,
+     "adapt": 0.2497,
+     "multiway_pow": 0.5135
+    },
+    "name": "replica:Curious George"
+   }
+  },
+  {
+   "team": "Team OODI",
+   "weight": 199,
+   "points_real": 9.523015075376884,
+   "dist": 0.599,
+   "team_stats": {
+    "vpip": 0.28034673366834173,
+    "pfr": 0.03422613065326633,
+    "pf_allin": 0.0026934673366834174,
+    "post_aggr": 0.09514572864321609,
+    "fold_to_bet": 0.6022211055276383
+   },
+   "replica_stats": {
+    "vpip": 0.303,
+    "pfr": 0.143,
+    "pf_allin": 0.03,
+    "post_aggr": 0.084,
+    "fold_to_bet": 0.615
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.7683,
+     "pos_bonus": 0.2203,
+     "open_size": 3.4252,
+     "call_th": 0.5626,
+     "threebet_th": 0.8593,
+     "push_bb": 4.4566,
+     "push_th": 0.4996,
+     "call_push_th": 0.6353,
+     "bet_cat": 2.9155,
+     "call_cat": 1.6076,
+     "raise_cat": 4.043,
+     "big_bet_extra": 0.0691,
+     "cbet_rate": 0.4161,
+     "bluff_rate": 0.0392,
+     "value_size": 0.5608,
+     "bluff_size": 0.3338
+    },
+    "name": "replica:Team OODI"
+   }
+  },
+  {
+   "team": "Po Stitch",
+   "weight": 230,
+   "points_real": 17.953478260869566,
+   "dist": 0.522,
+   "team_stats": {
+    "vpip": 0.23973913043478262,
+    "pfr": 0.20024347826086955,
+    "pf_allin": 0.07019130434782608,
+    "post_aggr": 0.3326695652173913,
+    "fold_to_bet": 0.3932086956521739
+   },
+   "replica_stats": {
+    "vpip": 0.227,
+    "pfr": 0.104,
+    "pf_allin": 0.048,
+    "post_aggr": 0.322,
+    "fold_to_bet": 0.392
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.7213,
+     "pos_bonus": 0.1514,
+     "open_size": 2.7566,
+     "threebet_ratio": 1.4521,
+     "threebet_mult": 2.456,
+     "call_margin": 0.0776,
+     "push_bb": 18.2724,
+     "push_ratio": 0.9756,
+     "call_push_margin": 0.0009,
+     "value_eq": 0.7657,
+     "raise_eq": 0.6791,
+     "cbet_rate": 0.8777,
+     "bluff_rate": 0.1764,
+     "value_size": 0.7734,
+     "bluff_size": 0.4012,
+     "icm_weight": 0.7269,
+     "adapt": 0.4245,
+     "multiway_pow": 0.6339
+    },
+    "name": "replica:Po Stitch"
+   }
+  },
+  {
+   "team": "avisioner",
+   "weight": 259,
+   "points_real": 16.102123552123555,
+   "dist": 0.319,
+   "team_stats": {
+    "vpip": 0.16259073359073362,
+    "pfr": 0.12651351351351353,
+    "pf_allin": 0.015884169884169883,
+    "post_aggr": 0.3448494208494209,
+    "fold_to_bet": 0.25523938223938225
+   },
+   "replica_stats": {
+    "vpip": 0.221,
+    "pfr": 0.104,
+    "pf_allin": 0.005,
+    "post_aggr": 0.365,
+    "fold_to_bet": 0.245
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.1029,
+     "pos_bonus": 0.226,
+     "open_size": 2.7102,
+     "threebet_ratio": 1.9132,
+     "threebet_mult": 3.6285,
+     "call_margin": 0.0023,
+     "push_bb": 16.9678,
+     "push_ratio": 1.728,
+     "call_push_margin": 0.0702,
+     "value_eq": 0.8357,
+     "raise_eq": 0.9283,
+     "cbet_rate": 0.1711,
+     "bluff_rate": 0.4957,
+     "value_size": 0.5006,
+     "bluff_size": 0.8535,
+     "icm_weight": 0.3031,
+     "adapt": 0.3027,
+     "multiway_pow": 0.8306
+    },
+    "name": "replica:avisioner"
+   }
+  },
+  {
+   "team": "Clippers Championship",
+   "weight": 247,
+   "points_real": 14.007813765182185,
+   "dist": 0.465,
+   "team_stats": {
+    "vpip": 0.16942105263157897,
+    "pfr": 0.1547651821862348,
+    "pf_allin": 0.0440080971659919,
+    "post_aggr": 0.47982995951417007,
+    "fold_to_bet": 0.16337651821862348
+   },
+   "replica_stats": {
+    "vpip": 0.198,
+    "pfr": 0.098,
+    "pf_allin": 0.0,
+    "post_aggr": 0.486,
+    "fold_to_bet": 0.212
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.1288,
+     "pos_bonus": 0.2445,
+     "open_size": 3.308,
+     "threebet_ratio": 2.4527,
+     "threebet_mult": 3.9036,
+     "call_margin": 0.0636,
+     "push_bb": 12.0151,
+     "push_ratio": 1.7135,
+     "call_push_margin": 0.0289,
+     "value_eq": 0.6048,
+     "raise_eq": 0.8588,
+     "cbet_rate": 0.2583,
+     "bluff_rate": 0.1839,
+     "value_size": 0.7293,
+     "bluff_size": 0.6077,
+     "icm_weight": 0.8962,
+     "adapt": 0.4305,
+     "multiway_pow": 0.841
+    },
+    "name": "replica:Clippers Championship"
+   }
+  },
+  {
+   "team": "tuh",
+   "weight": 253,
+   "points_real": 15.02114624505929,
+   "dist": 0.456,
+   "team_stats": {
+    "vpip": 0.16694861660079052,
+    "pfr": 0.14501581027667984,
+    "pf_allin": 0.05666798418972332,
+    "post_aggr": 0.49535177865612645,
+    "fold_to_bet": 0.1742490118577075
+   },
+   "replica_stats": {
+    "vpip": 0.117,
+    "pfr": 0.095,
+    "pf_allin": 0.059,
+    "post_aggr": 0.553,
+    "fold_to_bet": 0.176
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.7938,
+     "pos_bonus": 0.0236,
+     "open_size": 2.166,
+     "call_th": 0.7257,
+     "threebet_th": 0.8455,
+     "push_bb": 14.9652,
+     "push_th": 0.5845,
+     "call_push_th": 0.849,
+     "bet_cat": 0.6902,
+     "call_cat": 0.5332,
+     "raise_cat": 3.4863,
+     "big_bet_extra": 0.1226,
+     "cbet_rate": 0.3038,
+     "bluff_rate": 0.3625,
+     "value_size": 0.994,
+     "bluff_size": 0.4622
+    },
+    "name": "replica:tuh"
+   }
+  },
+  {
+   "team": "PG",
+   "weight": 245,
+   "points_real": 15.998693877551021,
+   "dist": 0.428,
+   "team_stats": {
+    "vpip": 0.175934693877551,
+    "pfr": 0.14332244897959182,
+    "pf_allin": 0.031355102040816325,
+    "post_aggr": 0.4338734693877551,
+    "fold_to_bet": 0.47606530612244896
+   },
+   "replica_stats": {
+    "vpip": 0.198,
+    "pfr": 0.104,
+    "pf_allin": 0.061,
+    "post_aggr": 0.383,
+    "fold_to_bet": 0.517
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.4767,
+     "pos_bonus": 0.2275,
+     "open_size": 3.8674,
+     "threebet_ratio": 1.8039,
+     "threebet_mult": 3.5379,
+     "call_margin": 0.0703,
+     "push_bb": 11.1746,
+     "push_ratio": 0.9578,
+     "call_push_margin": 0.0338,
+     "value_eq": 0.5985,
+     "raise_eq": 0.7543,
+     "cbet_rate": 0.9545,
+     "bluff_rate": 0.1465,
+     "value_size": 0.9949,
+     "bluff_size": 0.754,
+     "icm_weight": 0.6118,
+     "adapt": 0.4115,
+     "multiway_pow": 0.4586
+    },
+    "name": "replica:PG"
+   }
+  },
+  {
+   "team": "wangzhongwang",
+   "weight": 218,
+   "points_real": 11.282568807339452,
+   "dist": 0.188,
+   "team_stats": {
+    "vpip": 0.06762385321100918,
+    "pfr": 0.052238532110091745,
+    "pf_allin": 0.015027522935779818,
+    "post_aggr": 0.10161467889908256,
+    "fold_to_bet": 0.8604587155963302
+   },
+   "replica_stats": {
+    "vpip": 0.096,
+    "pfr": 0.046,
+    "pf_allin": 0.025,
+    "post_aggr": 0.114,
+    "fold_to_bet": 0.885
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8453,
+     "pos_bonus": 0.0444,
+     "open_size": 3.2695,
+     "call_th": 0.6512,
+     "threebet_th": 0.8932,
+     "push_bb": 7.3966,
+     "push_th": 0.7273,
+     "call_push_th": 0.8994,
+     "bet_cat": 2.6409,
+     "call_cat": 1.5716,
+     "raise_cat": 3.0145,
+     "big_bet_extra": 0.8516,
+     "cbet_rate": 0.1141,
+     "bluff_rate": 0.4187,
+     "value_size": 0.9898,
+     "bluff_size": 0.5899
+    },
+    "name": "replica:wangzhongwang"
+   }
+  },
+  {
+   "team": "all vibes",
+   "weight": 217,
+   "points_real": 15.619078341013825,
+   "dist": 0.541,
+   "team_stats": {
+    "vpip": 0.2460875576036866,
+    "pfr": 0.22113364055299542,
+    "pf_allin": 0.04705990783410138,
+    "post_aggr": 0.5956728110599078,
+    "fold_to_bet": 0.36718433179723503
+   },
+   "replica_stats": {
+    "vpip": 0.296,
+    "pfr": 0.148,
+    "pf_allin": 0.045,
+    "post_aggr": 0.536,
+    "fold_to_bet": 0.36
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.164,
+     "pos_bonus": 0.1685,
+     "open_size": 3.9625,
+     "threebet_ratio": 2.0942,
+     "threebet_mult": 2.2714,
+     "call_margin": 0.0306,
+     "push_bb": 14.3967,
+     "push_ratio": 0.9527,
+     "call_push_margin": 0.0186,
+     "value_eq": 0.7431,
+     "raise_eq": 0.9025,
+     "cbet_rate": 0.5907,
+     "bluff_rate": 0.4432,
+     "value_size": 0.7626,
+     "bluff_size": 0.5447,
+     "icm_weight": 2.1076,
+     "adapt": 0.3811,
+     "multiway_pow": 1.2376
+    },
+    "name": "replica:all vibes"
+   }
+  },
+  {
+   "team": "Captain Underpants",
+   "weight": 241,
+   "points_real": 15.847219917012449,
+   "dist": 0.413,
+   "team_stats": {
+    "vpip": 0.10161410788381743,
+    "pfr": 0.08533609958506225,
+    "pf_allin": 0.04969709543568465,
+    "post_aggr": 0.32077593360995854,
+    "fold_to_bet": 0.3338091286307054
+   },
+   "replica_stats": {
+    "vpip": 0.095,
+    "pfr": 0.079,
+    "pf_allin": 0.026,
+    "post_aggr": 0.372,
+    "fold_to_bet": 0.267
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.7905,
+     "pos_bonus": 0.2306,
+     "open_size": 3.5707,
+     "call_th": 0.8494,
+     "threebet_th": 0.8707,
+     "push_bb": 19.0948,
+     "push_th": 0.7376,
+     "call_push_th": 0.7214,
+     "bet_cat": 1.4612,
+     "call_cat": 0.8835,
+     "raise_cat": 1.5687,
+     "big_bet_extra": 0.2415,
+     "cbet_rate": 0.7957,
+     "bluff_rate": 0.1144,
+     "value_size": 0.9536,
+     "bluff_size": 0.8315
+    },
+    "name": "replica:Captain Underpants"
+   }
+  },
+  {
+   "team": "ATUBETS",
+   "weight": 203,
+   "points_real": 14.875467980295566,
+   "dist": 0.406,
+   "team_stats": {
+    "vpip": 0.1996600985221675,
+    "pfr": 0.17266502463054184,
+    "pf_allin": 0.03799014778325124,
+    "post_aggr": 0.43461576354679804,
+    "fold_to_bet": 0.24997536945812807
+   },
+   "replica_stats": {
+    "vpip": 0.224,
+    "pfr": 0.142,
+    "pf_allin": 0.006,
+    "post_aggr": 0.408,
+    "fold_to_bet": 0.316
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.1913,
+     "pos_bonus": 0.2952,
+     "open_size": 3.4243,
+     "threebet_ratio": 2.2902,
+     "threebet_mult": 3.544,
+     "call_margin": 0.0658,
+     "push_bb": 8.0251,
+     "push_ratio": 1.5347,
+     "call_push_margin": 0.0623,
+     "value_eq": 0.6905,
+     "raise_eq": 0.9455,
+     "cbet_rate": 0.1365,
+     "bluff_rate": 0.3903,
+     "value_size": 0.6248,
+     "bluff_size": 0.7949,
+     "icm_weight": 2.3759,
+     "adapt": 0.2744,
+     "multiway_pow": 0.9806
+    },
+    "name": "replica:ATUBETS"
+   }
+  },
+  {
+   "team": "Foldemort",
+   "weight": 240,
+   "points_real": 15.955833333333333,
+   "dist": 0.33,
+   "team_stats": {
+    "vpip": 0.32555833333333334,
+    "pfr": 0.2423833333333333,
+    "pf_allin": 0.07543333333333332,
+    "post_aggr": 0.26865,
+    "fold_to_bet": 0.35279166666666667
+   },
+   "replica_stats": {
+    "vpip": 0.361,
+    "pfr": 0.241,
+    "pf_allin": 0.06,
+    "post_aggr": 0.24,
+    "fold_to_bet": 0.408
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5946,
+     "pos_bonus": 0.2204,
+     "open_size": 3.4384,
+     "call_th": 0.5741,
+     "threebet_th": 0.9862,
+     "push_bb": 19.7133,
+     "push_th": 0.673,
+     "call_push_th": 0.948,
+     "bet_cat": 2.0532,
+     "call_cat": 0.9615,
+     "raise_cat": 1.7609,
+     "big_bet_extra": 0.026,
+     "cbet_rate": 0.5913,
+     "bluff_rate": 0.3593,
+     "value_size": 0.9158,
+     "bluff_size": 0.8371
+    },
+    "name": "replica:Foldemort"
+   }
+  },
+  {
+   "team": "pocket rockets",
+   "weight": 217,
+   "points_real": 19.86193548387097,
+   "dist": 0.559,
+   "team_stats": {
+    "vpip": 0.4189953917050691,
+    "pfr": 0.26048847926267277,
+    "pf_allin": 0.014806451612903228,
+    "post_aggr": 0.3764377880184332,
+    "fold_to_bet": 0.4705668202764977
+   },
+   "replica_stats": {
+    "vpip": 0.398,
+    "pfr": 0.245,
+    "pf_allin": 0.028,
+    "post_aggr": 0.451,
+    "fold_to_bet": 0.38
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.8743,
+     "pos_bonus": 0.0599,
+     "open_size": 3.6184,
+     "threebet_ratio": 2.1109,
+     "threebet_mult": 3.5838,
+     "call_margin": -0.0074,
+     "push_bb": 10.7898,
+     "push_ratio": 1.1323,
+     "call_push_margin": 0.112,
+     "value_eq": 0.6291,
+     "raise_eq": 0.8288,
+     "cbet_rate": 0.9892,
+     "bluff_rate": 0.1627,
+     "value_size": 0.8486,
+     "bluff_size": 0.8096,
+     "icm_weight": 2.3021,
+     "adapt": 0.4277,
+     "multiway_pow": 0.7431
+    },
+    "name": "replica:pocket rockets"
+   }
+  },
+  {
+   "team": "gtoalpha",
+   "weight": 242,
+   "points_real": 14.75090909090909,
+   "dist": 0.475,
+   "team_stats": {
+    "vpip": 0.20834710743801652,
+    "pfr": 0.16400826446280992,
+    "pf_allin": 0.05067768595041322,
+    "post_aggr": 0.5850123966942148,
+    "fold_to_bet": 0.1540330578512397
+   },
+   "replica_stats": {
+    "vpip": 0.29,
+    "pfr": 0.137,
+    "pf_allin": 0.048,
+    "post_aggr": 0.606,
+    "fold_to_bet": 0.212
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0517,
+     "pos_bonus": 0.2103,
+     "open_size": 2.6831,
+     "threebet_ratio": 2.3667,
+     "threebet_mult": 3.7305,
+     "call_margin": 0.0681,
+     "push_bb": 12.7348,
+     "push_ratio": 0.9895,
+     "call_push_margin": 0.1293,
+     "value_eq": 0.5309,
+     "raise_eq": 0.7273,
+     "cbet_rate": 0.3745,
+     "bluff_rate": 0.3615,
+     "value_size": 0.9692,
+     "bluff_size": 0.5079,
+     "icm_weight": 2.2448,
+     "adapt": 0.9497,
+     "multiway_pow": 0.3279
+    },
+    "name": "replica:gtoalpha"
+   }
+  },
+  {
+   "team": "nash",
+   "weight": 212,
+   "points_real": 14.762264150943397,
+   "dist": 0.302,
+   "team_stats": {
+    "vpip": 0.24996226415094341,
+    "pfr": 0.20856603773584903,
+    "pf_allin": 0.029,
+    "post_aggr": 0.18573584905660379,
+    "fold_to_bet": 0.3397547169811321
+   },
+   "replica_stats": {
+    "vpip": 0.258,
+    "pfr": 0.218,
+    "pf_allin": 0.063,
+    "post_aggr": 0.151,
+    "fold_to_bet": 0.317
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5837,
+     "pos_bonus": 0.0439,
+     "open_size": 3.2625,
+     "call_th": 0.6699,
+     "threebet_th": 0.946,
+     "push_bb": 10.5439,
+     "push_th": 0.6556,
+     "call_push_th": 0.7279,
+     "bet_cat": 2.8541,
+     "call_cat": 0.8659,
+     "raise_cat": 3.6109,
+     "big_bet_extra": 0.3526,
+     "cbet_rate": 0.5793,
+     "bluff_rate": 0.1424,
+     "value_size": 1.1726,
+     "bluff_size": 0.4649
+    },
+    "name": "replica:nash"
+   }
+  },
+  {
+   "team": "nutmegwealth",
+   "weight": 224,
+   "points_real": 15.220625,
+   "dist": 0.405,
+   "team_stats": {
+    "vpip": 0.20915625,
+    "pfr": 0.16677232142857143,
+    "pf_allin": 0.028232142857142855,
+    "post_aggr": 0.21684375,
+    "fold_to_bet": 0.2678482142857143
+   },
+   "replica_stats": {
+    "vpip": 0.235,
+    "pfr": 0.178,
+    "pf_allin": 0.014,
+    "post_aggr": 0.158,
+    "fold_to_bet": 0.216
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.6969,
+     "pos_bonus": 0.1709,
+     "open_size": 3.0662,
+     "call_th": 0.6558,
+     "threebet_th": 1.0,
+     "push_bb": 14.2762,
+     "push_th": 0.7656,
+     "call_push_th": 0.8428,
+     "bet_cat": 2.9502,
+     "call_cat": 0.0571,
+     "raise_cat": 3.3462,
+     "big_bet_extra": 1.1082,
+     "cbet_rate": 0.2566,
+     "bluff_rate": 0.2008,
+     "value_size": 0.3505,
+     "bluff_size": 0.3966
+    },
+    "name": "replica:nutmegwealth"
+   }
+  },
+  {
+   "team": "Banana",
+   "weight": 243,
+   "points_real": 14.813744855967077,
+   "dist": 0.391,
+   "team_stats": {
+    "vpip": 0.21867489711934154,
+    "pfr": 0.17633744855967076,
+    "pf_allin": 0.04202469135802469,
+    "post_aggr": 0.4219753086419753,
+    "fold_to_bet": 0.24607407407407408
+   },
+   "replica_stats": {
+    "vpip": 0.238,
+    "pfr": 0.233,
+    "pf_allin": 0.007,
+    "post_aggr": 0.4,
+    "fold_to_bet": 0.244
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5848,
+     "pos_bonus": 0.0218,
+     "open_size": 2.9125,
+     "call_th": 0.8846,
+     "threebet_th": 0.756,
+     "push_bb": 6.852,
+     "push_th": 0.6961,
+     "call_push_th": 0.788,
+     "bet_cat": 0.8575,
+     "call_cat": 0.5479,
+     "raise_cat": 3.3124,
+     "big_bet_extra": 0.3591,
+     "cbet_rate": 0.0277,
+     "bluff_rate": 0.3473,
+     "value_size": 1.1685,
+     "bluff_size": 0.8546
+    },
+    "name": "replica:Banana"
+   }
+  },
+  {
+   "team": "GT'F'O",
+   "weight": 230,
+   "points_real": 13.739869565217392,
+   "dist": 0.312,
+   "team_stats": {
+    "vpip": 0.19390869565217392,
+    "pfr": 0.13268695652173915,
+    "pf_allin": 0.052,
+    "post_aggr": 0.3223086956521739,
+    "fold_to_bet": 0.3157869565217391
+   },
+   "replica_stats": {
+    "vpip": 0.196,
+    "pfr": 0.074,
+    "pf_allin": 0.048,
+    "post_aggr": 0.309,
+    "fold_to_bet": 0.321
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.4739,
+     "pos_bonus": 0.2308,
+     "open_size": 3.0668,
+     "threebet_ratio": 2.0527,
+     "threebet_mult": 3.1454,
+     "call_margin": 0.1138,
+     "push_bb": 17.7294,
+     "push_ratio": 0.9469,
+     "call_push_margin": 0.1004,
+     "value_eq": 0.7157,
+     "raise_eq": 0.8094,
+     "cbet_rate": 0.9082,
+     "bluff_rate": 0.0248,
+     "value_size": 0.7751,
+     "bluff_size": 0.5315,
+     "icm_weight": 2.371,
+     "adapt": 0.1646,
+     "multiway_pow": 0.9756
+    },
+    "name": "replica:GT'F'O"
+   }
+  },
+  {
+   "team": "pandas",
+   "weight": 197,
+   "points_real": 14.973807106598986,
+   "dist": 0.167,
+   "team_stats": {
+    "vpip": 0.3580964467005076,
+    "pfr": 0.24073096446700507,
+    "pf_allin": 0.024,
+    "post_aggr": 0.3148680203045685,
+    "fold_to_bet": 0.29753807106598984
+   },
+   "replica_stats": {
+    "vpip": 0.353,
+    "pfr": 0.216,
+    "pf_allin": 0.008,
+    "post_aggr": 0.317,
+    "fold_to_bet": 0.302
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0716,
+     "pos_bonus": 0.4482,
+     "open_size": 3.7566,
+     "threebet_ratio": 1.75,
+     "threebet_mult": 2.2515,
+     "call_margin": 0.0703,
+     "push_bb": 13.9159,
+     "push_ratio": 1.7638,
+     "call_push_margin": 0.0616,
+     "value_eq": 0.7534,
+     "raise_eq": 0.8658,
+     "cbet_rate": 0.1685,
+     "bluff_rate": 0.3334,
+     "value_size": 0.7384,
+     "bluff_size": 0.4121,
+     "icm_weight": 0.6869,
+     "adapt": 0.3627,
+     "multiway_pow": 1.1817
+    },
+    "name": "replica:pandas"
+   }
+  },
+  {
+   "team": "2 Player Fish",
+   "weight": 220,
+   "points_real": 18.730545454545457,
+   "dist": 0.336,
+   "team_stats": {
+    "vpip": 0.2527181818181818,
+    "pfr": 0.19794545454545456,
+    "pf_allin": 0.051899999999999995,
+    "post_aggr": 0.2164818181818182,
+    "fold_to_bet": 0.6876999999999999
+   },
+   "replica_stats": {
+    "vpip": 0.251,
+    "pfr": 0.18,
+    "pf_allin": 0.028,
+    "post_aggr": 0.203,
+    "fold_to_bet": 0.619
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5089,
+     "pos_bonus": 0.009,
+     "open_size": 2.9279,
+     "call_th": 0.6762,
+     "threebet_th": 0.9527,
+     "push_bb": 12.306,
+     "push_th": 0.7381,
+     "call_push_th": 0.7249,
+     "bet_cat": 2.1561,
+     "call_cat": 1.1433,
+     "raise_cat": 2.3345,
+     "big_bet_extra": 1.4965,
+     "cbet_rate": 0.9957,
+     "bluff_rate": 0.4201,
+     "value_size": 1.0078,
+     "bluff_size": 0.4865
+    },
+    "name": "replica:2 Player Fish"
+   }
+  },
+  {
+   "team": "Affordance",
+   "weight": 247,
+   "points_real": 12.309838056680162,
+   "dist": 0.305,
+   "team_stats": {
+    "vpip": 0.15513765182186237,
+    "pfr": 0.08506882591093118,
+    "pf_allin": 0.01971255060728745,
+    "post_aggr": 0.47174493927125505,
+    "fold_to_bet": 0.1692753036437247
+   },
+   "replica_stats": {
+    "vpip": 0.198,
+    "pfr": 0.098,
+    "pf_allin": 0.0,
+    "post_aggr": 0.486,
+    "fold_to_bet": 0.212
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.1288,
+     "pos_bonus": 0.2445,
+     "open_size": 3.308,
+     "threebet_ratio": 2.4527,
+     "threebet_mult": 3.9036,
+     "call_margin": 0.0636,
+     "push_bb": 12.0151,
+     "push_ratio": 1.7135,
+     "call_push_margin": 0.0289,
+     "value_eq": 0.6048,
+     "raise_eq": 0.8588,
+     "cbet_rate": 0.2583,
+     "bluff_rate": 0.1839,
+     "value_size": 0.7293,
+     "bluff_size": 0.6077,
+     "icm_weight": 0.8962,
+     "adapt": 0.4305,
+     "multiway_pow": 0.841
+    },
+    "name": "replica:Affordance"
+   }
+  },
+  {
+   "team": "Chikerbot",
+   "weight": 244,
+   "points_real": 16.883893442622952,
+   "dist": 0.491,
+   "team_stats": {
+    "vpip": 0.2314754098360656,
+    "pfr": 0.1393688524590164,
+    "pf_allin": 0.024315573770491802,
+    "post_aggr": 0.4302049180327869,
+    "fold_to_bet": 0.6305819672131148
+   },
+   "replica_stats": {
+    "vpip": 0.299,
+    "pfr": 0.108,
+    "pf_allin": 0.049,
+    "post_aggr": 0.415,
+    "fold_to_bet": 0.557
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8484,
+     "pos_bonus": 0.1366,
+     "open_size": 3.0193,
+     "call_th": 0.571,
+     "threebet_th": 0.7255,
+     "push_bb": 14.3265,
+     "push_th": 0.4964,
+     "call_push_th": 0.5157,
+     "bet_cat": 0.7104,
+     "call_cat": 1.3563,
+     "raise_cat": 2.0879,
+     "big_bet_extra": 0.395,
+     "cbet_rate": 0.7671,
+     "bluff_rate": 0.2232,
+     "value_size": 0.4472,
+     "bluff_size": 0.7596
+    },
+    "name": "replica:Chikerbot"
+   }
+  },
+  {
+   "team": "Team 0",
+   "weight": 205,
+   "points_real": 13.027219512195122,
+   "dist": 0.395,
+   "team_stats": {
+    "vpip": 0.42433170731707315,
+    "pfr": 0.25759024390243906,
+    "pf_allin": 0.016580487804878048,
+    "post_aggr": 0.3118487804878049,
+    "fold_to_bet": 0.2969414634146342
+   },
+   "replica_stats": {
+    "vpip": 0.353,
+    "pfr": 0.216,
+    "pf_allin": 0.008,
+    "post_aggr": 0.317,
+    "fold_to_bet": 0.302
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0716,
+     "pos_bonus": 0.4482,
+     "open_size": 3.7566,
+     "threebet_ratio": 1.75,
+     "threebet_mult": 2.2515,
+     "call_margin": 0.0703,
+     "push_bb": 13.9159,
+     "push_ratio": 1.7638,
+     "call_push_margin": 0.0616,
+     "value_eq": 0.7534,
+     "raise_eq": 0.8658,
+     "cbet_rate": 0.1685,
+     "bluff_rate": 0.3334,
+     "value_size": 0.7384,
+     "bluff_size": 0.4121,
+     "icm_weight": 0.6869,
+     "adapt": 0.3627,
+     "multiway_pow": 1.1817
+    },
+    "name": "replica:Team 0"
+   }
+  },
+  {
+   "team": "the twins",
+   "weight": 250,
+   "points_real": 14.76056,
+   "dist": 0.329,
+   "team_stats": {
+    "vpip": 0.242,
+    "pfr": 0.172232,
+    "pf_allin": 0.027847999999999998,
+    "post_aggr": 0.25669200000000003,
+    "fold_to_bet": 0.27900400000000003
+   },
+   "replica_stats": {
+    "vpip": 0.285,
+    "pfr": 0.178,
+    "pf_allin": 0.007,
+    "post_aggr": 0.293,
+    "fold_to_bet": 0.31
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.2026,
+     "pos_bonus": 0.4511,
+     "open_size": 3.2168,
+     "threebet_ratio": 2.156,
+     "threebet_mult": 2.7151,
+     "call_margin": 0.1298,
+     "push_bb": 9.5668,
+     "push_ratio": 1.6606,
+     "call_push_margin": -0.0012,
+     "value_eq": 0.8332,
+     "raise_eq": 0.8391,
+     "cbet_rate": 0.1784,
+     "bluff_rate": 0.3658,
+     "value_size": 0.4555,
+     "bluff_size": 0.5391,
+     "icm_weight": 0.9463,
+     "adapt": 0.3347,
+     "multiway_pow": 0.7342
+    },
+    "name": "replica:the twins"
+   }
+  },
+  {
+   "team": "YeziShanYang",
+   "weight": 237,
+   "points_real": 13.165316455696203,
+   "dist": 0.293,
+   "team_stats": {
+    "vpip": 0.348,
+    "pfr": 0.17073417721518988,
+    "pf_allin": 0.013,
+    "post_aggr": 0.17220253164556965,
+    "fold_to_bet": 0.5586582278481013
+   },
+   "replica_stats": {
+    "vpip": 0.35,
+    "pfr": 0.172,
+    "pf_allin": 0.008,
+    "post_aggr": 0.139,
+    "fold_to_bet": 0.616
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.561,
+     "pos_bonus": 0.2178,
+     "open_size": 2.7328,
+     "call_th": 0.547,
+     "threebet_th": 0.9128,
+     "push_bb": 13.1084,
+     "push_th": 0.8634,
+     "call_push_th": 0.923,
+     "bet_cat": 2.7834,
+     "call_cat": 1.095,
+     "raise_cat": 3.9091,
+     "big_bet_extra": 0.4571,
+     "cbet_rate": 0.3176,
+     "bluff_rate": 0.1998,
+     "value_size": 1.2347,
+     "bluff_size": 0.921
+    },
+    "name": "replica:YeziShanYang"
+   }
+  },
+  {
+   "team": "avalon",
+   "weight": 227,
+   "points_real": 18.724537444933922,
+   "dist": 0.443,
+   "team_stats": {
+    "vpip": 0.3511894273127753,
+    "pfr": 0.2450616740088106,
+    "pf_allin": 0.06116299559471366,
+    "post_aggr": 0.4780396475770925,
+    "fold_to_bet": 0.48551101321585904
+   },
+   "replica_stats": {
+    "vpip": 0.346,
+    "pfr": 0.202,
+    "pf_allin": 0.044,
+    "post_aggr": 0.443,
+    "fold_to_bet": 0.407
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.8753,
+     "pos_bonus": 0.1502,
+     "open_size": 3.3839,
+     "threebet_ratio": 2.1973,
+     "threebet_mult": 3.6912,
+     "call_margin": 0.026,
+     "push_bb": 8.3781,
+     "push_ratio": 1.2226,
+     "call_push_margin": 0.0575,
+     "value_eq": 0.5085,
+     "raise_eq": 0.7311,
+     "cbet_rate": 0.6572,
+     "bluff_rate": 0.0743,
+     "value_size": 0.6111,
+     "bluff_size": 0.9045,
+     "icm_weight": 2.3339,
+     "adapt": 0.2497,
+     "multiway_pow": 0.5135
+    },
+    "name": "replica:avalon"
+   }
+  },
+  {
+   "team": "Nai Long",
+   "weight": 238,
+   "points_real": 11.592352941176472,
+   "dist": 0.105,
+   "team_stats": {
+    "vpip": 0.21594117647058822,
+    "pfr": 0.06911764705882355,
+    "pf_allin": 0.008294117647058825,
+    "post_aggr": 0.2387647058823529,
+    "fold_to_bet": 0.3280588235294118
+   },
+   "replica_stats": {
+    "vpip": 0.213,
+    "pfr": 0.084,
+    "pf_allin": 0.007,
+    "post_aggr": 0.252,
+    "fold_to_bet": 0.324
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.9729,
+     "pos_bonus": 0.1675,
+     "open_size": 3.5758,
+     "threebet_ratio": 1.4827,
+     "threebet_mult": 2.4676,
+     "call_margin": 0.0533,
+     "push_bb": 15.5771,
+     "push_ratio": 1.656,
+     "call_push_margin": 0.0879,
+     "value_eq": 0.831,
+     "raise_eq": 0.7724,
+     "cbet_rate": 0.9492,
+     "bluff_rate": 0.043,
+     "value_size": 0.5214,
+     "bluff_size": 0.645,
+     "icm_weight": 0.7254,
+     "adapt": 0.7288,
+     "multiway_pow": 1.0666
+    },
+    "name": "replica:Nai Long"
+   }
+  },
+  {
+   "team": "Golden Knight",
+   "weight": 229,
+   "points_real": 15.372052401746725,
+   "dist": 0.45,
+   "team_stats": {
+    "vpip": 0.17384279475982534,
+    "pfr": 0.15229257641921398,
+    "pf_allin": 0.05698689956331878,
+    "post_aggr": 0.22163755458515283,
+    "fold_to_bet": 0.7330480349344978
+   },
+   "replica_stats": {
+    "vpip": 0.208,
+    "pfr": 0.119,
+    "pf_allin": 0.063,
+    "post_aggr": 0.153,
+    "fold_to_bet": 0.703
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.7796,
+     "pos_bonus": 0.168,
+     "open_size": 2.6234,
+     "call_th": 0.6525,
+     "threebet_th": 0.9536,
+     "push_bb": 18.4084,
+     "push_th": 0.5437,
+     "call_push_th": 0.8828,
+     "bet_cat": 2.9211,
+     "call_cat": 1.3106,
+     "raise_cat": 3.219,
+     "big_bet_extra": 0.3015,
+     "cbet_rate": 0.5359,
+     "bluff_rate": 0.2516,
+     "value_size": 0.9052,
+     "bluff_size": 0.2708
+    },
+    "name": "replica:Golden Knight"
+   }
+  },
+  {
+   "team": "Maniacs",
+   "weight": 232,
+   "points_real": 9.95853448275862,
+   "dist": 0.139,
+   "team_stats": {
+    "vpip": 0.3262844827586207,
+    "pfr": 0.1715862068965517,
+    "pf_allin": 0.010698275862068967,
+    "post_aggr": 0.3440948275862069,
+    "fold_to_bet": 0.2585387931034483
+   },
+   "replica_stats": {
+    "vpip": 0.332,
+    "pfr": 0.15,
+    "pf_allin": 0.0,
+    "post_aggr": 0.337,
+    "fold_to_bet": 0.256
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0341,
+     "pos_bonus": 0.2541,
+     "open_size": 3.6008,
+     "threebet_ratio": 2.0847,
+     "threebet_mult": 3.1453,
+     "call_margin": -0.013,
+     "push_bb": 5.0879,
+     "push_ratio": 1.0691,
+     "call_push_margin": 0.0549,
+     "value_eq": 0.7086,
+     "raise_eq": 0.7611,
+     "cbet_rate": 0.6361,
+     "bluff_rate": 0.282,
+     "value_size": 0.9456,
+     "bluff_size": 0.5583,
+     "icm_weight": 2.1051,
+     "adapt": 0.5315,
+     "multiway_pow": 1.3565
+    },
+    "name": "replica:Maniacs"
+   }
+  },
+  {
+   "team": "all bluff no bite",
+   "weight": 233,
+   "points_real": 10.771201716738197,
+   "dist": 0.474,
+   "team_stats": {
+    "vpip": 0.3792832618025751,
+    "pfr": 0.20266523605150216,
+    "pf_allin": 0.0685107296137339,
+    "post_aggr": 0.5870042918454935,
+    "fold_to_bet": 0.38132188841201725
+   },
+   "replica_stats": {
+    "vpip": 0.411,
+    "pfr": 0.222,
+    "pf_allin": 0.008,
+    "post_aggr": 0.558,
+    "fold_to_bet": 0.426
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.9252,
+     "pos_bonus": 0.1885,
+     "open_size": 3.3387,
+     "threebet_ratio": 1.6004,
+     "threebet_mult": 2.5324,
+     "call_margin": -0.0473,
+     "push_bb": 13.3684,
+     "push_ratio": 1.7469,
+     "call_push_margin": 0.1441,
+     "value_eq": 0.5468,
+     "raise_eq": 0.8407,
+     "cbet_rate": 0.4193,
+     "bluff_rate": 0.3157,
+     "value_size": 0.6967,
+     "bluff_size": 0.95,
+     "icm_weight": 2.472,
+     "adapt": 0.0487,
+     "multiway_pow": 1.1559
+    },
+    "name": "replica:all bluff no bite"
+   }
+  },
+  {
+   "team": "Jax of Hearts",
+   "weight": 243,
+   "points_real": 10.287037037037036,
+   "dist": 0.35,
+   "team_stats": {
+    "vpip": 0.42588477366255145,
+    "pfr": 0.26954320987654323,
+    "pf_allin": 0.034185185185185187,
+    "post_aggr": 0.5205185185185185,
+    "fold_to_bet": 0.26753086419753086
+   },
+   "replica_stats": {
+    "vpip": 0.472,
+    "pfr": 0.307,
+    "pf_allin": 0.017,
+    "post_aggr": 0.55,
+    "fold_to_bet": 0.288
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.8632,
+     "pos_bonus": 0.1406,
+     "open_size": 2.9253,
+     "threebet_ratio": 1.6861,
+     "threebet_mult": 3.6829,
+     "call_margin": -0.0091,
+     "push_bb": 4.2326,
+     "push_ratio": 1.306,
+     "call_push_margin": -0.0399,
+     "value_eq": 0.51,
+     "raise_eq": 0.8122,
+     "cbet_rate": 0.6044,
+     "bluff_rate": 0.2711,
+     "value_size": 0.3703,
+     "bluff_size": 0.6705,
+     "icm_weight": 1.3072,
+     "adapt": 0.3045,
+     "multiway_pow": 0.5677
+    },
+    "name": "replica:Jax of Hearts"
+   }
+  },
+  {
+   "team": "Double G",
+   "weight": 226,
+   "points_real": 11.54566371681416,
+   "dist": 0.544,
+   "team_stats": {
+    "vpip": 0.30642477876106194,
+    "pfr": 0.19151327433628318,
+    "pf_allin": 0.03051327433628319,
+    "post_aggr": 0.2798230088495575,
+    "fold_to_bet": 0.5217522123893805
+   },
+   "replica_stats": {
+    "vpip": 0.245,
+    "pfr": 0.218,
+    "pf_allin": 0.04,
+    "post_aggr": 0.306,
+    "fold_to_bet": 0.625
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.4443,
+     "pos_bonus": 0.0753,
+     "open_size": 3.8113,
+     "call_th": 0.72,
+     "threebet_th": 0.8523,
+     "push_bb": 19.4742,
+     "push_th": 0.7056,
+     "call_push_th": 0.9478,
+     "bet_cat": 2.095,
+     "call_cat": 2.0238,
+     "raise_cat": 1.7286,
+     "big_bet_extra": 0.8963,
+     "cbet_rate": 0.7592,
+     "bluff_rate": 0.0226,
+     "value_size": 1.2302,
+     "bluff_size": 0.3699
+    },
+    "name": "replica:Double G"
+   }
+  },
+  {
+   "team": "EEE",
+   "weight": 242,
+   "points_real": 12.683719008264463,
+   "dist": 0.643,
+   "team_stats": {
+    "vpip": 0.06869421487603307,
+    "pfr": 0.008917355371900826,
+    "pf_allin": 0.0016528925619834713,
+    "post_aggr": 0.476793388429752,
+    "fold_to_bet": 0.35984297520661157
+   },
+   "replica_stats": {
+    "vpip": 0.187,
+    "pfr": 0.039,
+    "pf_allin": 0.028,
+    "post_aggr": 0.466,
+    "fold_to_bet": 0.297
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.781,
+     "pos_bonus": 0.1947,
+     "open_size": 3.3881,
+     "threebet_ratio": 2.0097,
+     "threebet_mult": 3.6403,
+     "call_margin": -0.0206,
+     "push_bb": 6.8013,
+     "push_ratio": 0.9964,
+     "call_push_margin": 0.1367,
+     "value_eq": 0.588,
+     "raise_eq": 0.7709,
+     "cbet_rate": 0.1204,
+     "bluff_rate": 0.1618,
+     "value_size": 0.3192,
+     "bluff_size": 0.6744,
+     "icm_weight": 0.3591,
+     "adapt": 0.6253,
+     "multiway_pow": 0.6288
+    },
+    "name": "replica:EEE"
+   }
+  },
+  {
+   "team": "The 2 Marketeers",
+   "weight": 217,
+   "points_real": 4.79336405529954,
+   "dist": 1.625,
+   "team_stats": {
+    "vpip": 0.79636866359447,
+    "pfr": 0.5561428571428572,
+    "pf_allin": 0.047894009216589865,
+    "post_aggr": 0.49976497695852534,
+    "fold_to_bet": 0.21929032258064515
+   },
+   "replica_stats": {
+    "vpip": 0.578,
+    "pfr": 0.359,
+    "pf_allin": 0.0,
+    "post_aggr": 0.363,
+    "fold_to_bet": 0.189
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.8607,
+     "pos_bonus": 0.4433,
+     "open_size": 3.6371,
+     "threebet_ratio": 1.9452,
+     "threebet_mult": 3.0033,
+     "call_margin": -0.0444,
+     "push_bb": 15.1998,
+     "push_ratio": 0.9352,
+     "call_push_margin": 0.0552,
+     "value_eq": 0.8239,
+     "raise_eq": 0.8373,
+     "cbet_rate": 0.1165,
+     "bluff_rate": 0.3605,
+     "value_size": 1.0016,
+     "bluff_size": 0.4969,
+     "icm_weight": 1.9289,
+     "adapt": 0.5788,
+     "multiway_pow": 0.7963
+    },
+    "name": "replica:The 2 Marketeers"
+   }
+  },
+  {
+   "team": "Archibald",
+   "weight": 252,
+   "points_real": 13.568055555555556,
+   "dist": 0.426,
+   "team_stats": {
+    "vpip": 0.21965873015873016,
+    "pfr": 0.16830555555555554,
+    "pf_allin": 0.03962301587301587,
+    "post_aggr": 0.39126984126984127,
+    "fold_to_bet": 0.20815079365079361
+   },
+   "replica_stats": {
+    "vpip": 0.238,
+    "pfr": 0.233,
+    "pf_allin": 0.007,
+    "post_aggr": 0.4,
+    "fold_to_bet": 0.244
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5848,
+     "pos_bonus": 0.0218,
+     "open_size": 2.9125,
+     "call_th": 0.8846,
+     "threebet_th": 0.756,
+     "push_bb": 6.852,
+     "push_th": 0.6961,
+     "call_push_th": 0.788,
+     "bet_cat": 0.8575,
+     "call_cat": 0.5479,
+     "raise_cat": 3.3124,
+     "big_bet_extra": 0.3591,
+     "cbet_rate": 0.0277,
+     "bluff_rate": 0.3473,
+     "value_size": 1.1685,
+     "bluff_size": 0.8546
+    },
+    "name": "replica:Archibald"
+   }
+  },
+  {
+   "team": "Parth&Mrid",
+   "weight": 220,
+   "points_real": 14.821090909090909,
+   "dist": 0.399,
+   "team_stats": {
+    "vpip": 0.2400818181818182,
+    "pfr": 0.20625454545454547,
+    "pf_allin": 0.044,
+    "post_aggr": 0.5247545454545455,
+    "fold_to_bet": 0.29823636363636363
+   },
+   "replica_stats": {
+    "vpip": 0.32,
+    "pfr": 0.226,
+    "pf_allin": 0.034,
+    "post_aggr": 0.522,
+    "fold_to_bet": 0.324
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.8952,
+     "pos_bonus": 0.031,
+     "open_size": 3.903,
+     "threebet_ratio": 1.9007,
+     "threebet_mult": 3.5765,
+     "call_margin": 0.0154,
+     "push_bb": 11.4714,
+     "push_ratio": 1.3638,
+     "call_push_margin": 0.036,
+     "value_eq": 0.7103,
+     "raise_eq": 0.6046,
+     "cbet_rate": 0.701,
+     "bluff_rate": 0.4221,
+     "value_size": 0.4813,
+     "bluff_size": 0.5905,
+     "icm_weight": 1.8483,
+     "adapt": 0.4053,
+     "multiway_pow": 0.5342
+    },
+    "name": "replica:Parth&Mrid"
+   }
+  },
+  {
+   "team": "Team 30",
+   "weight": 248,
+   "points_real": 10.44016129032258,
+   "dist": 0.604,
+   "team_stats": {
+    "vpip": 0.531649193548387,
+    "pfr": 0.2503508064516129,
+    "pf_allin": 0.018403225806451613,
+    "post_aggr": 0.30756048387096774,
+    "fold_to_bet": 0.3006451612903226
+   },
+   "replica_stats": {
+    "vpip": 0.486,
+    "pfr": 0.271,
+    "pf_allin": 0.057,
+    "post_aggr": 0.309,
+    "fold_to_bet": 0.176
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.9772,
+     "pos_bonus": 0.3561,
+     "open_size": 2.3402,
+     "threebet_ratio": 1.9722,
+     "threebet_mult": 3.9942,
+     "call_margin": -0.0322,
+     "push_bb": 17.7431,
+     "push_ratio": 0.9054,
+     "call_push_margin": 0.1455,
+     "value_eq": 0.818,
+     "raise_eq": 0.7569,
+     "cbet_rate": 0.6377,
+     "bluff_rate": 0.2299,
+     "value_size": 0.4637,
+     "bluff_size": 0.5168,
+     "icm_weight": 1.1028,
+     "adapt": 0.8698,
+     "multiway_pow": 0.4369
+    },
+    "name": "replica:Team 30"
+   }
+  },
+  {
+   "team": "Wentworth's Finest",
+   "weight": 231,
+   "points_real": 8.74229437229437,
+   "dist": 0.405,
+   "team_stats": {
+    "vpip": 0.217995670995671,
+    "pfr": 0.13783982683982685,
+    "pf_allin": 0.025303030303030306,
+    "post_aggr": 0.4136103896103896,
+    "fold_to_bet": 0.11508225108225108
+   },
+   "replica_stats": {
+    "vpip": 0.267,
+    "pfr": 0.141,
+    "pf_allin": 0.012,
+    "post_aggr": 0.464,
+    "fold_to_bet": 0.163
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.9791,
+     "pos_bonus": 0.1362,
+     "open_size": 2.6915,
+     "threebet_ratio": 2.2065,
+     "threebet_mult": 3.1368,
+     "call_margin": 0.0729,
+     "push_bb": 16.0993,
+     "push_ratio": 1.2542,
+     "call_push_margin": 0.1084,
+     "value_eq": 0.8172,
+     "raise_eq": 0.6305,
+     "cbet_rate": 0.9326,
+     "bluff_rate": 0.3612,
+     "value_size": 0.4299,
+     "bluff_size": 0.5902,
+     "icm_weight": 1.5639,
+     "adapt": 0.91,
+     "multiway_pow": 0.7522
+    },
+    "name": "replica:Wentworth's Finest"
+   }
+  },
+  {
+   "team": "Team 123",
+   "weight": 210,
+   "points_real": 11.806142857142857,
+   "dist": 0.328,
+   "team_stats": {
+    "vpip": 0.151,
+    "pfr": 0.10332857142857142,
+    "pf_allin": 0.016985714285714288,
+    "post_aggr": 0.4685714285714286,
+    "fold_to_bet": 0.16172857142857144
+   },
+   "replica_stats": {
+    "vpip": 0.198,
+    "pfr": 0.098,
+    "pf_allin": 0.0,
+    "post_aggr": 0.486,
+    "fold_to_bet": 0.212
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.1288,
+     "pos_bonus": 0.2445,
+     "open_size": 3.308,
+     "threebet_ratio": 2.4527,
+     "threebet_mult": 3.9036,
+     "call_margin": 0.0636,
+     "push_bb": 12.0151,
+     "push_ratio": 1.7135,
+     "call_push_margin": 0.0289,
+     "value_eq": 0.6048,
+     "raise_eq": 0.8588,
+     "cbet_rate": 0.2583,
+     "bluff_rate": 0.1839,
+     "value_size": 0.7293,
+     "bluff_size": 0.6077,
+     "icm_weight": 0.8962,
+     "adapt": 0.4305,
+     "multiway_pow": 0.841
+    },
+    "name": "replica:Team 123"
+   }
+  },
+  {
+   "team": "yrn",
+   "weight": 235,
+   "points_real": 11.576595744680851,
+   "dist": 0.413,
+   "team_stats": {
+    "vpip": 0.41823404255319147,
+    "pfr": 0.26793617021276595,
+    "pf_allin": 0.020042553191489357,
+    "post_aggr": 0.32455319148936174,
+    "fold_to_bet": 0.3142765957446808
+   },
+   "replica_stats": {
+    "vpip": 0.353,
+    "pfr": 0.216,
+    "pf_allin": 0.008,
+    "post_aggr": 0.317,
+    "fold_to_bet": 0.302
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0716,
+     "pos_bonus": 0.4482,
+     "open_size": 3.7566,
+     "threebet_ratio": 1.75,
+     "threebet_mult": 2.2515,
+     "call_margin": 0.0703,
+     "push_bb": 13.9159,
+     "push_ratio": 1.7638,
+     "call_push_margin": 0.0616,
+     "value_eq": 0.7534,
+     "raise_eq": 0.8658,
+     "cbet_rate": 0.1685,
+     "bluff_rate": 0.3334,
+     "value_size": 0.7384,
+     "bluff_size": 0.4121,
+     "icm_weight": 0.6869,
+     "adapt": 0.3627,
+     "multiway_pow": 1.1817
+    },
+    "name": "replica:yrn"
+   }
+  },
+  {
+   "team": "Heine-Borel",
+   "weight": 229,
+   "points_real": 14.538951965065502,
+   "dist": 0.347,
+   "team_stats": {
+    "vpip": 0.23405676855895194,
+    "pfr": 0.1452052401746725,
+    "pf_allin": 0.02623144104803493,
+    "post_aggr": 0.27934497816593884,
+    "fold_to_bet": 0.45701310043668125
+   },
+   "replica_stats": {
+    "vpip": 0.165,
+    "pfr": 0.151,
+    "pf_allin": 0.039,
+    "post_aggr": 0.289,
+    "fold_to_bet": 0.484
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.6846,
+     "pos_bonus": 0.2268,
+     "open_size": 3.5354,
+     "call_th": 0.8236,
+     "threebet_th": 0.9176,
+     "push_bb": 19.5481,
+     "push_th": 0.6519,
+     "call_push_th": 0.701,
+     "bet_cat": 2.1286,
+     "call_cat": 0.7847,
+     "raise_cat": 3.9881,
+     "big_bet_extra": 0.6268,
+     "cbet_rate": 0.5569,
+     "bluff_rate": 0.2599,
+     "value_size": 0.6642,
+     "bluff_size": 0.2579
+    },
+    "name": "replica:Heine-Borel"
+   }
+  },
+  {
+   "team": "alex chex codex",
+   "weight": 239,
+   "points_real": 11.799665271966527,
+   "dist": 0.813,
+   "team_stats": {
+    "vpip": 0.5283807531380754,
+    "pfr": 0.16721757322175734,
+    "pf_allin": 0.007351464435146444,
+    "post_aggr": 0.11989121338912134,
+    "fold_to_bet": 0.48932635983263595
+   },
+   "replica_stats": {
+    "vpip": 0.489,
+    "pfr": 0.287,
+    "pf_allin": 0.032,
+    "post_aggr": 0.208,
+    "fold_to_bet": 0.511
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.4761,
+     "pos_bonus": 0.1487,
+     "open_size": 3.2223,
+     "call_th": 0.5234,
+     "threebet_th": 0.9836,
+     "push_bb": 10.7313,
+     "push_th": 0.687,
+     "call_push_th": 0.769,
+     "bet_cat": 1.4139,
+     "call_cat": 0.7144,
+     "raise_cat": 3.4653,
+     "big_bet_extra": 0.841,
+     "cbet_rate": 0.2835,
+     "bluff_rate": 0.3583,
+     "value_size": 0.596,
+     "bluff_size": 0.2605
+    },
+    "name": "replica:alex chex codex"
+   }
+  },
+  {
+   "team": "Gene Theory Optimal",
+   "weight": 222,
+   "points_real": 12.346666666666668,
+   "dist": 0.388,
+   "team_stats": {
+    "vpip": 0.31866666666666665,
+    "pfr": 0.2463333333333333,
+    "pf_allin": 0.041,
+    "post_aggr": 0.49100000000000005,
+    "fold_to_bet": 0.4406666666666667
+   },
+   "replica_stats": {
+    "vpip": 0.346,
+    "pfr": 0.202,
+    "pf_allin": 0.044,
+    "post_aggr": 0.443,
+    "fold_to_bet": 0.407
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.8753,
+     "pos_bonus": 0.1502,
+     "open_size": 3.3839,
+     "threebet_ratio": 2.1973,
+     "threebet_mult": 3.6912,
+     "call_margin": 0.026,
+     "push_bb": 8.3781,
+     "push_ratio": 1.2226,
+     "call_push_margin": 0.0575,
+     "value_eq": 0.5085,
+     "raise_eq": 0.7311,
+     "cbet_rate": 0.6572,
+     "bluff_rate": 0.0743,
+     "value_size": 0.6111,
+     "bluff_size": 0.9045,
+     "icm_weight": 2.3339,
+     "adapt": 0.2497,
+     "multiway_pow": 0.5135
+    },
+    "name": "replica:Gene Theory Optimal"
+   }
+  },
+  {
+   "team": "LoveLP",
+   "weight": 215,
+   "points_real": 10.9253488372093,
+   "dist": 0.576,
+   "team_stats": {
+    "vpip": 0.34425581395348837,
+    "pfr": 0.19651162790697674,
+    "pf_allin": 0.011372093023255814,
+    "post_aggr": 0.4726976744186046,
+    "fold_to_bet": 0.6485348837209303
+   },
+   "replica_stats": {
+    "vpip": 0.385,
+    "pfr": 0.19,
+    "pf_allin": 0.017,
+    "post_aggr": 0.565,
+    "fold_to_bet": 0.589
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.7336,
+     "pos_bonus": 0.2973,
+     "open_size": 2.751,
+     "call_th": 0.5671,
+     "threebet_th": 0.7613,
+     "push_bb": 10.7991,
+     "push_th": 0.5814,
+     "call_push_th": 0.9364,
+     "bet_cat": 0.648,
+     "call_cat": 0.7711,
+     "raise_cat": 1.8444,
+     "big_bet_extra": 0.972,
+     "cbet_rate": 0.7759,
+     "bluff_rate": 0.0897,
+     "value_size": 0.3623,
+     "bluff_size": 0.5941
+    },
+    "name": "replica:LoveLP"
+   }
+  },
+  {
+   "team": "Ghosts in the Machine",
+   "weight": 243,
+   "points_real": 13.370987654320986,
+   "dist": 0.305,
+   "team_stats": {
+    "vpip": 0.3593333333333334,
+    "pfr": 0.2621728395061728,
+    "pf_allin": 0.05803703703703705,
+    "post_aggr": 0.4068395061728395,
+    "fold_to_bet": 0.26371604938271603
+   },
+   "replica_stats": {
+    "vpip": 0.36,
+    "pfr": 0.225,
+    "pf_allin": 0.048,
+    "post_aggr": 0.364,
+    "fold_to_bet": 0.274
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0196,
+     "pos_bonus": 0.2975,
+     "open_size": 3.1697,
+     "threebet_ratio": 1.819,
+     "threebet_mult": 2.83,
+     "call_margin": -0.0219,
+     "push_bb": 15.131,
+     "push_ratio": 1.2347,
+     "call_push_margin": 0.0702,
+     "value_eq": 0.7866,
+     "raise_eq": 0.6266,
+     "cbet_rate": 0.4234,
+     "bluff_rate": 0.1764,
+     "value_size": 1.2321,
+     "bluff_size": 0.7158,
+     "icm_weight": 0.4925,
+     "adapt": 0.4585,
+     "multiway_pow": 0.3175
+    },
+    "name": "replica:Ghosts in the Machine"
+   }
+  },
+  {
+   "team": "Fish",
+   "weight": 234,
+   "points_real": 10.13,
+   "dist": 0.542,
+   "team_stats": {
+    "vpip": 0.4906666666666667,
+    "pfr": 0.20800000000000002,
+    "pf_allin": 0.011333333333333334,
+    "post_aggr": 0.20366666666666666,
+    "fold_to_bet": 0.31000000000000005
+   },
+   "replica_stats": {
+    "vpip": 0.417,
+    "pfr": 0.152,
+    "pf_allin": 0.004,
+    "post_aggr": 0.244,
+    "fold_to_bet": 0.254
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0359,
+     "pos_bonus": 0.2446,
+     "open_size": 2.4425,
+     "threebet_ratio": 2.0541,
+     "threebet_mult": 3.0981,
+     "call_margin": -0.0429,
+     "push_bb": 13.5493,
+     "push_ratio": 1.5432,
+     "call_push_margin": 0.0645,
+     "value_eq": 0.8055,
+     "raise_eq": 0.663,
+     "cbet_rate": 0.1518,
+     "bluff_rate": 0.0089,
+     "value_size": 0.7961,
+     "bluff_size": 0.576,
+     "icm_weight": 1.1042,
+     "adapt": 0.2629,
+     "multiway_pow": 1.2582
+    },
+    "name": "replica:Fish"
+   }
+  },
+  {
+   "team": "Team 67",
+   "weight": 223,
+   "points_real": 12.195874439461885,
+   "dist": 0.373,
+   "team_stats": {
+    "vpip": 0.30850224215246635,
+    "pfr": 0.21173094170403584,
+    "pf_allin": 0.047,
+    "post_aggr": 0.20091031390134528,
+    "fold_to_bet": 0.33381614349775784
+   },
+   "replica_stats": {
+    "vpip": 0.258,
+    "pfr": 0.218,
+    "pf_allin": 0.063,
+    "post_aggr": 0.151,
+    "fold_to_bet": 0.317
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5837,
+     "pos_bonus": 0.0439,
+     "open_size": 3.2625,
+     "call_th": 0.6699,
+     "threebet_th": 0.946,
+     "push_bb": 10.5439,
+     "push_th": 0.6556,
+     "call_push_th": 0.7279,
+     "bet_cat": 2.8541,
+     "call_cat": 0.8659,
+     "raise_cat": 3.6109,
+     "big_bet_extra": 0.3526,
+     "cbet_rate": 0.5793,
+     "bluff_rate": 0.1424,
+     "value_size": 1.1726,
+     "bluff_size": 0.4649
+    },
+    "name": "replica:Team 67"
+   }
+  },
+  {
+   "team": "Rincsters",
+   "weight": 231,
+   "points_real": 9.349696969696968,
+   "dist": 0.507,
+   "team_stats": {
+    "vpip": 0.3547619047619047,
+    "pfr": 0.11261471861471861,
+    "pf_allin": 0.006,
+    "post_aggr": 0.21154112554112553,
+    "fold_to_bet": 0.5827705627705628
+   },
+   "replica_stats": {
+    "vpip": 0.35,
+    "pfr": 0.172,
+    "pf_allin": 0.008,
+    "post_aggr": 0.139,
+    "fold_to_bet": 0.616
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.561,
+     "pos_bonus": 0.2178,
+     "open_size": 2.7328,
+     "call_th": 0.547,
+     "threebet_th": 0.9128,
+     "push_bb": 13.1084,
+     "push_th": 0.8634,
+     "call_push_th": 0.923,
+     "bet_cat": 2.7834,
+     "call_cat": 1.095,
+     "raise_cat": 3.9091,
+     "big_bet_extra": 0.4571,
+     "cbet_rate": 0.3176,
+     "bluff_rate": 0.1998,
+     "value_size": 1.2347,
+     "bluff_size": 0.921
+    },
+    "name": "replica:Rincsters"
+   }
+  },
+  {
+   "team": "The Big Blind Theory",
+   "weight": 225,
+   "points_real": 11.377866666666666,
+   "dist": 0.261,
+   "team_stats": {
+    "vpip": 0.31728,
+    "pfr": 0.19637333333333332,
+    "pf_allin": 0.03557333333333333,
+    "post_aggr": 0.35543111111111114,
+    "fold_to_bet": 0.26413777777777775
+   },
+   "replica_stats": {
+    "vpip": 0.36,
+    "pfr": 0.225,
+    "pf_allin": 0.048,
+    "post_aggr": 0.364,
+    "fold_to_bet": 0.274
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0196,
+     "pos_bonus": 0.2975,
+     "open_size": 3.1697,
+     "threebet_ratio": 1.819,
+     "threebet_mult": 2.83,
+     "call_margin": -0.0219,
+     "push_bb": 15.131,
+     "push_ratio": 1.2347,
+     "call_push_margin": 0.0702,
+     "value_eq": 0.7866,
+     "raise_eq": 0.6266,
+     "cbet_rate": 0.4234,
+     "bluff_rate": 0.1764,
+     "value_size": 1.2321,
+     "bluff_size": 0.7158,
+     "icm_weight": 0.4925,
+     "adapt": 0.4585,
+     "multiway_pow": 0.3175
+    },
+    "name": "replica:The Big Blind Theory"
+   }
+  },
+  {
+   "team": "codex",
+   "weight": 245,
+   "points_real": 13.020285714285714,
+   "dist": 0.343,
+   "team_stats": {
+    "vpip": 0.38754285714285713,
+    "pfr": 0.21294285714285713,
+    "pf_allin": 0.004485714285714286,
+    "post_aggr": 0.38411428571428574,
+    "fold_to_bet": 0.3272857142857143
+   },
+   "replica_stats": {
+    "vpip": 0.334,
+    "pfr": 0.236,
+    "pf_allin": 0.018,
+    "post_aggr": 0.396,
+    "fold_to_bet": 0.283
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0645,
+     "pos_bonus": 0.4351,
+     "open_size": 2.8769,
+     "threebet_ratio": 1.8213,
+     "threebet_mult": 3.2397,
+     "call_margin": 0.0546,
+     "push_bb": 12.7672,
+     "push_ratio": 1.4045,
+     "call_push_margin": 0.14,
+     "value_eq": 0.76,
+     "raise_eq": 0.6323,
+     "cbet_rate": 0.9879,
+     "bluff_rate": 0.0078,
+     "value_size": 0.3527,
+     "bluff_size": 0.8638,
+     "icm_weight": 0.6889,
+     "adapt": 0.0294,
+     "multiway_pow": 0.5112
+    },
+    "name": "replica:codex"
+   }
+  },
+  {
+   "team": "Team 132",
+   "weight": 249,
+   "points_real": 11.323132530120482,
+   "dist": 0.752,
+   "team_stats": {
+    "vpip": 0.14066265060240962,
+    "pfr": 0.03003614457831325,
+    "pf_allin": 0.0003373493975903615,
+    "post_aggr": 0.0993132530120482,
+    "fold_to_bet": 0.5586265060240965
+   },
+   "replica_stats": {
+    "vpip": 0.052,
+    "pfr": 0.041,
+    "pf_allin": 0.029,
+    "post_aggr": 0.136,
+    "fold_to_bet": 0.7
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8318,
+     "pos_bonus": 0.0096,
+     "open_size": 2.2235,
+     "call_th": 0.8476,
+     "threebet_th": 0.9871,
+     "push_bb": 4.385,
+     "push_th": 0.4644,
+     "call_push_th": 0.8734,
+     "bet_cat": 2.2212,
+     "call_cat": 1.2994,
+     "raise_cat": 3.2402,
+     "big_bet_extra": 1.1361,
+     "cbet_rate": 0.8078,
+     "bluff_rate": 0.0003,
+     "value_size": 0.3679,
+     "bluff_size": 0.8456
+    },
+    "name": "replica:Team 132"
+   }
+  },
+  {
+   "team": "Team 14",
+   "weight": 233,
+   "points_real": 10.603991416309013,
+   "dist": 0.549,
+   "team_stats": {
+    "vpip": 0.4203476394849785,
+    "pfr": 0.21300858369098713,
+    "pf_allin": 0.02034334763948498,
+    "post_aggr": 0.3328927038626609,
+    "fold_to_bet": 0.6179828326180258
+   },
+   "replica_stats": {
+    "vpip": 0.428,
+    "pfr": 0.263,
+    "pf_allin": 0.026,
+    "post_aggr": 0.424,
+    "fold_to_bet": 0.622
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5462,
+     "pos_bonus": 0.0533,
+     "open_size": 3.0275,
+     "call_th": 0.5504,
+     "threebet_th": 0.719,
+     "push_bb": 5.0988,
+     "push_th": 0.496,
+     "call_push_th": 0.8171,
+     "bet_cat": 0.7819,
+     "call_cat": 1.129,
+     "raise_cat": 3.8163,
+     "big_bet_extra": 0.721,
+     "cbet_rate": 0.1626,
+     "bluff_rate": 0.4331,
+     "value_size": 1.1698,
+     "bluff_size": 0.2901
+    },
+    "name": "replica:Team 14"
+   }
+  },
+  {
+   "team": "stanford deviants",
+   "weight": 209,
+   "points_real": 16.126794258373206,
+   "dist": 0.431,
+   "team_stats": {
+    "vpip": 0.1104688995215311,
+    "pfr": 0.05594258373205742,
+    "pf_allin": 0.037531100478468894,
+    "post_aggr": 0.2499712918660287,
+    "fold_to_bet": 0.5906985645933014
+   },
+   "replica_stats": {
+    "vpip": 0.099,
+    "pfr": 0.046,
+    "pf_allin": 0.006,
+    "post_aggr": 0.268,
+    "fold_to_bet": 0.5
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8159,
+     "pos_bonus": 0.1449,
+     "open_size": 2.4005,
+     "call_th": 0.6966,
+     "threebet_th": 0.9416,
+     "push_bb": 8.3745,
+     "push_th": 0.7144,
+     "call_push_th": 0.5412,
+     "bet_cat": 1.1034,
+     "call_cat": 0.4685,
+     "raise_cat": 3.0164,
+     "big_bet_extra": 1.0315,
+     "cbet_rate": 0.2273,
+     "bluff_rate": 0.3444,
+     "value_size": 0.886,
+     "bluff_size": 0.8131
+    },
+    "name": "replica:stanford deviants"
+   }
+  },
+  {
+   "team": "a5a7",
+   "weight": 203,
+   "points_real": 9.460049261083745,
+   "dist": 0.924,
+   "team_stats": {
+    "vpip": 0.0,
+    "pfr": 0.0,
+    "pf_allin": 0.0,
+    "post_aggr": 0.0,
+    "fold_to_bet": 1.0
+   },
+   "replica_stats": {
+    "vpip": 0.096,
+    "pfr": 0.046,
+    "pf_allin": 0.025,
+    "post_aggr": 0.114,
+    "fold_to_bet": 0.885
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8453,
+     "pos_bonus": 0.0444,
+     "open_size": 3.2695,
+     "call_th": 0.6512,
+     "threebet_th": 0.8932,
+     "push_bb": 7.3966,
+     "push_th": 0.7273,
+     "call_push_th": 0.8994,
+     "bet_cat": 2.6409,
+     "call_cat": 1.5716,
+     "raise_cat": 3.0145,
+     "big_bet_extra": 0.8516,
+     "cbet_rate": 0.1141,
+     "bluff_rate": 0.4187,
+     "value_size": 0.9898,
+     "bluff_size": 0.5899
+    },
+    "name": "replica:a5a7"
+   }
+  },
+  {
+   "team": "No Game No Life",
+   "weight": 226,
+   "points_real": 8.938362831858406,
+   "dist": 0.476,
+   "team_stats": {
+    "vpip": 0.17929646017699116,
+    "pfr": 0.15029646017699114,
+    "pf_allin": 0.00434070796460177,
+    "post_aggr": 0.5748672566371681,
+    "fold_to_bet": 0.33053982300884954
+   },
+   "replica_stats": {
+    "vpip": 0.162,
+    "pfr": 0.076,
+    "pf_allin": 0.045,
+    "post_aggr": 0.56,
+    "fold_to_bet": 0.345
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.5949,
+     "pos_bonus": 0.0204,
+     "open_size": 3.0082,
+     "threebet_ratio": 1.4819,
+     "threebet_mult": 3.1834,
+     "call_margin": 0.14,
+     "push_bb": 17.8389,
+     "push_ratio": 1.1239,
+     "call_push_margin": 0.0604,
+     "value_eq": 0.6111,
+     "raise_eq": 0.659,
+     "cbet_rate": 0.7437,
+     "bluff_rate": 0.3797,
+     "value_size": 0.6367,
+     "bluff_size": 0.5652,
+     "icm_weight": 1.7412,
+     "adapt": 0.7276,
+     "multiway_pow": 0.8563
+    },
+    "name": "replica:No Game No Life"
+   }
+  },
+  {
+   "team": "Cmupc",
+   "weight": 244,
+   "points_real": 9.63467213114754,
+   "dist": 0.644,
+   "team_stats": {
+    "vpip": 0.0,
+    "pfr": 0.0,
+    "pf_allin": 0.0,
+    "post_aggr": 0.25016393442622953,
+    "fold_to_bet": 0.9618852459016393
+   },
+   "replica_stats": {
+    "vpip": 0.081,
+    "pfr": 0.069,
+    "pf_allin": 0.031,
+    "post_aggr": 0.194,
+    "fold_to_bet": 1.0
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8083,
+     "pos_bonus": 0.1707,
+     "open_size": 3.0865,
+     "call_th": 0.8166,
+     "threebet_th": 0.7714,
+     "push_bb": 6.3397,
+     "push_th": 0.59,
+     "call_push_th": 0.519,
+     "bet_cat": 1.2859,
+     "call_cat": 1.553,
+     "raise_cat": 3.0764,
+     "big_bet_extra": 0.3971,
+     "cbet_rate": 0.5887,
+     "bluff_rate": 0.0442,
+     "value_size": 1.1206,
+     "bluff_size": 0.3787
+    },
+    "name": "replica:Cmupc"
+   }
+  },
+  {
+   "team": "Inabot",
+   "weight": 230,
+   "points_real": 15.175652173913042,
+   "dist": 0.409,
+   "team_stats": {
+    "vpip": 0.29843478260869566,
+    "pfr": 0.25682608695652176,
+    "pf_allin": 0.05523913043478261,
+    "post_aggr": 0.3020217391304348,
+    "fold_to_bet": 0.7015652173913044
+   },
+   "replica_stats": {
+    "vpip": 0.259,
+    "pfr": 0.228,
+    "pf_allin": 0.008,
+    "post_aggr": 0.274,
+    "fold_to_bet": 0.682
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5899,
+     "pos_bonus": 0.1804,
+     "open_size": 2.5407,
+     "call_th": 0.748,
+     "threebet_th": 0.842,
+     "push_bb": 16.7298,
+     "push_th": 0.812,
+     "call_push_th": 0.6067,
+     "bet_cat": 2.9422,
+     "call_cat": 1.366,
+     "raise_cat": 2.505,
+     "big_bet_extra": 0.3819,
+     "cbet_rate": 0.7128,
+     "bluff_rate": 0.2184,
+     "value_size": 0.9838,
+     "bluff_size": 0.442
+    },
+    "name": "replica:Inabot"
+   }
+  },
+  {
+   "team": "coconut burrito",
+   "weight": 226,
+   "points_real": 12.170752212389381,
+   "dist": 0.335,
+   "team_stats": {
+    "vpip": 0.1529070796460177,
+    "pfr": 0.13234513274336285,
+    "pf_allin": 0.045836283185840716,
+    "post_aggr": 0.18147345132743364,
+    "fold_to_bet": 0.6780309734513275
+   },
+   "replica_stats": {
+    "vpip": 0.208,
+    "pfr": 0.119,
+    "pf_allin": 0.063,
+    "post_aggr": 0.153,
+    "fold_to_bet": 0.703
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.7796,
+     "pos_bonus": 0.168,
+     "open_size": 2.6234,
+     "call_th": 0.6525,
+     "threebet_th": 0.9536,
+     "push_bb": 18.4084,
+     "push_th": 0.5437,
+     "call_push_th": 0.8828,
+     "bet_cat": 2.9211,
+     "call_cat": 1.3106,
+     "raise_cat": 3.219,
+     "big_bet_extra": 0.3015,
+     "cbet_rate": 0.5359,
+     "bluff_rate": 0.2516,
+     "value_size": 0.9052,
+     "bluff_size": 0.2708
+    },
+    "name": "replica:coconut burrito"
+   }
+  },
+  {
+   "team": "apizza",
+   "weight": 235,
+   "points_real": 9.99872340425532,
+   "dist": 0.546,
+   "team_stats": {
+    "vpip": 0.43703829787234044,
+    "pfr": 0.3077404255319149,
+    "pf_allin": 0.03600851063829787,
+    "post_aggr": 0.4678765957446809,
+    "fold_to_bet": 0.2222255319148936
+   },
+   "replica_stats": {
+    "vpip": 0.472,
+    "pfr": 0.307,
+    "pf_allin": 0.017,
+    "post_aggr": 0.55,
+    "fold_to_bet": 0.288
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.8632,
+     "pos_bonus": 0.1406,
+     "open_size": 2.9253,
+     "threebet_ratio": 1.6861,
+     "threebet_mult": 3.6829,
+     "call_margin": -0.0091,
+     "push_bb": 4.2326,
+     "push_ratio": 1.306,
+     "call_push_margin": -0.0399,
+     "value_eq": 0.51,
+     "raise_eq": 0.8122,
+     "cbet_rate": 0.6044,
+     "bluff_rate": 0.2711,
+     "value_size": 0.3703,
+     "bluff_size": 0.6705,
+     "icm_weight": 1.3072,
+     "adapt": 0.3045,
+     "multiway_pow": 0.5677
+    },
+    "name": "replica:apizza"
+   }
+  },
+  {
+   "team": "Amazing humans",
+   "weight": 241,
+   "points_real": 14.068257261410789,
+   "dist": 0.47,
+   "team_stats": {
+    "vpip": 0.3147717842323651,
+    "pfr": 0.1418630705394191,
+    "pf_allin": 0.0023443983402489624,
+    "post_aggr": 0.294551867219917,
+    "fold_to_bet": 0.4100124481327801
+   },
+   "replica_stats": {
+    "vpip": 0.285,
+    "pfr": 0.178,
+    "pf_allin": 0.007,
+    "post_aggr": 0.293,
+    "fold_to_bet": 0.31
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.2026,
+     "pos_bonus": 0.4511,
+     "open_size": 3.2168,
+     "threebet_ratio": 2.156,
+     "threebet_mult": 2.7151,
+     "call_margin": 0.1298,
+     "push_bb": 9.5668,
+     "push_ratio": 1.6606,
+     "call_push_margin": -0.0012,
+     "value_eq": 0.8332,
+     "raise_eq": 0.8391,
+     "cbet_rate": 0.1784,
+     "bluff_rate": 0.3658,
+     "value_size": 0.4555,
+     "bluff_size": 0.5391,
+     "icm_weight": 0.9463,
+     "adapt": 0.3347,
+     "multiway_pow": 0.7342
+    },
+    "name": "replica:Amazing humans"
+   }
+  },
+  {
+   "team": "Case Ace",
+   "weight": 219,
+   "points_real": 10.686666666666667,
+   "dist": 0.216,
+   "team_stats": {
+    "vpip": 0.18566666666666667,
+    "pfr": 0.152,
+    "pf_allin": 0.027999999999999997,
+    "post_aggr": 0.2866666666666667,
+    "fold_to_bet": 0.5476666666666667
+   },
+   "replica_stats": {
+    "vpip": 0.181,
+    "pfr": 0.158,
+    "pf_allin": 0.008,
+    "post_aggr": 0.319,
+    "fold_to_bet": 0.552
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.6991,
+     "pos_bonus": 0.2716,
+     "open_size": 3.9817,
+     "call_th": 0.8556,
+     "threebet_th": 0.9764,
+     "push_bb": 8.0506,
+     "push_th": 0.8208,
+     "call_push_th": 0.5404,
+     "bet_cat": 1.9544,
+     "call_cat": 0.1889,
+     "raise_cat": 1.7975,
+     "big_bet_extra": 1.4231,
+     "cbet_rate": 0.1268,
+     "bluff_rate": 0.3586,
+     "value_size": 0.8271,
+     "bluff_size": 0.2509
+    },
+    "name": "replica:Case Ace"
+   }
+  },
+  {
+   "team": "Team 82",
+   "weight": 237,
+   "points_real": 16.83210970464135,
+   "dist": 0.453,
+   "team_stats": {
+    "vpip": 0.2526708860759494,
+    "pfr": 0.19939240506329114,
+    "pf_allin": 0.050704641350210966,
+    "post_aggr": 0.3983333333333333,
+    "fold_to_bet": 0.3952616033755274
+   },
+   "replica_stats": {
+    "vpip": 0.26,
+    "pfr": 0.137,
+    "pf_allin": 0.019,
+    "post_aggr": 0.393,
+    "fold_to_bet": 0.457
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.1033,
+     "pos_bonus": 0.122,
+     "open_size": 3.8391,
+     "threebet_ratio": 1.3297,
+     "threebet_mult": 3.1213,
+     "call_margin": 0.0186,
+     "push_bb": 16.6681,
+     "push_ratio": 1.4495,
+     "call_push_margin": 0.1322,
+     "value_eq": 0.8264,
+     "raise_eq": 0.8255,
+     "cbet_rate": 0.0645,
+     "bluff_rate": 0.3336,
+     "value_size": 0.4094,
+     "bluff_size": 0.9866,
+     "icm_weight": 2.1784,
+     "adapt": 0.3106,
+     "multiway_pow": 0.5231
+    },
+    "name": "replica:Team 82"
+   }
+  },
+  {
+   "team": "guzzins :P",
+   "weight": 221,
+   "points_real": 8.369502262443438,
+   "dist": 0.668,
+   "team_stats": {
+    "vpip": 0.4502126696832579,
+    "pfr": 0.17324886877828055,
+    "pf_allin": 0.034963800904977374,
+    "post_aggr": 0.3031131221719457,
+    "fold_to_bet": 0.44396380090497733
+   },
+   "replica_stats": {
+    "vpip": 0.361,
+    "pfr": 0.241,
+    "pf_allin": 0.06,
+    "post_aggr": 0.24,
+    "fold_to_bet": 0.408
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5946,
+     "pos_bonus": 0.2204,
+     "open_size": 3.4384,
+     "call_th": 0.5741,
+     "threebet_th": 0.9862,
+     "push_bb": 19.7133,
+     "push_th": 0.673,
+     "call_push_th": 0.948,
+     "bet_cat": 2.0532,
+     "call_cat": 0.9615,
+     "raise_cat": 1.7609,
+     "big_bet_extra": 0.026,
+     "cbet_rate": 0.5913,
+     "bluff_rate": 0.3593,
+     "value_size": 0.9158,
+     "bluff_size": 0.8371
+    },
+    "name": "replica:guzzins :P"
+   }
+  },
+  {
+   "team": "Zhang et al.",
+   "weight": 257,
+   "points_real": 5.2124513618677035,
+   "dist": 4.988,
+   "team_stats": {
+    "vpip": 0.9993463035019455,
+    "pfr": 0.9679610894941634,
+    "pf_allin": 0.9679610894941634,
+    "post_aggr": 0.0,
+    "fold_to_bet": 0.0
+   },
+   "replica_stats": {
+    "vpip": 0.454,
+    "pfr": 0.429,
+    "pf_allin": 0.429,
+    "post_aggr": 0.0,
+    "fold_to_bet": 0.0
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_jam/agent.py",
+    "params": {
+     "push_th": 0.4252,
+     "call_th": 0.4665,
+     "ref_bb": 36.245,
+     "stack_exp": 0.6157,
+     "post_cat": 2.4953
+    },
+    "name": "replica:Zhang et al."
+   }
+  },
+  {
+   "team": "Spock's Brain",
+   "weight": 206,
+   "points_real": 8.05631067961165,
+   "dist": 0.454,
+   "team_stats": {
+    "vpip": 0.046000000000000006,
+    "pfr": 0.035,
+    "pf_allin": 0.035,
+    "post_aggr": 0.19239805825242717,
+    "fold_to_bet": 0.42642233009708735
+   },
+   "replica_stats": {
+    "vpip": 0.057,
+    "pfr": 0.029,
+    "pf_allin": 0.002,
+    "post_aggr": 0.167,
+    "fold_to_bet": 0.333
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8068,
+     "pos_bonus": 0.163,
+     "open_size": 3.1215,
+     "call_th": 0.7241,
+     "threebet_th": 0.7793,
+     "push_bb": 18.5493,
+     "push_th": 0.8965,
+     "call_push_th": 0.8679,
+     "bet_cat": 2.0038,
+     "call_cat": 0.3066,
+     "raise_cat": 3.974,
+     "big_bet_extra": 0.4329,
+     "cbet_rate": 0.897,
+     "bluff_rate": 0.1204,
+     "value_size": 0.8736,
+     "bluff_size": 0.8731
+    },
+    "name": "replica:Spock's Brain"
+   }
+  },
+  {
+   "team": "KC",
+   "weight": 204,
+   "points_real": 5.296666666666667,
+   "dist": 0.47,
+   "team_stats": {
+    "vpip": 0.23598039215686276,
+    "pfr": 0.013450980392156862,
+    "pf_allin": 0.00036274509803921567,
+    "post_aggr": 0.07554901960784313,
+    "fold_to_bet": 0.22025490196078432
+   },
+   "replica_stats": {
+    "vpip": 0.275,
+    "pfr": 0.083,
+    "pf_allin": 0.015,
+    "post_aggr": 0.078,
+    "fold_to_bet": 0.164
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.7837,
+     "pos_bonus": 0.1889,
+     "open_size": 2.4599,
+     "call_th": 0.5327,
+     "threebet_th": 0.9511,
+     "push_bb": 17.4813,
+     "push_th": 0.7655,
+     "call_push_th": 0.5931,
+     "bet_cat": 2.377,
+     "call_cat": 0.0245,
+     "raise_cat": 2.0171,
+     "big_bet_extra": 0.4801,
+     "cbet_rate": 0.9569,
+     "bluff_rate": 0.0178,
+     "value_size": 0.4608,
+     "bluff_size": 0.8005
+    },
+    "name": "replica:KC"
+   }
+  },
+  {
+   "team": "Boji Club",
+   "weight": 216,
+   "points_real": 7.312453703703704,
+   "dist": 0.731,
+   "team_stats": {
+    "vpip": 0.2532083333333333,
+    "pfr": 0.21127777777777776,
+    "pf_allin": 0.038921296296296294,
+    "post_aggr": 0.0,
+    "fold_to_bet": 0.1550277777777778
+   },
+   "replica_stats": {
+    "vpip": 0.264,
+    "pfr": 0.249,
+    "pf_allin": 0.015,
+    "post_aggr": 0.125,
+    "fold_to_bet": 0.205
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.7052,
+     "pos_bonus": 0.2648,
+     "open_size": 3.4529,
+     "call_th": 0.8797,
+     "threebet_th": 0.8361,
+     "push_bb": 9.957,
+     "push_th": 0.5041,
+     "call_push_th": 0.6229,
+     "bet_cat": 2.8472,
+     "call_cat": 0.1791,
+     "raise_cat": 2.0545,
+     "big_bet_extra": 0.5213,
+     "cbet_rate": 0.0492,
+     "bluff_rate": 0.1535,
+     "value_size": 0.4828,
+     "bluff_size": 0.3421
+    },
+    "name": "replica:Boji Club"
+   }
+  },
+  {
+   "team": "Bean",
+   "weight": 222,
+   "points_real": 7.478378378378379,
+   "dist": 0.924,
+   "team_stats": {
+    "vpip": 0.0,
+    "pfr": 0.0,
+    "pf_allin": 0.0,
+    "post_aggr": 0.0,
+    "fold_to_bet": 1.0
+   },
+   "replica_stats": {
+    "vpip": 0.096,
+    "pfr": 0.046,
+    "pf_allin": 0.025,
+    "post_aggr": 0.114,
+    "fold_to_bet": 0.885
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8453,
+     "pos_bonus": 0.0444,
+     "open_size": 3.2695,
+     "call_th": 0.6512,
+     "threebet_th": 0.8932,
+     "push_bb": 7.3966,
+     "push_th": 0.7273,
+     "call_push_th": 0.8994,
+     "bet_cat": 2.6409,
+     "call_cat": 1.5716,
+     "raise_cat": 3.0145,
+     "big_bet_extra": 0.8516,
+     "cbet_rate": 0.1141,
+     "bluff_rate": 0.4187,
+     "value_size": 0.9898,
+     "bluff_size": 0.5899
+    },
+    "name": "replica:Bean"
+   }
+  },
+  {
+   "team": "kyle",
+   "weight": 204,
+   "points_real": 7.695882352941177,
+   "dist": 0.924,
+   "team_stats": {
+    "vpip": 0.0,
+    "pfr": 0.0,
+    "pf_allin": 0.0,
+    "post_aggr": 0.0,
+    "fold_to_bet": 1.0
+   },
+   "replica_stats": {
+    "vpip": 0.096,
+    "pfr": 0.046,
+    "pf_allin": 0.025,
+    "post_aggr": 0.114,
+    "fold_to_bet": 0.885
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8453,
+     "pos_bonus": 0.0444,
+     "open_size": 3.2695,
+     "call_th": 0.6512,
+     "threebet_th": 0.8932,
+     "push_bb": 7.3966,
+     "push_th": 0.7273,
+     "call_push_th": 0.8994,
+     "bet_cat": 2.6409,
+     "call_cat": 1.5716,
+     "raise_cat": 3.0145,
+     "big_bet_extra": 0.8516,
+     "cbet_rate": 0.1141,
+     "bluff_rate": 0.4187,
+     "value_size": 0.9898,
+     "bluff_size": 0.5899
+    },
+    "name": "replica:kyle"
+   }
+  },
+  {
+   "team": "Berkeley Hardstyle Club",
+   "weight": 237,
+   "points_real": 7.895063291139241,
+   "dist": 0.924,
+   "team_stats": {
+    "vpip": 0.0,
+    "pfr": 0.0,
+    "pf_allin": 0.0,
+    "post_aggr": 0.0,
+    "fold_to_bet": 1.0
+   },
+   "replica_stats": {
+    "vpip": 0.096,
+    "pfr": 0.046,
+    "pf_allin": 0.025,
+    "post_aggr": 0.114,
+    "fold_to_bet": 0.885
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8453,
+     "pos_bonus": 0.0444,
+     "open_size": 3.2695,
+     "call_th": 0.6512,
+     "threebet_th": 0.8932,
+     "push_bb": 7.3966,
+     "push_th": 0.7273,
+     "call_push_th": 0.8994,
+     "bet_cat": 2.6409,
+     "call_cat": 1.5716,
+     "raise_cat": 3.0145,
+     "big_bet_extra": 0.8516,
+     "cbet_rate": 0.1141,
+     "bluff_rate": 0.4187,
+     "value_size": 0.9898,
+     "bluff_size": 0.5899
+    },
+    "name": "replica:Berkeley Hardstyle Club"
+   }
+  },
+  {
+   "team": "EK88",
+   "weight": 232,
+   "points_real": 11.208749999999998,
+   "dist": 0.408,
+   "team_stats": {
+    "vpip": 0.35873706896551727,
+    "pfr": 0.17807758620689657,
+    "pf_allin": 0.026275862068965518,
+    "post_aggr": 0.21507758620689657,
+    "fold_to_bet": 0.41696982758620693
+   },
+   "replica_stats": {
+    "vpip": 0.361,
+    "pfr": 0.241,
+    "pf_allin": 0.06,
+    "post_aggr": 0.24,
+    "fold_to_bet": 0.408
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5946,
+     "pos_bonus": 0.2204,
+     "open_size": 3.4384,
+     "call_th": 0.5741,
+     "threebet_th": 0.9862,
+     "push_bb": 19.7133,
+     "push_th": 0.673,
+     "call_push_th": 0.948,
+     "bet_cat": 2.0532,
+     "call_cat": 0.9615,
+     "raise_cat": 1.7609,
+     "big_bet_extra": 0.026,
+     "cbet_rate": 0.5913,
+     "bluff_rate": 0.3593,
+     "value_size": 0.9158,
+     "bluff_size": 0.8371
+    },
+    "name": "replica:EK88"
+   }
+  },
+  {
+   "team": "3betblind",
+   "weight": 222,
+   "points_real": 4.413333333333333,
+   "dist": 0.42,
+   "team_stats": {
+    "vpip": 0.39325225225225224,
+    "pfr": 0.21873873873873872,
+    "pf_allin": 0.0033873873873873873,
+    "post_aggr": 0.35866666666666663,
+    "fold_to_bet": 0.14318018018018017
+   },
+   "replica_stats": {
+    "vpip": 0.373,
+    "pfr": 0.193,
+    "pf_allin": 0.066,
+    "post_aggr": 0.366,
+    "fold_to_bet": 0.152
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0698,
+     "pos_bonus": 0.0436,
+     "open_size": 2.6652,
+     "threebet_ratio": 2.5533,
+     "threebet_mult": 3.5645,
+     "call_margin": -0.0264,
+     "push_bb": 7.9422,
+     "push_ratio": 0.9909,
+     "call_push_margin": -0.038,
+     "value_eq": 0.779,
+     "raise_eq": 0.6622,
+     "cbet_rate": 0.5593,
+     "bluff_rate": 0.2237,
+     "value_size": 0.4907,
+     "bluff_size": 0.7989,
+     "icm_weight": 0.3274,
+     "adapt": 0.6437,
+     "multiway_pow": 0.4398
+    },
+    "name": "replica:3betblind"
+   }
+  },
+  {
+   "team": "11dproton",
+   "weight": 238,
+   "points_real": 7.396470588235295,
+   "dist": 0.496,
+   "team_stats": {
+    "vpip": 0.29350420168067226,
+    "pfr": 0.17231932773109243,
+    "pf_allin": 0.024084033613445376,
+    "post_aggr": 0.22026890756302525,
+    "fold_to_bet": 0.44218487394957984
+   },
+   "replica_stats": {
+    "vpip": 0.2,
+    "pfr": 0.163,
+    "pf_allin": 0.029,
+    "post_aggr": 0.234,
+    "fold_to_bet": 0.5
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.7339,
+     "pos_bonus": 0.1812,
+     "open_size": 3.2684,
+     "call_th": 0.7193,
+     "threebet_th": 0.9001,
+     "push_bb": 12.9603,
+     "push_th": 0.4908,
+     "call_push_th": 0.8037,
+     "bet_cat": 2.2592,
+     "call_cat": 1.0698,
+     "raise_cat": 4.4097,
+     "big_bet_extra": 0.7215,
+     "cbet_rate": 0.1663,
+     "bluff_rate": 0.2557,
+     "value_size": 0.6581,
+     "bluff_size": 0.3741
+    },
+    "name": "replica:11dproton"
+   }
+  },
+  {
+   "team": "Team Hog",
+   "weight": 230,
+   "points_real": 4.044173913043478,
+   "dist": 1.85,
+   "team_stats": {
+    "vpip": 0.9173739130434783,
+    "pfr": 0.6119478260869565,
+    "pf_allin": 0.017565217391304348,
+    "post_aggr": 0.3690086956521739,
+    "fold_to_bet": 0.580991304347826
+   },
+   "replica_stats": {
+    "vpip": 0.634,
+    "pfr": 0.408,
+    "pf_allin": 0.092,
+    "post_aggr": 0.382,
+    "fold_to_bet": 0.743
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.4151,
+     "pos_bonus": 0.1439,
+     "open_size": 2.6763,
+     "call_th": 0.5417,
+     "threebet_th": 0.9656,
+     "push_bb": 18.954,
+     "push_th": 0.5058,
+     "call_push_th": 0.7005,
+     "bet_cat": 1.1835,
+     "call_cat": 1.6807,
+     "raise_cat": 1.8294,
+     "big_bet_extra": 0.5003,
+     "cbet_rate": 0.4103,
+     "bluff_rate": 0.2364,
+     "value_size": 0.7352,
+     "bluff_size": 0.697
+    },
+    "name": "replica:Team Hog"
+   }
+  },
+  {
+   "team": "TV All-In",
+   "weight": 216,
+   "points_real": 7.360185185185186,
+   "dist": 1.403,
+   "team_stats": {
+    "vpip": 0.7088981481481482,
+    "pfr": 0.6520972222222222,
+    "pf_allin": 0.01013425925925926,
+    "post_aggr": 0.30534259259259255,
+    "fold_to_bet": 0.32034722222222217
+   },
+   "replica_stats": {
+    "vpip": 0.523,
+    "pfr": 0.442,
+    "pf_allin": 0.01,
+    "post_aggr": 0.278,
+    "fold_to_bet": 0.381
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5243,
+     "pos_bonus": 0.2489,
+     "open_size": 3.7595,
+     "call_th": 0.6528,
+     "threebet_th": 0.9729,
+     "push_bb": 4.6102,
+     "push_th": 0.5111,
+     "call_push_th": 0.7282,
+     "bet_cat": 1.2715,
+     "call_cat": 0.901,
+     "raise_cat": 4.4309,
+     "big_bet_extra": 0.2248,
+     "cbet_rate": 0.1925,
+     "bluff_rate": 0.1142,
+     "value_size": 0.9802,
+     "bluff_size": 0.4259
+    },
+    "name": "replica:TV All-In"
+   }
+  },
+  {
+   "team": "Backtier Labs",
+   "weight": 227,
+   "points_real": 2.8201762114537448,
+   "dist": 0.738,
+   "team_stats": {
+    "vpip": 0.49838766519823785,
+    "pfr": 0.1813876651982379,
+    "pf_allin": 0.0036519823788546254,
+    "post_aggr": 0.06730396475770925,
+    "fold_to_bet": 0.9261277533039647
+   },
+   "replica_stats": {
+    "vpip": 0.38,
+    "pfr": 0.266,
+    "pf_allin": 0.002,
+    "post_aggr": 0.056,
+    "fold_to_bet": 0.868
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5241,
+     "pos_bonus": 0.0862,
+     "open_size": 3.7777,
+     "call_th": 0.6398,
+     "threebet_th": 0.9314,
+     "push_bb": 9.8693,
+     "push_th": 0.5356,
+     "call_push_th": 0.5006,
+     "bet_cat": 2.9086,
+     "call_cat": 1.879,
+     "raise_cat": 4.4456,
+     "big_bet_extra": 0.8835,
+     "cbet_rate": 0.0624,
+     "bluff_rate": 0.0816,
+     "value_size": 0.3492,
+     "bluff_size": 0.7092
+    },
+    "name": "replica:Backtier Labs"
+   }
+  },
+  {
+   "team": "Eradicating Entropy",
+   "weight": 215,
+   "points_real": 4.420837209302325,
+   "dist": 3.467,
+   "team_stats": {
+    "vpip": 0.8138046511627907,
+    "pfr": 0.7981488372093022,
+    "pf_allin": 0.6235906976744187,
+    "post_aggr": 0.26183720930232557,
+    "fold_to_bet": 0.38144186046511624
+   },
+   "replica_stats": {
+    "vpip": 0.454,
+    "pfr": 0.429,
+    "pf_allin": 0.429,
+    "post_aggr": 0.0,
+    "fold_to_bet": 0.0
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_jam/agent.py",
+    "params": {
+     "push_th": 0.4252,
+     "call_th": 0.4665,
+     "ref_bb": 36.245,
+     "stack_exp": 0.6157,
+     "post_cat": 2.4953
+    },
+    "name": "replica:Eradicating Entropy"
+   }
+  },
+  {
+   "team": "Team 95",
+   "weight": 238,
+   "points_real": 3.277058823529412,
+   "dist": 1.06,
+   "team_stats": {
+    "vpip": 0.6521470588235294,
+    "pfr": 0.11720588235294117,
+    "pf_allin": 0.002735294117647059,
+    "post_aggr": 0.22347058823529414,
+    "fold_to_bet": 0.5432352941176471
+   },
+   "replica_stats": {
+    "vpip": 0.551,
+    "pfr": 0.301,
+    "pf_allin": 0.007,
+    "post_aggr": 0.209,
+    "fold_to_bet": 0.568
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5254,
+     "pos_bonus": 0.0609,
+     "open_size": 2.3868,
+     "call_th": 0.5319,
+     "threebet_th": 0.8571,
+     "push_bb": 6.7515,
+     "push_th": 0.7392,
+     "call_push_th": 0.7701,
+     "bet_cat": 2.0616,
+     "call_cat": 1.2011,
+     "raise_cat": 3.3373,
+     "big_bet_extra": 0.4434,
+     "cbet_rate": 0.464,
+     "bluff_rate": 0.3443,
+     "value_size": 0.5153,
+     "bluff_size": 0.8
+    },
+    "name": "replica:Team 95"
+   }
+  },
+  {
+   "team": "Team 115",
+   "weight": 226,
+   "points_real": 1.4175221238938054,
+   "dist": 5.035,
+   "team_stats": {
+    "vpip": 1.0,
+    "pfr": 0.9744513274336283,
+    "pf_allin": 0.9744513274336283,
+    "post_aggr": 0.0,
+    "fold_to_bet": 0.0
+   },
+   "replica_stats": {
+    "vpip": 0.454,
+    "pfr": 0.429,
+    "pf_allin": 0.429,
+    "post_aggr": 0.0,
+    "fold_to_bet": 0.0
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_jam/agent.py",
+    "params": {
+     "push_th": 0.4252,
+     "call_th": 0.4665,
+     "ref_bb": 36.245,
+     "stack_exp": 0.6157,
+     "post_cat": 2.4953
+    },
+    "name": "replica:Team 115"
+   }
+  },
+  {
+   "team": "bill & ted",
+   "weight": 224,
+   "points_real": 8.793705357142857,
+   "dist": 1.998,
+   "team_stats": {
+    "vpip": 0.6741294642857143,
+    "pfr": 0.03975446428571429,
+    "pf_allin": 0.0006116071428571429,
+    "post_aggr": 0.7470982142857142,
+    "fold_to_bet": 0.17736607142857141
+   },
+   "replica_stats": {
+    "vpip": 0.29,
+    "pfr": 0.137,
+    "pf_allin": 0.048,
+    "post_aggr": 0.606,
+    "fold_to_bet": 0.212
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0517,
+     "pos_bonus": 0.2103,
+     "open_size": 2.6831,
+     "threebet_ratio": 2.3667,
+     "threebet_mult": 3.7305,
+     "call_margin": 0.0681,
+     "push_bb": 12.7348,
+     "push_ratio": 0.9895,
+     "call_push_margin": 0.1293,
+     "value_eq": 0.5309,
+     "raise_eq": 0.7273,
+     "cbet_rate": 0.3745,
+     "bluff_rate": 0.3615,
+     "value_size": 0.9692,
+     "bluff_size": 0.5079,
+     "icm_weight": 2.2448,
+     "adapt": 0.9497,
+     "multiway_pow": 0.3279
+    },
+    "name": "replica:bill & ted"
+   }
+  },
+  {
+   "team": "Spartan Mathematics",
+   "weight": 209,
+   "points_real": 10.671052631578949,
+   "dist": 1.006,
+   "team_stats": {
+    "vpip": 0.5142344497607655,
+    "pfr": 0.4813253588516746,
+    "pf_allin": 0.055148325358851676,
+    "post_aggr": 0.6051387559808613,
+    "fold_to_bet": 0.24570334928229667
+   },
+   "replica_stats": {
+    "vpip": 0.472,
+    "pfr": 0.307,
+    "pf_allin": 0.017,
+    "post_aggr": 0.55,
+    "fold_to_bet": 0.288
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.8632,
+     "pos_bonus": 0.1406,
+     "open_size": 2.9253,
+     "threebet_ratio": 1.6861,
+     "threebet_mult": 3.6829,
+     "call_margin": -0.0091,
+     "push_bb": 4.2326,
+     "push_ratio": 1.306,
+     "call_push_margin": -0.0399,
+     "value_eq": 0.51,
+     "raise_eq": 0.8122,
+     "cbet_rate": 0.6044,
+     "bluff_rate": 0.2711,
+     "value_size": 0.3703,
+     "bluff_size": 0.6705,
+     "icm_weight": 1.3072,
+     "adapt": 0.3045,
+     "multiway_pow": 0.5677
+    },
+    "name": "replica:Spartan Mathematics"
+   }
+  },
+  {
+   "team": "prior_updating...",
+   "weight": 234,
+   "points_real": 0.0,
+   "dist": 4.626,
+   "team_stats": {
+    "vpip": 1.0,
+    "pfr": 0.9616666666666666,
+    "pf_allin": 0.041666666666666664,
+    "post_aggr": 0.8943333333333333,
+    "fold_to_bet": 0.0
+   },
+   "replica_stats": {
+    "vpip": 0.51,
+    "pfr": 0.455,
+    "pf_allin": 0.003,
+    "post_aggr": 0.333,
+    "fold_to_bet": 0.222
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.9234,
+     "pos_bonus": 0.4369,
+     "open_size": 2.9448,
+     "threebet_ratio": 1.3408,
+     "threebet_mult": 2.9775,
+     "call_margin": 0.0255,
+     "push_bb": 14.7898,
+     "push_ratio": 1.7354,
+     "call_push_margin": 0.0487,
+     "value_eq": 0.7413,
+     "raise_eq": 0.7358,
+     "cbet_rate": 0.7786,
+     "bluff_rate": 0.0526,
+     "value_size": 1.0423,
+     "bluff_size": 0.3749,
+     "icm_weight": 1.4646,
+     "adapt": 0.2021,
+     "multiway_pow": 0.7155
+    },
+    "name": "replica:prior_updating..."
+   }
+  },
+  {
+   "team": "Team 72",
+   "weight": 155,
+   "points_real": 21.55,
+   "dist": 0.509,
+   "team_stats": {
+    "vpip": 0.297,
+    "pfr": 0.212,
+    "pf_allin": 0.02,
+    "post_aggr": 0.4580000000000001,
+    "fold_to_bet": 0.623
+   },
+   "replica_stats": {
+    "vpip": 0.227,
+    "pfr": 0.22,
+    "pf_allin": 0.021,
+    "post_aggr": 0.432,
+    "fold_to_bet": 0.714
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.638,
+     "pos_bonus": 0.1599,
+     "open_size": 3.5772,
+     "call_th": 0.857,
+     "threebet_th": 0.7672,
+     "push_bb": 4.3554,
+     "push_th": 0.5855,
+     "call_push_th": 0.5143,
+     "bet_cat": 2.4909,
+     "call_cat": 1.5509,
+     "raise_cat": 2.3566,
+     "big_bet_extra": 0.2869,
+     "cbet_rate": 0.8686,
+     "bluff_rate": 0.4181,
+     "value_size": 0.9837,
+     "bluff_size": 0.7688
+    },
+    "name": "replica:Team 72"
+   }
+  },
+  {
+   "team": "thepastaway",
+   "weight": 145,
+   "points_real": 16.62,
+   "dist": 0.931,
+   "team_stats": {
+    "vpip": 0.62,
+    "pfr": 0.179,
+    "pf_allin": 0.023,
+    "post_aggr": 0.324,
+    "fold_to_bet": 0.568
+   },
+   "replica_stats": {
+    "vpip": 0.551,
+    "pfr": 0.301,
+    "pf_allin": 0.007,
+    "post_aggr": 0.209,
+    "fold_to_bet": 0.568
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.5254,
+     "pos_bonus": 0.0609,
+     "open_size": 2.3868,
+     "call_th": 0.5319,
+     "threebet_th": 0.8571,
+     "push_bb": 6.7515,
+     "push_th": 0.7392,
+     "call_push_th": 0.7701,
+     "bet_cat": 2.0616,
+     "call_cat": 1.2011,
+     "raise_cat": 3.3373,
+     "big_bet_extra": 0.4434,
+     "cbet_rate": 0.464,
+     "bluff_rate": 0.3443,
+     "value_size": 0.5153,
+     "bluff_size": 0.8
+    },
+    "name": "replica:thepastaway"
+   }
+  },
+  {
+   "team": "nik airball",
+   "weight": 165,
+   "points_real": 15.579999999999998,
+   "dist": 0.33,
+   "team_stats": {
+    "vpip": 0.258,
+    "pfr": 0.159,
+    "pf_allin": 0.041,
+    "post_aggr": 0.434,
+    "fold_to_bet": 0.268
+   },
+   "replica_stats": {
+    "vpip": 0.271,
+    "pfr": 0.13,
+    "pf_allin": 0.0,
+    "post_aggr": 0.447,
+    "fold_to_bet": 0.238
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.068,
+     "pos_bonus": 0.0381,
+     "open_size": 3.7078,
+     "threebet_ratio": 2.5615,
+     "threebet_mult": 3.8355,
+     "call_margin": 0.0632,
+     "push_bb": 5.36,
+     "push_ratio": 1.5661,
+     "call_push_margin": 0.0799,
+     "value_eq": 0.791,
+     "raise_eq": 0.8658,
+     "cbet_rate": 0.5028,
+     "bluff_rate": 0.4883,
+     "value_size": 0.7618,
+     "bluff_size": 0.5845,
+     "icm_weight": 1.5931,
+     "adapt": 0.7882,
+     "multiway_pow": 1.0051
+    },
+    "name": "replica:nik airball"
+   }
+  },
+  {
+   "team": "durrrr",
+   "weight": 157,
+   "points_real": 14.65,
+   "dist": 0.515,
+   "team_stats": {
+    "vpip": 0.176,
+    "pfr": 0.152,
+    "pf_allin": 0.062,
+    "post_aggr": 0.4570000000000001,
+    "fold_to_bet": 0.235
+   },
+   "replica_stats": {
+    "vpip": 0.198,
+    "pfr": 0.098,
+    "pf_allin": 0.0,
+    "post_aggr": 0.486,
+    "fold_to_bet": 0.212
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.1288,
+     "pos_bonus": 0.2445,
+     "open_size": 3.308,
+     "threebet_ratio": 2.4527,
+     "threebet_mult": 3.9036,
+     "call_margin": 0.0636,
+     "push_bb": 12.0151,
+     "push_ratio": 1.7135,
+     "call_push_margin": 0.0289,
+     "value_eq": 0.6048,
+     "raise_eq": 0.8588,
+     "cbet_rate": 0.2583,
+     "bluff_rate": 0.1839,
+     "value_size": 0.7293,
+     "bluff_size": 0.6077,
+     "icm_weight": 0.8962,
+     "adapt": 0.4305,
+     "multiway_pow": 0.841
+    },
+    "name": "replica:durrrr"
+   }
+  },
+  {
+   "team": "Snoopy",
+   "weight": 140,
+   "points_real": 13.86,
+   "dist": 0.415,
+   "team_stats": {
+    "vpip": 0.205,
+    "pfr": 0.153,
+    "pf_allin": 0.038,
+    "post_aggr": 0.554,
+    "fold_to_bet": 0.174
+   },
+   "replica_stats": {
+    "vpip": 0.25,
+    "pfr": 0.141,
+    "pf_allin": 0.0,
+    "post_aggr": 0.532,
+    "fold_to_bet": 0.233
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0716,
+     "pos_bonus": 0.3084,
+     "open_size": 2.1272,
+     "threebet_ratio": 2.1797,
+     "threebet_mult": 3.9145,
+     "call_margin": 0.0512,
+     "push_bb": 6.3327,
+     "push_ratio": 1.4123,
+     "call_push_margin": -0.0369,
+     "value_eq": 0.6615,
+     "raise_eq": 0.628,
+     "cbet_rate": 0.4174,
+     "bluff_rate": 0.4089,
+     "value_size": 1.0394,
+     "bluff_size": 0.8901,
+     "icm_weight": 1.1435,
+     "adapt": 0.4411,
+     "multiway_pow": 0.366
+    },
+    "name": "replica:Snoopy"
+   }
+  },
+  {
+   "team": "Litmus",
+   "weight": 143,
+   "points_real": 12.87,
+   "dist": 0.492,
+   "team_stats": {
+    "vpip": 0.235,
+    "pfr": 0.211,
+    "pf_allin": 0.007000000000000001,
+    "post_aggr": 0.648,
+    "fold_to_bet": 0.366
+   },
+   "replica_stats": {
+    "vpip": 0.218,
+    "pfr": 0.131,
+    "pf_allin": 0.014,
+    "post_aggr": 0.652,
+    "fold_to_bet": 0.429
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.3771,
+     "pos_bonus": 0.445,
+     "open_size": 3.998,
+     "threebet_ratio": 2.391,
+     "threebet_mult": 3.3805,
+     "call_margin": 0.1421,
+     "push_bb": 6.2997,
+     "push_ratio": 1.2633,
+     "call_push_margin": 0.0628,
+     "value_eq": 0.5461,
+     "raise_eq": 0.8733,
+     "cbet_rate": 0.0621,
+     "bluff_rate": 0.3144,
+     "value_size": 0.5797,
+     "bluff_size": 0.4921,
+     "icm_weight": 1.5171,
+     "adapt": 0.1914,
+     "multiway_pow": 0.837
+    },
+    "name": "replica:Litmus"
+   }
+  },
+  {
+   "team": "How do you play poker",
+   "weight": 165,
+   "points_real": 12.420000000000002,
+   "dist": 0.239,
+   "team_stats": {
+    "vpip": 0.211,
+    "pfr": 0.18,
+    "pf_allin": 0.034,
+    "post_aggr": 0.292,
+    "fold_to_bet": 0.197
+   },
+   "replica_stats": {
+    "vpip": 0.206,
+    "pfr": 0.174,
+    "pf_allin": 0.007,
+    "post_aggr": 0.31,
+    "fold_to_bet": 0.231
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.6547,
+     "pos_bonus": 0.1046,
+     "open_size": 2.4644,
+     "call_th": 0.8799,
+     "threebet_th": 0.7331,
+     "push_bb": 19.0479,
+     "push_th": 0.7457,
+     "call_push_th": 0.5323,
+     "bet_cat": 2.7543,
+     "call_cat": 0.255,
+     "raise_cat": 3.1963,
+     "big_bet_extra": 0.1796,
+     "cbet_rate": 0.9888,
+     "bluff_rate": 0.1547,
+     "value_size": 1.1721,
+     "bluff_size": 0.2961
+    },
+    "name": "replica:How do you play poker"
+   }
+  },
+  {
+   "team": "Lemonade",
+   "weight": 155,
+   "points_real": 12.26,
+   "dist": 0.698,
+   "team_stats": {
+    "vpip": 0.7,
+    "pfr": 0.374,
+    "pf_allin": 0.022,
+    "post_aggr": 0.336,
+    "fold_to_bet": 0.659
+   },
+   "replica_stats": {
+    "vpip": 0.634,
+    "pfr": 0.408,
+    "pf_allin": 0.092,
+    "post_aggr": 0.382,
+    "fold_to_bet": 0.743
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.4151,
+     "pos_bonus": 0.1439,
+     "open_size": 2.6763,
+     "call_th": 0.5417,
+     "threebet_th": 0.9656,
+     "push_bb": 18.954,
+     "push_th": 0.5058,
+     "call_push_th": 0.7005,
+     "bet_cat": 1.1835,
+     "call_cat": 1.6807,
+     "raise_cat": 1.8294,
+     "big_bet_extra": 0.5003,
+     "cbet_rate": 0.4103,
+     "bluff_rate": 0.2364,
+     "value_size": 0.7352,
+     "bluff_size": 0.697
+    },
+    "name": "replica:Lemonade"
+   }
+  },
+  {
+   "team": "Team 35",
+   "weight": 152,
+   "points_real": 12.24,
+   "dist": 0.176,
+   "team_stats": {
+    "vpip": 0.176,
+    "pfr": 0.042,
+    "pf_allin": 0.01,
+    "post_aggr": 0.527,
+    "fold_to_bet": 0.275
+   },
+   "replica_stats": {
+    "vpip": 0.169,
+    "pfr": 0.022,
+    "pf_allin": 0.006,
+    "post_aggr": 0.553,
+    "fold_to_bet": 0.275
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.668,
+     "pos_bonus": 0.2872,
+     "open_size": 2.2519,
+     "threebet_ratio": 2.3502,
+     "threebet_mult": 2.3623,
+     "call_margin": 0.0614,
+     "push_bb": 5.5564,
+     "push_ratio": 0.9833,
+     "call_push_margin": 0.0321,
+     "value_eq": 0.5547,
+     "raise_eq": 0.9472,
+     "cbet_rate": 0.578,
+     "bluff_rate": 0.4486,
+     "value_size": 1.2565,
+     "bluff_size": 0.8184,
+     "icm_weight": 1.6144,
+     "adapt": 0.473,
+     "multiway_pow": 1.2333
+    },
+    "name": "replica:Team 35"
+   }
+  },
+  {
+   "team": "methud",
+   "weight": 171,
+   "points_real": 11.99,
+   "dist": 2.503,
+   "team_stats": {
+    "vpip": 0.266,
+    "pfr": 0.256,
+    "pf_allin": 0.256,
+    "post_aggr": 0.9799999999999999,
+    "fold_to_bet": 0.0
+   },
+   "replica_stats": {
+    "vpip": 0.207,
+    "pfr": 0.123,
+    "pf_allin": 0.007,
+    "post_aggr": 0.7,
+    "fold_to_bet": 0.27
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.1216,
+     "pos_bonus": 0.0471,
+     "open_size": 2.6696,
+     "threebet_ratio": 2.2641,
+     "threebet_mult": 2.5804,
+     "call_margin": 0.0986,
+     "push_bb": 12.7398,
+     "push_ratio": 1.5122,
+     "call_push_margin": -0.0145,
+     "value_eq": 0.537,
+     "raise_eq": 0.65,
+     "cbet_rate": 0.3503,
+     "bluff_rate": 0.2154,
+     "value_size": 0.3094,
+     "bluff_size": 0.6269,
+     "icm_weight": 1.0084,
+     "adapt": 0.3215,
+     "multiway_pow": 0.9446
+    },
+    "name": "replica:methud"
+   }
+  },
+  {
+   "team": "Prath",
+   "weight": 165,
+   "points_real": 10.73,
+   "dist": 0.433,
+   "team_stats": {
+    "vpip": 0.151,
+    "pfr": 0.122,
+    "pf_allin": 0.026,
+    "post_aggr": 0.379,
+    "fold_to_bet": 0.188
+   },
+   "replica_stats": {
+    "vpip": 0.221,
+    "pfr": 0.104,
+    "pf_allin": 0.005,
+    "post_aggr": 0.365,
+    "fold_to_bet": 0.245
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.1029,
+     "pos_bonus": 0.226,
+     "open_size": 2.7102,
+     "threebet_ratio": 1.9132,
+     "threebet_mult": 3.6285,
+     "call_margin": 0.0023,
+     "push_bb": 16.9678,
+     "push_ratio": 1.728,
+     "call_push_margin": 0.0702,
+     "value_eq": 0.8357,
+     "raise_eq": 0.9283,
+     "cbet_rate": 0.1711,
+     "bluff_rate": 0.4957,
+     "value_size": 0.5006,
+     "bluff_size": 0.8535,
+     "icm_weight": 0.3031,
+     "adapt": 0.3027,
+     "multiway_pow": 0.8306
+    },
+    "name": "replica:Prath"
+   }
+  },
+  {
+   "team": "Panshul42",
+   "weight": 160,
+   "points_real": 10.19,
+   "dist": 0.346,
+   "team_stats": {
+    "vpip": 0.19,
+    "pfr": 0.144,
+    "pf_allin": 0.03,
+    "post_aggr": 0.483,
+    "fold_to_bet": 0.171
+   },
+   "replica_stats": {
+    "vpip": 0.198,
+    "pfr": 0.098,
+    "pf_allin": 0.0,
+    "post_aggr": 0.486,
+    "fold_to_bet": 0.212
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.1288,
+     "pos_bonus": 0.2445,
+     "open_size": 3.308,
+     "threebet_ratio": 2.4527,
+     "threebet_mult": 3.9036,
+     "call_margin": 0.0636,
+     "push_bb": 12.0151,
+     "push_ratio": 1.7135,
+     "call_push_margin": 0.0289,
+     "value_eq": 0.6048,
+     "raise_eq": 0.8588,
+     "cbet_rate": 0.2583,
+     "bluff_rate": 0.1839,
+     "value_size": 0.7293,
+     "bluff_size": 0.6077,
+     "icm_weight": 0.8962,
+     "adapt": 0.4305,
+     "multiway_pow": 0.841
+    },
+    "name": "replica:Panshul42"
+   }
+  },
+  {
+   "team": "WAYS-ER TEAM",
+   "weight": 146,
+   "points_real": 9.52,
+   "dist": 0.284,
+   "team_stats": {
+    "vpip": 0.253,
+    "pfr": 0.091,
+    "pf_allin": 0.012,
+    "post_aggr": 0.526,
+    "fold_to_bet": 0.451
+   },
+   "replica_stats": {
+    "vpip": 0.24,
+    "pfr": 0.109,
+    "pf_allin": 0.029,
+    "post_aggr": 0.489,
+    "fold_to_bet": 0.417
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.2879,
+     "pos_bonus": 0.4468,
+     "open_size": 3.9814,
+     "threebet_ratio": 1.881,
+     "threebet_mult": 3.4159,
+     "call_margin": 0.083,
+     "push_bb": 15.0989,
+     "push_ratio": 1.2308,
+     "call_push_margin": 0.0779,
+     "value_eq": 0.5237,
+     "raise_eq": 0.915,
+     "cbet_rate": 0.7235,
+     "bluff_rate": 0.4013,
+     "value_size": 0.7623,
+     "bluff_size": 0.4038,
+     "icm_weight": 1.128,
+     "adapt": 0.6806,
+     "multiway_pow": 0.9578
+    },
+    "name": "replica:WAYS-ER TEAM"
+   }
+  },
+  {
+   "team": "Pigeon Poker Player",
+   "weight": 146,
+   "points_real": 9.32,
+   "dist": 0.436,
+   "team_stats": {
+    "vpip": 0.64,
+    "pfr": 0.382,
+    "pf_allin": 0.011,
+    "post_aggr": 0.387,
+    "fold_to_bet": 0.257
+   },
+   "replica_stats": {
+    "vpip": 0.578,
+    "pfr": 0.359,
+    "pf_allin": 0.0,
+    "post_aggr": 0.363,
+    "fold_to_bet": 0.189
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.8607,
+     "pos_bonus": 0.4433,
+     "open_size": 3.6371,
+     "threebet_ratio": 1.9452,
+     "threebet_mult": 3.0033,
+     "call_margin": -0.0444,
+     "push_bb": 15.1998,
+     "push_ratio": 0.9352,
+     "call_push_margin": 0.0552,
+     "value_eq": 0.8239,
+     "raise_eq": 0.8373,
+     "cbet_rate": 0.1165,
+     "bluff_rate": 0.3605,
+     "value_size": 1.0016,
+     "bluff_size": 0.4969,
+     "icm_weight": 1.9289,
+     "adapt": 0.5788,
+     "multiway_pow": 0.7963
+    },
+    "name": "replica:Pigeon Poker Player"
+   }
+  },
+  {
+   "team": "ALL IN",
+   "weight": 135,
+   "points_real": 9.26,
+   "dist": 0.465,
+   "team_stats": {
+    "vpip": 0.461,
+    "pfr": 0.189,
+    "pf_allin": 0.014,
+    "post_aggr": 0.413,
+    "fold_to_bet": 0.394
+   },
+   "replica_stats": {
+    "vpip": 0.398,
+    "pfr": 0.245,
+    "pf_allin": 0.028,
+    "post_aggr": 0.451,
+    "fold_to_bet": 0.38
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 0.8743,
+     "pos_bonus": 0.0599,
+     "open_size": 3.6184,
+     "threebet_ratio": 2.1109,
+     "threebet_mult": 3.5838,
+     "call_margin": -0.0074,
+     "push_bb": 10.7898,
+     "push_ratio": 1.1323,
+     "call_push_margin": 0.112,
+     "value_eq": 0.6291,
+     "raise_eq": 0.8288,
+     "cbet_rate": 0.9892,
+     "bluff_rate": 0.1627,
+     "value_size": 0.8486,
+     "bluff_size": 0.8096,
+     "icm_weight": 2.3021,
+     "adapt": 0.4277,
+     "multiway_pow": 0.7431
+    },
+    "name": "replica:ALL IN"
+   }
+  },
+  {
+   "team": "Caniac Combo",
+   "weight": 150,
+   "points_real": 9.2,
+   "dist": 0.226,
+   "team_stats": {
+    "vpip": 0.333,
+    "pfr": 0.193,
+    "pf_allin": 0.014,
+    "post_aggr": 0.401,
+    "fold_to_bet": 0.275
+   },
+   "replica_stats": {
+    "vpip": 0.334,
+    "pfr": 0.236,
+    "pf_allin": 0.018,
+    "post_aggr": 0.396,
+    "fold_to_bet": 0.283
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0645,
+     "pos_bonus": 0.4351,
+     "open_size": 2.8769,
+     "threebet_ratio": 1.8213,
+     "threebet_mult": 3.2397,
+     "call_margin": 0.0546,
+     "push_bb": 12.7672,
+     "push_ratio": 1.4045,
+     "call_push_margin": 0.14,
+     "value_eq": 0.76,
+     "raise_eq": 0.6323,
+     "cbet_rate": 0.9879,
+     "bluff_rate": 0.0078,
+     "value_size": 0.3527,
+     "bluff_size": 0.8638,
+     "icm_weight": 0.6889,
+     "adapt": 0.0294,
+     "multiway_pow": 0.5112
+    },
+    "name": "replica:Caniac Combo"
+   }
+  },
+  {
+   "team": "Team_01",
+   "weight": 158,
+   "points_real": 7.72,
+   "dist": 0.924,
+   "team_stats": {
+    "vpip": 0.0,
+    "pfr": 0.0,
+    "pf_allin": 0.0,
+    "post_aggr": 0.0,
+    "fold_to_bet": 1.0
+   },
+   "replica_stats": {
+    "vpip": 0.096,
+    "pfr": 0.046,
+    "pf_allin": 0.025,
+    "post_aggr": 0.114,
+    "fold_to_bet": 0.885
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8453,
+     "pos_bonus": 0.0444,
+     "open_size": 3.2695,
+     "call_th": 0.6512,
+     "threebet_th": 0.8932,
+     "push_bb": 7.3966,
+     "push_th": 0.7273,
+     "call_push_th": 0.8994,
+     "bet_cat": 2.6409,
+     "call_cat": 1.5716,
+     "raise_cat": 3.0145,
+     "big_bet_extra": 0.8516,
+     "cbet_rate": 0.1141,
+     "bluff_rate": 0.4187,
+     "value_size": 0.9898,
+     "bluff_size": 0.5899
+    },
+    "name": "replica:Team_01"
+   }
+  },
+  {
+   "team": "Jerries",
+   "weight": 158,
+   "points_real": 7.72,
+   "dist": 0.924,
+   "team_stats": {
+    "vpip": 0.0,
+    "pfr": 0.0,
+    "pf_allin": 0.0,
+    "post_aggr": 0.0,
+    "fold_to_bet": 1.0
+   },
+   "replica_stats": {
+    "vpip": 0.096,
+    "pfr": 0.046,
+    "pf_allin": 0.025,
+    "post_aggr": 0.114,
+    "fold_to_bet": 0.885
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8453,
+     "pos_bonus": 0.0444,
+     "open_size": 3.2695,
+     "call_th": 0.6512,
+     "threebet_th": 0.8932,
+     "push_bb": 7.3966,
+     "push_th": 0.7273,
+     "call_push_th": 0.8994,
+     "bet_cat": 2.6409,
+     "call_cat": 1.5716,
+     "raise_cat": 3.0145,
+     "big_bet_extra": 0.8516,
+     "cbet_rate": 0.1141,
+     "bluff_rate": 0.4187,
+     "value_size": 0.9898,
+     "bluff_size": 0.5899
+    },
+    "name": "replica:Jerries"
+   }
+  },
+  {
+   "team": "Raise Against The Machine",
+   "weight": 152,
+   "points_real": 7.37,
+   "dist": 1.183,
+   "team_stats": {
+    "vpip": 0.163,
+    "pfr": 0.156,
+    "pf_allin": 0.156,
+    "post_aggr": 0.0,
+    "fold_to_bet": 1.0
+   },
+   "replica_stats": {
+    "vpip": 0.226,
+    "pfr": 0.221,
+    "pf_allin": 0.004,
+    "post_aggr": 0.108,
+    "fold_to_bet": 1.0
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.4259,
+     "pos_bonus": 0.1652,
+     "open_size": 3.3138,
+     "call_th": 0.7492,
+     "threebet_th": 0.7831,
+     "push_bb": 19.0221,
+     "push_th": 0.8391,
+     "call_push_th": 0.9474,
+     "bet_cat": 1.608,
+     "call_cat": 2.0843,
+     "raise_cat": 3.6749,
+     "big_bet_extra": 0.2638,
+     "cbet_rate": 0.0268,
+     "bluff_rate": 0.0844,
+     "value_size": 0.4188,
+     "bluff_size": 0.306
+    },
+    "name": "replica:Raise Against The Machine"
+   }
+  },
+  {
+   "team": "qab",
+   "weight": 144,
+   "points_real": 6.81,
+   "dist": 0.721,
+   "team_stats": {
+    "vpip": 0.431,
+    "pfr": 0.062000000000000006,
+    "pf_allin": 0.005,
+    "post_aggr": 0.47700000000000004,
+    "fold_to_bet": 0.72
+   },
+   "replica_stats": {
+    "vpip": 0.317,
+    "pfr": 0.094,
+    "pf_allin": 0.009,
+    "post_aggr": 0.391,
+    "fold_to_bet": 0.75
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.8053,
+     "pos_bonus": 0.2372,
+     "open_size": 2.413,
+     "call_th": 0.5181,
+     "threebet_th": 0.881,
+     "push_bb": 11.5265,
+     "push_th": 0.5855,
+     "call_push_th": 0.9126,
+     "bet_cat": 1.0212,
+     "call_cat": 1.6082,
+     "raise_cat": 1.7205,
+     "big_bet_extra": 1.3854,
+     "cbet_rate": 0.9487,
+     "bluff_rate": 0.309,
+     "value_size": 0.6204,
+     "bluff_size": 0.793
+    },
+    "name": "replica:qab"
+   }
+  },
+  {
+   "team": "Leonliuandhisgoons",
+   "weight": 162,
+   "points_real": 5.68,
+   "dist": 0.892,
+   "team_stats": {
+    "vpip": 0.572,
+    "pfr": 0.059,
+    "pf_allin": 0.003,
+    "post_aggr": 0.24100000000000002,
+    "fold_to_bet": 0.315
+   },
+   "replica_stats": {
+    "vpip": 0.417,
+    "pfr": 0.152,
+    "pf_allin": 0.004,
+    "post_aggr": 0.244,
+    "fold_to_bet": 0.254
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_v2/agent.py",
+    "params": {
+     "open_ratio": 1.0359,
+     "pos_bonus": 0.2446,
+     "open_size": 2.4425,
+     "threebet_ratio": 2.0541,
+     "threebet_mult": 3.0981,
+     "call_margin": -0.0429,
+     "push_bb": 13.5493,
+     "push_ratio": 1.5432,
+     "call_push_margin": 0.0645,
+     "value_eq": 0.8055,
+     "raise_eq": 0.663,
+     "cbet_rate": 0.1518,
+     "bluff_rate": 0.0089,
+     "value_size": 0.7961,
+     "bluff_size": 0.576,
+     "icm_weight": 1.1042,
+     "adapt": 0.2629,
+     "multiway_pow": 1.2582
+    },
+    "name": "replica:Leonliuandhisgoons"
+   }
+  },
+  {
+   "team": "The Bridge Team",
+   "weight": 143,
+   "points_real": 5.03,
+   "dist": 0.819,
+   "team_stats": {
+    "vpip": 0.354,
+    "pfr": 0.043,
+    "pf_allin": 0.003,
+    "post_aggr": 0.14,
+    "fold_to_bet": 0.317
+   },
+   "replica_stats": {
+    "vpip": 0.275,
+    "pfr": 0.083,
+    "pf_allin": 0.015,
+    "post_aggr": 0.078,
+    "fold_to_bet": 0.164
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.7837,
+     "pos_bonus": 0.1889,
+     "open_size": 2.4599,
+     "call_th": 0.5327,
+     "threebet_th": 0.9511,
+     "push_bb": 17.4813,
+     "push_th": 0.7655,
+     "call_push_th": 0.5931,
+     "bet_cat": 2.377,
+     "call_cat": 0.0245,
+     "raise_cat": 2.0171,
+     "big_bet_extra": 0.4801,
+     "cbet_rate": 0.9569,
+     "bluff_rate": 0.0178,
+     "value_size": 0.4608,
+     "bluff_size": 0.8005
+    },
+    "name": "replica:The Bridge Team"
+   }
+  },
+  {
+   "team": "Team 52",
+   "weight": 136,
+   "points_real": 3.68,
+   "dist": 0.807,
+   "team_stats": {
+    "vpip": 0.158,
+    "pfr": 0.132,
+    "pf_allin": 0.028,
+    "post_aggr": 0.0,
+    "fold_to_bet": 1.0
+   },
+   "replica_stats": {
+    "vpip": 0.226,
+    "pfr": 0.221,
+    "pf_allin": 0.004,
+    "post_aggr": 0.108,
+    "fold_to_bet": 1.0
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_rule/agent.py",
+    "params": {
+     "open_th": 0.4259,
+     "pos_bonus": 0.1652,
+     "open_size": 3.3138,
+     "call_th": 0.7492,
+     "threebet_th": 0.7831,
+     "push_bb": 19.0221,
+     "push_th": 0.8391,
+     "call_push_th": 0.9474,
+     "bet_cat": 1.608,
+     "call_cat": 2.0843,
+     "raise_cat": 3.6749,
+     "big_bet_extra": 0.2638,
+     "cbet_rate": 0.0268,
+     "bluff_rate": 0.0844,
+     "value_size": 0.4188,
+     "bluff_size": 0.306
+    },
+    "name": "replica:Team 52"
+   }
+  },
+  {
+   "team": "RJ",
+   "weight": 170,
+   "points_real": 1.65,
+   "dist": 5.052,
+   "team_stats": {
+    "vpip": 1.0,
+    "pfr": 0.977,
+    "pf_allin": 0.977,
+    "post_aggr": 0.0,
+    "fold_to_bet": 0.0
+   },
+   "replica_stats": {
+    "vpip": 0.454,
+    "pfr": 0.429,
+    "pf_allin": 0.429,
+    "post_aggr": 0.0,
+    "fold_to_bet": 0.0
+   },
+   "spec": {
+    "path": "/Users/jamesgyc/Desktop/coding projects/poker/bots/jj_jam/agent.py",
+    "params": {
+     "push_th": 0.4252,
+     "call_th": 0.4665,
+     "ref_bb": 36.245,
+     "stack_exp": 0.6157,
+     "post_cat": 2.4953
+    },
+    "name": "replica:RJ"
+   }
+  }
+ ]
+}

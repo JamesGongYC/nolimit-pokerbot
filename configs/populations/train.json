@@ -1,0 +1,10 @@
+{
+  "_comment": "Training fields. Each field is a weighted list of agent presets; tables sample 7 opponents from one field.",
+  "fields": {
+    "aggressive": [["maniac", 2], ["maniac_soft", 2], ["heur_lag", 2], ["shover40", 1], ["eq_lag", 1], ["heur_bluffy", 1]],
+    "passive":    [["station", 3], ["heur_lp", 2], ["heur_tp", 2], ["nit", 1], ["random", 1]],
+    "balanced":   [["heur_tag", 2], ["eq_default", 2], ["eq_tag", 2], ["heur_default", 1], ["eq_value", 1]],
+    "exploitative": [["eq_exploit", 2], ["eq_bully", 2], ["hybrid_default", 2], ["eq_icm", 1]],
+    "mixed":      [["random", 1], ["station", 1], ["maniac", 1], ["shover20", 1], ["nit", 1], ["heur_tag", 1], ["heur_lag", 1], ["eq_default", 1], ["eq_lag", 1], ["hybrid_default", 1]]
+  }
+}

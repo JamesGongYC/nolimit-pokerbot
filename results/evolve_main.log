@@ -1,0 +1,29 @@
+seeding hall of fame with 8 family champions; dueling for the initial top cycle
+gen   1   63.7s  fit 17.17  vs-prev 14.14  vs-anchor 16.14  group 15 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 16
+gen   2   71.2s  fit 16.75  vs-prev 13.77  vs-anchor 17.16  group 23 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 24
+gen   3   74.5s  fit 18.19  vs-prev 12.02  vs-anchor 15.42  group 31 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 32
+gen   4   81.4s  fit 17.99  vs-prev 13.67  vs-anchor 16.61  group 39 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 40
+gen   5   87.9s  fit 16.93  vs-prev 14.04  vs-anchor 16.44  group 47 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 48
+gen   6   96.4s  fit 16.62  vs-prev 12.57  vs-anchor 16.57  group 55 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 56
+gen   7  103.3s  fit 18.46  vs-prev 12.99  vs-anchor 16.04  group 63 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 64
+gen   8  109.5s  fit 17.90  vs-prev 12.09  vs-anchor 15.88  group 71 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 72
+gen   9  119.0s  fit 17.74  vs-prev 13.52  vs-anchor 18.12  group 79 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 80
+  retrained trees on 285449 new samples -> {'gbdt': 'pokerbot/data/evo_main_gbdt_g10.json', 'rf': 'pokerbot/data/evo_main_rf_g10.json'}
+gen  10  163.8s  fit 18.47  vs-prev 15.00  vs-anchor 17.73  group 87 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 88
+gen  11  129.5s  fit 17.01  vs-prev 13.16  vs-anchor 17.79  group 95 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 96
+gen  12  135.8s  fit 17.96  vs-prev 13.50  vs-anchor 16.50  group 103 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 104
+gen  13  144.4s  fit 20.38  vs-prev 10.41  vs-anchor 16.60  group 111 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 112
+gen  14  148.8s  fit 18.23  vs-prev 11.83  vs-anchor 17.84  group 119 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 120
+gen  15  156.8s  fit 18.64  vs-prev 11.08  vs-anchor 18.50  group 127 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 128
+gen  16  168.8s  fit 19.32  vs-prev 11.24  vs-anchor 16.94  group 135 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 136
+gen  17  174.8s  fit 17.27  vs-prev 14.25  vs-anchor 18.21  group 143 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 144
+gen  18  184.2s  fit 19.78  vs-prev 13.82  vs-anchor 15.40  group 151 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 152
+gen  19  191.7s  fit 18.63  vs-prev 9.57  vs-anchor 17.01  group 159 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 160
+  retrained trees on 277343 new samples -> {'gbdt': 'pokerbot/data/evo_main_gbdt_g20.json', 'rf': 'pokerbot/data/evo_main_rf_g20.json'}
+gen  20  222.7s  fit 18.54  vs-prev 13.10  vs-anchor 17.97  group 167 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 168
+gen  21  196.8s  fit 17.45  vs-prev 11.81  vs-anchor 17.73  group 175 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 176
+gen  22  202.0s  fit 17.67  vs-prev 13.00  vs-anchor 16.64  group 183 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 184
+gen  23  205.5s  fit 17.14  vs-prev 11.64  vs-anchor 17.06  group 191 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 192
+gen  24  213.2s  fit 17.56  vs-prev 12.25  vs-anchor 16.94  group 199 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 200
+gen  25  225.8s  fit 19.68  vs-prev 11.30  vs-anchor 18.47  group 207 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 208
+time budget reached

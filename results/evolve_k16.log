@@ -1,0 +1,143 @@
+seeding hall of fame with 8 family champions; dueling for the initial top cycle
+gen   1   47.7s  fit 16.79  vs-prev 13.39  vs-anchor 15.65  group 9 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 16
+gen   2   61.3s  fit 17.12  vs-prev 14.98  vs-anchor 16.19  group 16 ['allin', 'equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 24
+gen   3   69.6s  fit 16.99  vs-prev 13.90  vs-anchor 17.04  group 16 ['equity', 'gbdt', 'heuristic', 'linear', 'montecarlo', 'rf']  hof 32
+gen   4   74.3s  fit 17.52  vs-prev 12.96  vs-anchor 15.95  group 16 ['equity', 'gbdt', 'linear', 'montecarlo', 'rf']  hof 40
+gen   5   69.9s  fit 16.69  vs-prev 16.17  vs-anchor 18.07  group 16 ['equity', 'gbdt', 'linear', 'montecarlo']  hof 48
+gen   6   63.8s  fit 18.06  vs-prev 11.31  vs-anchor 16.12  group 16 ['equity', 'gbdt', 'linear', 'montecarlo']  hof 56
+gen   7   64.3s  fit 16.76  vs-prev 12.24  vs-anchor 16.99  group 16 ['equity', 'gbdt', 'linear', 'montecarlo']  hof 64
+gen   8   65.1s  fit 16.15  vs-prev 13.06  vs-anchor 18.66  group 16 ['equity', 'linear', 'montecarlo']  hof 72
+gen   9   68.1s  fit 15.84  vs-prev 12.59  vs-anchor 16.57  group 16 ['equity', 'linear', 'montecarlo']  hof 80
+  retrained trees on 277898 new samples -> {'gbdt': 'pokerbot/data/evo_k16_gbdt_g10.json', 'rf': 'pokerbot/data/evo_k16_rf_g10.json'}
+gen  10  105.2s  fit 18.27  vs-prev 14.97  vs-anchor 16.67  group 16 ['equity', 'gbdt', 'linear', 'montecarlo', 'rf']  hof 88
+gen  11  1466.3s  fit 16.42  vs-prev 14.75  vs-anchor 15.71  group 16 ['equity', 'gbdt', 'linear', 'montecarlo', 'rf']  hof 96
+gen  12  232.8s  fit 17.55  vs-prev 12.49  vs-anchor 18.10  group 16 ['equity', 'gbdt', 'hybrid', 'linear', 'montecarlo', 'rf']  hof 104
+gen  13   69.7s  fit 17.61  vs-prev 13.85  vs-anchor 18.34  group 16 ['equity', 'gbdt', 'heuristic', 'linear', 'montecarlo']  hof 112
+gen  14   67.7s  fit 16.57  vs-prev 14.05  vs-anchor 16.80  group 16 ['equity', 'gbdt', 'heuristic', 'linear', 'montecarlo']  hof 120
+gen  15   68.5s  fit 16.89  vs-prev 12.42  vs-anchor 15.71  group 16 ['equity', 'gbdt', 'heuristic', 'linear', 'montecarlo']  hof 128
+gen  16   68.5s  fit 16.74  vs-prev 13.60  vs-anchor 16.97  group 16 ['equity', 'gbdt', 'linear', 'montecarlo', 'rf']  hof 136
+gen  17  463.1s  fit 18.83  vs-prev 15.13  vs-anchor 16.12  group 16 ['equity', 'gbdt', 'linear', 'montecarlo', 'rf']  hof 144
+gen  18   66.0s  fit 16.54  vs-prev 12.85  vs-anchor 15.38  group 16 ['equity', 'gbdt', 'linear', 'montecarlo']  hof 152
+gen  19   66.1s  fit 17.95  vs-prev 11.02  vs-anchor 17.16  group 16 ['equity', 'gbdt', 'linear', 'montecarlo']  hof 160
+  retrained trees on 273451 new samples -> {'gbdt': 'pokerbot/data/evo_k16_gbdt_g20.json', 'rf': 'pokerbot/data/evo_k16_rf_g20.json'}
+gen  20  169.5s  fit 17.53  vs-prev 15.27  vs-anchor 17.38  group 16 ['equity', 'gbdt', 'linear', 'montecarlo']  hof 168
+gen  21   66.5s  fit 17.96  vs-prev 12.28  vs-anchor 18.13  group 16 ['equity', 'gbdt', 'linear', 'montecarlo']  hof 176
+gen  22   65.8s  fit 18.17  vs-prev 11.79  vs-anchor 17.50  group 16 ['equity', 'gbdt', 'linear', 'montecarlo', 'rf']  hof 184
+gen  23   66.4s  fit 16.43  vs-prev 12.02  vs-anchor 16.96  group 16 ['equity', 'gbdt', 'linear', 'montecarlo', 'rf']  hof 192
+time budget reached
+resumed k16 at generation 24 (hall of fame 192, group 16)
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+resumed k16 at generation 25 (hall of fame 200, group 16)
+  [gen 25] evaluation 39s
+  [gen 25] duels 57s
+gen  25   62.4s  fit 16.84  vs-prev 11.83  vs-anchor 16.56  group 16 ['equity', 'gbdt', 'linear', 'montecarlo', 'rf']  hof 208
+  [gen 26] evaluation 40s
+  [gen 26] duels 58s
+gen  26   63.0s  fit 17.66  vs-prev 12.78  vs-anchor 17.33  group 16 ['equity', 'gbdt', 'linear', 'montecarlo', 'rf']  hof 216
+  [gen 27] evaluation 39s
+  [gen 27] duels 57s
+gen  27   62.5s  fit 15.68  vs-prev 13.60  vs-anchor 16.83  group 16 ['equity', 'gbdt', 'linear', 'montecarlo']  hof 224
+  [gen 28] evaluation 38s
+  [gen 28] duels 54s
+gen  28   59.8s  fit 18.44  vs-prev 12.10  vs-anchor 17.49  group 16 ['equity', 'gbdt', 'linear', 'montecarlo']  hof 232
+  [gen 29] evaluation 38s
+  [gen 29] duels 55s
+gen  29   60.3s  fit 17.20  vs-prev 13.74  vs-anchor 16.75  group 16 ['equity', 'gbdt', 'linear', 'montecarlo', 'rf']  hof 240
+  retrained trees on 240352 new samples -> {'gbdt': 'pokerbot/data/evo_k16_gbdt_g30.json', 'rf': 'pokerbot/data/evo_k16_rf_g30.json'}
+  [gen 30] evaluation 81s
+  [gen 30] duels 100s
+gen  30  106.2s  fit 17.18  vs-prev 12.79  vs-anchor 17.89  group 16 ['equity', 'gbdt', 'heuristic', 'linear', 'montecarlo', 'rf']  hof 248
+  [gen 31] evaluation 45s
+  [gen 31] duels 64s
+gen  31   69.3s  fit 17.92  vs-prev 10.48  vs-anchor 17.44  group 16 ['equity', 'gbdt', 'heuristic', 'hybrid', 'montecarlo']  hof 256
+  [gen 32] evaluation 40s
+  [gen 32] duels 58s
+gen  32   63.7s  fit 17.54  vs-prev 10.85  vs-anchor 18.29  group 16 ['equity', 'gbdt', 'heuristic', 'hybrid', 'linear', 'montecarlo']  hof 264
+  [gen 33] evaluation 38s
+  [gen 33] duels 55s
+gen  33   60.9s  fit 16.41  vs-prev 11.74  vs-anchor 16.83  group 16 ['equity', 'gbdt', 'hybrid', 'montecarlo']  hof 272
+  [gen 34] evaluation 41s
+  [gen 34] duels 61s
+gen  34   66.7s  fit 16.73  vs-prev 14.51  vs-anchor 17.32  group 16 ['equity', 'gbdt', 'heuristic', 'hybrid', 'montecarlo']  hof 280
+  [gen 35] evaluation 41s
+  [gen 35] duels 60s
+gen  35   65.6s  fit 18.25  vs-prev 13.41  vs-anchor 17.67  group 16 ['equity', 'gbdt', 'heuristic', 'hybrid', 'montecarlo']  hof 288
+  [gen 36] evaluation 45s
+  [gen 36] duels 65s
+gen  36   70.4s  fit 17.31  vs-prev 10.61  vs-anchor 17.43  group 16 ['equity', 'gbdt', 'heuristic', 'hybrid', 'montecarlo']  hof 296
+  [gen 37] evaluation 41s
+  [gen 37] duels 59s
+gen  37   64.2s  fit 16.52  vs-prev 11.47  vs-anchor 17.88  group 16 ['equity', 'gbdt', 'heuristic', 'hybrid', 'montecarlo']  hof 304
+  [gen 38] evaluation 40s
+  [gen 38] duels 58s
+gen  38   63.5s  fit 17.49  vs-prev 13.61  vs-anchor 17.83  group 16 ['equity', 'gbdt', 'heuristic', 'hybrid', 'montecarlo']  hof 312
+  [gen 39] evaluation 40s
+  [gen 39] duels 59s
+gen  39   64.3s  fit 16.25  vs-prev 13.11  vs-anchor 18.66  group 16 ['equity', 'gbdt', 'hybrid', 'montecarlo']  hof 320
+  retrained trees on 257966 new samples -> {'gbdt': 'pokerbot/data/evo_k16_gbdt_g40.json', 'rf': 'pokerbot/data/evo_k16_rf_g40.json'}
+  [gen 40] evaluation 78s
+  [gen 40] duels 100s
+gen  40  106.3s  fit 16.38  vs-prev 13.05  vs-anchor 16.19  group 16 ['equity', 'gbdt', 'hybrid', 'linear', 'montecarlo']  hof 328
+  [gen 41] evaluation 45s
+  [gen 41] duels 67s
+gen  41   73.3s  fit 16.28  vs-prev 14.52  vs-anchor 15.53  group 16 ['equity', 'gbdt', 'linear', 'montecarlo']  hof 336
+  [gen 42] evaluation 47s
+  [gen 42] duels 67s
+gen  42   72.4s  fit 16.23  vs-prev 12.52  vs-anchor 19.09  group 16 ['equity', 'gbdt', 'montecarlo']  hof 344
+  [gen 43] evaluation 48s
+  [gen 43] duels 69s
+gen  43   75.5s  fit 17.11  vs-prev 11.84  vs-anchor 17.16  group 16 ['equity', 'gbdt', 'hybrid', 'montecarlo']  hof 352
+  [gen 44] evaluation 44s
+  [gen 44] duels 63s
+gen  44   68.5s  fit 17.68  vs-prev 10.62  vs-anchor 17.36  group 16 ['equity', 'gbdt', 'hybrid', 'montecarlo']  hof 360
+  [gen 45] evaluation 47s
+  [gen 45] duels 67s
+gen  45   72.9s  fit 16.91  vs-prev 13.77  vs-anchor 16.77  group 16 ['equity', 'gbdt', 'hybrid', 'montecarlo']  hof 368
+  [gen 46] evaluation 47s
+  [gen 46] duels 69s
+gen  46   75.9s  fit 16.44  vs-prev 12.08  vs-anchor 17.42  group 16 ['equity', 'gbdt', 'hybrid', 'montecarlo']  hof 376
+  [gen 47] evaluation 46s
+  [gen 47] duels 65s
+gen  47   71.3s  fit 16.56  vs-prev 10.19  vs-anchor 16.67  group 16 ['equity', 'gbdt', 'hybrid', 'montecarlo']  hof 384
+  [gen 48] evaluation 38s
+  [gen 48] duels 57s
+gen  48   62.5s  fit 17.62  vs-prev 11.99  vs-anchor 16.35  group 16 ['equity', 'gbdt', 'hybrid', 'montecarlo']  hof 392
+  [gen 49] evaluation 41s
+  [gen 49] duels 59s
+gen  49   65.3s  fit 17.23  vs-prev 11.92  vs-anchor 16.33  group 16 ['equity', 'gbdt', 'montecarlo']  hof 400
+  retrained trees on 265534 new samples -> {'gbdt': 'pokerbot/data/evo_k16_gbdt_g50.json', 'rf': 'pokerbot/data/evo_k16_rf_g50.json'}
+  [gen 50] evaluation 75s
+  [gen 50] duels 94s
+gen  50   99.1s  fit 17.19  vs-prev 12.98  vs-anchor 15.79  group 16 ['equity', 'gbdt', 'heuristic', 'hybrid', 'montecarlo']  hof 408
+  [gen 51] evaluation 39s
+  [gen 51] duels 57s
+gen  51   62.9s  fit 18.33  vs-prev 12.84  vs-anchor 16.41  group 16 ['equity', 'gbdt', 'hybrid', 'linear', 'montecarlo']  hof 416
+  [gen 52] evaluation 39s
+  [gen 52] duels 57s
+gen  52   62.8s  fit 17.23  vs-prev 10.95  vs-anchor 16.87  group 16 ['equity', 'gbdt', 'heuristic', 'hybrid', 'montecarlo']  hof 424
+  [gen 53] evaluation 40s
+  [gen 53] duels 58s
+gen  53   63.9s  fit 16.96  vs-prev 13.81  vs-anchor 15.95  group 16 ['equity', 'gbdt', 'hybrid', 'montecarlo']  hof 432
+  [gen 54] evaluation 38s
+  [gen 54] duels 56s
+gen  54   62.0s  fit 16.82  vs-prev 13.00  vs-anchor 17.29  group 16 ['equity', 'gbdt', 'hybrid', 'montecarlo']  hof 440
+  [gen 55] evaluation 41s
+  [gen 55] duels 59s
+gen  55   65.1s  fit 16.62  vs-prev 15.22  vs-anchor 18.08  group 16 ['equity', 'gbdt', 'montecarlo']  hof 448
+  [gen 56] evaluation 42s
+  [gen 56] duels 61s
+gen  56   66.7s  fit 17.90  vs-prev 13.29  vs-anchor 16.58  group 16 ['equity', 'gbdt', 'montecarlo']  hof 456
+  [gen 57] evaluation 42s
+  [gen 57] duels 61s
+gen  57   66.9s  fit 16.70  vs-prev 12.60  vs-anchor 17.96  group 16 ['equity', 'gbdt', 'montecarlo']  hof 464
+  [gen 58] evaluation 42s
+  [gen 58] duels 61s
+gen  58   66.7s  fit 16.58  vs-prev 11.93  vs-anchor 16.20  group 16 ['equity', 'gbdt', 'montecarlo']  hof 472
+  [gen 59] evaluation 43s
+  [gen 59] duels 61s
+gen  59   67.2s  fit 15.84  vs-prev 12.37  vs-anchor 17.46  group 16 ['equity', 'gbdt', 'hybrid', 'montecarlo']  hof 480
+  retrained trees on 282308 new samples -> {'gbdt': 'pokerbot/data/evo_k16_gbdt_g60.json', 'rf': 'pokerbot/data/evo_k16_rf_g60.json'}
+  [gen 60] evaluation 74s
+  [gen 60] duels 92s
+gen  60   98.1s  fit 17.44  vs-prev 12.33  vs-anchor 16.37  group 16 ['equity', 'gbdt', 'hybrid', 'linear', 'montecarlo']  hof 488

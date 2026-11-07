@@ -1,0 +1,46 @@
+gen 0: best 17.02  mu-cand 11.09  median 11.95  22s
+gen 1: best 15.77  mu-cand 14.60  median 13.41  45s
+gen 2: best 17.54  mu-cand 15.95  median 15.04  69s
+gen 3: best 18.43  mu-cand 16.82  median 16.96  93s
+gen 4: best 16.46  mu-cand 15.62  median 15.28  118s
+gen 5: best 18.37  mu-cand 17.46  median 17.41  143s
+gen 6: best 17.02  mu-cand 16.69  median 16.48  167s
+gen 7: best 16.97  mu-cand 16.33  median 16.33  192s
+final jam_25_g3_5                  18.74 +- 0.69  {'aggressive': 25.03, 'balanced': 12.28, 'exploitative': 18.14, 'mixed': 20.0, 'passive': 18.25}
+final jam_25_g5_11                 18.68 +- 0.68  {'aggressive': 25.04, 'balanced': 12.6, 'exploitative': 18.79, 'mixed': 19.42, 'passive': 17.57}
+final jam_25_g7_mean               18.55 +- 0.69  {'aggressive': 24.96, 'balanced': 12.07, 'exploitative': 18.46, 'mixed': 19.65, 'passive': 17.61}
+final jam_25_g6_1                  18.52 +- 0.70  {'aggressive': 25.06, 'balanced': 11.85, 'exploitative': 18.89, 'mixed': 19.24, 'passive': 17.56}
+final jam_25_g2_4                  18.12 +- 0.75  {'aggressive': 23.37, 'balanced': 11.53, 'exploitative': 17.51, 'mixed': 19.8, 'passive': 18.36}
+final jam_25_base                  10.63 +- 0.84  {'aggressive': 14.36, 'balanced': 7.26, 'exploitative': 9.53, 'mixed': 10.66, 'passive': 11.36}
+best -> results/opt_jam/best.json (cpu 1398s, wall 236s)
+gen 0: best 19.40  mu-cand 16.64  median 16.32  16s
+gen 1: best 17.08  mu-cand 17.08  median 15.61  35s
+gen 2: best 20.82  mu-cand 18.76  median 18.76  56s
+gen 3: best 20.15  mu-cand 17.05  median 17.07  75s
+gen 4: best 18.75  mu-cand 15.12  median 17.14  93s
+gen 5: best 20.91  mu-cand 17.88  median 17.90  113s
+gen 6: best 19.16  mu-cand 16.24  median 18.10  131s
+gen 7: best 20.27  mu-cand 18.59  median 18.11  150s
+final mc_tag_g7_6                  19.27 +- 1.07  {'aggressive': 23.42, 'balanced': 12.56, 'exploitative': 17.22, 'mixed': 20.29, 'passive': 22.88}
+final mc_tag_g5_7                  19.08 +- 1.06  {'aggressive': 23.12, 'balanced': 14.35, 'exploitative': 15.92, 'mixed': 19.65, 'passive': 22.39}
+final mc_tag_g7_mean               19.00 +- 1.07  {'aggressive': 24.15, 'balanced': 12.31, 'exploitative': 16.03, 'mixed': 21.13, 'passive': 21.38}
+final mc_tag_g2_7                  18.69 +- 1.00  {'aggressive': 24.34, 'balanced': 13.4, 'exploitative': 14.56, 'mixed': 21.1, 'passive': 20.05}
+final mc_tag_g3_4                  17.95 +- 1.11  {'aggressive': 23.02, 'balanced': 11.4, 'exploitative': 16.35, 'mixed': 18.95, 'passive': 20.03}
+final mc_tag_base                  15.94 +- 1.05  {'aggressive': 21.48, 'balanced': 12.41, 'exploitative': 12.89, 'mixed': 17.64, 'passive': 15.26}
+best -> results/opt_mc/best.json (cpu 1084s, wall 198s)
+league written
+gen 0: best 14.07  mu-cand 11.25  median 10.91  63s
+gen 1: best 15.18  mu-cand 12.75  median 12.62  126s
+gen 2: best 14.68  mu-cand 12.83  median 12.76  188s
+gen 3: best 13.98  mu-cand 13.77  median 13.32  251s
+gen 4: best 15.89  mu-cand 14.11  median 14.02  312s
+gen 5: best 16.45  mu-cand 15.05  median 14.85  370s
+gen 6: best 17.69  mu-cand 15.05  median 15.05  427s
+gen 7: best 15.86  mu-cand 13.89  median 14.57  484s
+final T-heur_g6_6                  16.08 +- 0.86  {'league': 16.08}
+final T-heur_g7_14                 15.99 +- 0.86  {'league': 15.99}
+final T-heur_g7_mean               15.89 +- 0.86  {'league': 15.89}
+final T-heur_g5_12                 15.23 +- 0.83  {'league': 15.23}
+final T-heur_g4_11                 14.59 +- 0.82  {'league': 14.59}
+final T-heur_base                  11.81 +- 0.74  {'league': 11.81}
+best -> results/opt_heur_league/best.json (cpu 3465s, wall 589s)

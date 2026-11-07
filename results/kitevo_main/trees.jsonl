@@ -1,0 +1,6 @@
+{"tag": "t0", "rows": 23229, "champion": "mc_g5", "with_model": 18.0, "base": 16.5, "diff": 1.5, "ci": 5.132746847067215, "adopted": true, "t": 1794019252.898727}
+{"gen": 16, "rows": 53825, "champion": "mc_g12", "new_vs_current": 3.95, "ci": 4.06, "new_vs_none": 8.95, "model": "model_main_g16.json", "adopted": true}
+{"gen": 24, "rows": 47221, "champion": "mc_g12", "new_vs_current": 0.9, "ci": 3.97, "new_vs_none": 3.8, "model": "model_main_g24.json", "adopted": true}
+{"gen": 32, "rows": 49560, "champion": "mc_g12", "new_vs_current": 1.2, "ci": 3.97, "new_vs_none": 3.25, "model": "model_main_g32.json", "adopted": true}
+{"gen": 40, "rows": 49291, "champion": "mc_g12", "new_vs_current": 3.35, "ci": 3.65, "new_vs_none": 6.25, "model": "model_main_g40.json", "adopted": true}
+{"gen": 48, "rows": 48420, "champion": "mc_g12", "new_vs_current": -4.25, "ci": 3.74, "new_vs_none": 2.05, "model": "model_main_g48.json", "adopted": false}

@@ -1,0 +1,300 @@
+{
+ "tables": 1500,
+ "seed": 99,
+ "fields": [
+  "aggressive",
+  "balanced",
+  "exploitative",
+  "mixed",
+  "passive"
+ ],
+ "event": "sequoia-nolimit-2026-provisional",
+ "payouts": [
+  50,
+  30,
+  20,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "rows": [
+  {
+   "name": "heur_tag",
+   "points": 20.916,
+   "ci95": 0.889,
+   "tables": 1500,
+   "place_dist": [
+    0.167,
+    0.277,
+    0.21,
+    0.137,
+    0.097,
+    0.062,
+    0.031,
+    0.018
+   ],
+   "lat_p50_us": 20,
+   "lat_p99_us": 70,
+   "lat_max_us": 11940.9,
+   "mean_us": 28.0,
+   "decisions": 191276,
+   "errors": 0,
+   "timeouts": 328,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.22,
+    "pfr": 0.151,
+    "open": 0.245,
+    "steal": 0.297,
+    "3bet": 0.05,
+    "af": 2.13,
+    "fold_to_bet": 0.741,
+    "wtsd": 0.323,
+    "allin_per_hand": 0.042
+   },
+   "sim_cpu_s": 44.7,
+   "mechanism": "heuristic",
+   "by_field": {
+    "aggressive": 23.19,
+    "balanced": 14.56,
+    "exploitative": 22.01,
+    "mixed": 22.26,
+    "passive": 22.57
+   },
+   "worst_field": 14.56,
+   "spec": {
+    "type": "heuristic",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "heur_tag"
+   },
+   "vs_leader": 0.0,
+   "vs_leader_ci95": 0.0
+  },
+  {
+   "name": "lookup_pf",
+   "points": 18.569,
+   "ci95": 0.88,
+   "tables": 1500,
+   "place_dist": [
+    0.134,
+    0.27,
+    0.191,
+    0.142,
+    0.09,
+    0.079,
+    0.051,
+    0.044
+   ],
+   "lat_p50_us": 20,
+   "lat_p99_us": 100,
+   "lat_max_us": 10271.4,
+   "mean_us": 28.8,
+   "decisions": 153612,
+   "errors": 0,
+   "timeouts": 304,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.171,
+    "pfr": 0.122,
+    "open": 0.157,
+    "steal": 0.205,
+    "3bet": 0.109,
+    "af": 3.27,
+    "fold_to_bet": 0.785,
+    "wtsd": 0.411,
+    "allin_per_hand": 0.04
+   },
+   "sim_cpu_s": 42.7,
+   "mechanism": "lookup-table (rollout-trained)",
+   "by_field": {
+    "aggressive": 22.62,
+    "balanced": 13.48,
+    "exploitative": 18.06,
+    "mixed": 19.72,
+    "passive": 18.96
+   },
+   "worst_field": 13.48,
+   "spec": {
+    "type": "lookup",
+    "params": {
+     "table": "pokerbot/data/qtable_pf.json",
+     "preflop_only": 1
+    },
+    "name": "lookup_pf"
+   },
+   "vs_leader": -2.347,
+   "vs_leader_ci95": 1.137
+  },
+  {
+   "name": "hybrid_q",
+   "points": 18.219,
+   "ci95": 0.883,
+   "tables": 1500,
+   "place_dist": [
+    0.135,
+    0.265,
+    0.181,
+    0.128,
+    0.1,
+    0.087,
+    0.059,
+    0.045
+   ],
+   "lat_p50_us": 20,
+   "lat_p99_us": 100,
+   "lat_max_us": 10499.1,
+   "mean_us": 27.0,
+   "decisions": 147221,
+   "errors": 0,
+   "timeouts": 237,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.168,
+    "pfr": 0.123,
+    "open": 0.158,
+    "steal": 0.207,
+    "3bet": 0.109,
+    "af": 3.42,
+    "fold_to_bet": 0.787,
+    "wtsd": 0.405,
+    "allin_per_hand": 0.045
+   },
+   "sim_cpu_s": 42.1,
+   "mechanism": "hybrid (CFR push/fold + table + equity + oppmodel)",
+   "by_field": {
+    "aggressive": 23.14,
+    "balanced": 13.75,
+    "exploitative": 15.73,
+    "mixed": 18.43,
+    "passive": 20.04
+   },
+   "worst_field": 13.75,
+   "spec": {
+    "type": "hybrid",
+    "styles": [
+     "tight",
+     "aggressive",
+     "exploitative"
+    ],
+    "params": {
+     "table": "pokerbot/data/qtable_pf.json"
+    },
+    "name": "hybrid_q"
+   },
+   "vs_leader": -2.698,
+   "vs_leader_ci95": 1.131
+  },
+  {
+   "name": "hybrid_tag",
+   "points": 15.718,
+   "ci95": 0.929,
+   "tables": 1500,
+   "place_dist": [
+    0.154,
+    0.161,
+    0.164,
+    0.165,
+    0.123,
+    0.103,
+    0.074,
+    0.055
+   ],
+   "lat_p50_us": 30,
+   "lat_p99_us": 100,
+   "lat_max_us": 11815.4,
+   "mean_us": 39.2,
+   "decisions": 128109,
+   "errors": 0,
+   "timeouts": 334,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.209,
+    "pfr": 0.146,
+    "open": 0.237,
+    "steal": 0.291,
+    "3bet": 0.047,
+    "af": 3.71,
+    "fold_to_bet": 0.728,
+    "wtsd": 0.362,
+    "allin_per_hand": 0.054
+   },
+   "sim_cpu_s": 42.4,
+   "mechanism": "hybrid (CFR push/fold + table + equity + oppmodel)",
+   "by_field": {
+    "aggressive": 21.17,
+    "balanced": 9.78,
+    "exploitative": 14.07,
+    "mixed": 16.69,
+    "passive": 16.9
+   },
+   "worst_field": 9.78,
+   "spec": {
+    "type": "hybrid",
+    "styles": [
+     "tight",
+     "aggressive",
+     "exploitative"
+    ],
+    "name": "hybrid_tag"
+   },
+   "vs_leader": -5.198,
+   "vs_leader_ci95": 1.092
+  },
+  {
+   "name": "eq_default",
+   "points": 14.598,
+   "ci95": 0.931,
+   "tables": 1500,
+   "place_dist": [
+    0.146,
+    0.139,
+    0.157,
+    0.151,
+    0.129,
+    0.112,
+    0.086,
+    0.08
+   ],
+   "lat_p50_us": 30,
+   "lat_p99_us": 100,
+   "lat_max_us": 10887.9,
+   "mean_us": 41.4,
+   "decisions": 123699,
+   "errors": 0,
+   "timeouts": 330,
+   "illegal": 0,
+   "behavior": {
+    "vpip": 0.317,
+    "pfr": 0.204,
+    "open": 0.337,
+    "steal": 0.395,
+    "3bet": 0.06,
+    "af": 3.16,
+    "fold_to_bet": 0.617,
+    "wtsd": 0.339,
+    "allin_per_hand": 0.065
+   },
+   "sim_cpu_s": 42.4,
+   "mechanism": "statistical+oppmodel",
+   "by_field": {
+    "aggressive": 19.63,
+    "balanced": 9.13,
+    "exploitative": 12.37,
+    "mixed": 15.68,
+    "passive": 16.18
+   },
+   "worst_field": 9.13,
+   "spec": {
+    "type": "equity",
+    "name": "eq_default"
+   },
+   "vs_leader": -6.318,
+   "vs_leader_ci95": 1.126
+  }
+ ]
+}

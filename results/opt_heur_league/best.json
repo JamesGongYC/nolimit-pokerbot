@@ -1,0 +1,40 @@
+{
+ "type": "heuristic",
+ "styles": [
+  "tight",
+  "aggressive"
+ ],
+ "name": "T-heur_g6_6",
+ "params": {
+  "open_pct": 0.406,
+  "pos_widen": 0.1723,
+  "steal_widen": 0.2216,
+  "open_size": 2.5939,
+  "threebet_pct": 0.041,
+  "resteal_rate": 0.1556,
+  "call_margin": 0.134,
+  "value_eq": 0.581,
+  "raise_eq": 0.5744,
+  "value_size": 0.4326,
+  "bluff_size": 0.7511,
+  "bluff_rate": 0.2725,
+  "semibluff_rate": 0.8654,
+  "cbet_rate": 0.6833,
+  "shove_bb": 6.9805,
+  "push_widen": 1.0127,
+  "call_shove_margin": 0.0708,
+  "commit_spr": 1.379,
+  "icm_risk": 0.954,
+  "bigstack_pressure": 0.3742,
+  "multiway_tighten": 0.3518,
+  "adapt": 0.4757,
+  "implied": 0.0839,
+  "endgame_push": 0.0695,
+  "value_class": 3,
+  "call_class": 1,
+  "raise_class": 10,
+  "big_bet_call_class": 5
+ },
+ "train_cpu_s": 3464.8,
+ "train_wall_s": 589.3
+}

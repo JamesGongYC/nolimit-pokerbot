@@ -1,0 +1,10 @@
+{
+  "_comment": "HOLD-OUT fields: never used for tuning. Mostly unseen parameterisations of each archetype.",
+  "fields": {
+    "ho_aggressive": [[{"type": "maniac", "params": {"aggr": 0.55, "shove": 0.18, "fold": 0.2}, "name": "ho_maniac"}, 2], [{"type": "heuristic", "styles": ["loose", "bluffy", "stealer"], "name": "ho_heur_lb"}, 2], [{"type": "shover", "params": {"push_pct": 0.3, "call_pct": 0.15}, "name": "ho_shover30"}, 1], [{"type": "equity", "styles": ["aggressive", "bigstack_bully"], "name": "ho_eq_ab"}, 1]],
+    "ho_passive":    [[{"type": "station", "params": {"raise_eq": 0.85, "fold_eq": 0.25}, "name": "ho_station"}, 3], [{"type": "nit", "params": {"play_pct": 0.09}, "name": "ho_nit"}, 2], [{"type": "heuristic", "styles": ["passive"], "name": "ho_heur_p"}, 2], [{"type": "random", "params": {"raise": 0.05, "fold": 0.45}, "name": "ho_random_p"}, 1]],
+    "ho_balanced":   [[{"type": "equity", "styles": ["tight", "aggressive", "restealer"], "name": "ho_eq_tar"}, 2], [{"type": "heuristic", "styles": ["tight", "value"], "name": "ho_heur_tv"}, 2], [{"type": "linear", "name": "ho_linear"}, 1], [{"type": "equity", "params": {"open_pct": 0.15, "value_eq": 0.6}, "name": "ho_eq_mid"}, 2]],
+    "ho_adaptive":   [[{"type": "hybrid", "styles": ["exploitative", "stealer"], "name": "ho_hyb_es"}, 2], [{"type": "equity", "styles": ["exploitative", "icm_survival"], "name": "ho_eq_ei"}, 2], [{"type": "hybrid", "styles": ["loose", "aggressive", "exploitative"], "name": "ho_hyb_la"}, 1]],
+    "ho_mixed":      [[{"type": "random", "params": {"raise": 0.25, "fold": 0.3}, "name": "ho_random_a"}, 1], [{"type": "station", "name": "ho_station2"}, 1], [{"type": "maniac", "params": {"aggr": 0.6, "shove": 0.3}, "name": "ho_maniac2"}, 1], [{"type": "shover", "params": {"push_pct": 0.15, "call_pct": 0.08}, "name": "ho_shover15"}, 1], [{"type": "heuristic", "styles": ["tight", "aggressive", "icm_survival"], "name": "ho_heur_tai"}, 1], [{"type": "equity", "styles": ["loose", "passive"], "name": "ho_eq_lp"}, 1], [{"type": "hybrid", "name": "ho_hybrid"}, 1]]
+  }
+}

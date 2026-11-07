@@ -1,0 +1,336 @@
+{
+ "method": "cem",
+ "space": "core",
+ "base": "mc_tag",
+ "objective": "mean",
+ "train_cpu_s": 1084.0,
+ "wall_s": 198.1,
+ "finalists": [
+  {
+   "name": "mc_tag_g7_6",
+   "score": 19.273275049592787,
+   "mean": 19.273275049592787,
+   "ci95": 1.0661576133333357,
+   "by_field": {
+    "aggressive": 23.42,
+    "balanced": 12.56,
+    "exploitative": 17.22,
+    "mixed": 20.29,
+    "passive": 22.88
+   },
+   "spec": {
+    "type": "montecarlo",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "mc_tag_g7_6",
+    "params": {
+     "open_pct": 0.1385,
+     "pos_widen": 0.1369,
+     "steal_widen": 0.0928,
+     "open_size": 2.8807,
+     "threebet_pct": 0.0288,
+     "resteal_rate": 0.1537,
+     "call_margin": 0.0998,
+     "value_eq": 0.5263,
+     "raise_eq": 0.6552,
+     "value_size": 1.109,
+     "bluff_size": 0.7662,
+     "bluff_rate": 0.2431,
+     "semibluff_rate": 0.8328,
+     "cbet_rate": 0.8857,
+     "shove_bb": 12.1539,
+     "push_widen": 1.3076,
+     "call_shove_margin": 0.016,
+     "commit_spr": 1.3127,
+     "icm_risk": 0.7487,
+     "bigstack_pressure": 0.3727,
+     "multiway_tighten": 0.4426,
+     "adapt": 0.5327,
+     "implied": 0.0466,
+     "endgame_push": 0.1353,
+     "fold_prior": 0.2647,
+     "fold_slope": 0.1316,
+     "called_penalty": 0.1127,
+     "realize": 0.7469,
+     "prior_n": 1.76,
+     "range_tighten": 0.4556
+    }
+   }
+  },
+  {
+   "name": "mc_tag_g5_7",
+   "score": 19.083856835770504,
+   "mean": 19.083856835770504,
+   "ci95": 1.0599497704956813,
+   "by_field": {
+    "aggressive": 23.12,
+    "balanced": 14.35,
+    "exploitative": 15.92,
+    "mixed": 19.65,
+    "passive": 22.39
+   },
+   "spec": {
+    "type": "montecarlo",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "mc_tag_g5_7",
+    "params": {
+     "open_pct": 0.1108,
+     "pos_widen": 0.1768,
+     "steal_widen": 0.0834,
+     "open_size": 2.7377,
+     "threebet_pct": 0.0023,
+     "resteal_rate": 0.1445,
+     "call_margin": 0.1033,
+     "value_eq": 0.5381,
+     "raise_eq": 0.5669,
+     "value_size": 1.088,
+     "bluff_size": 0.7316,
+     "bluff_rate": 0.2341,
+     "semibluff_rate": 0.7861,
+     "cbet_rate": 0.8691,
+     "shove_bb": 10.0181,
+     "push_widen": 1.6068,
+     "call_shove_margin": 0.0195,
+     "commit_spr": 1.4671,
+     "icm_risk": 0.7146,
+     "bigstack_pressure": 0.3174,
+     "multiway_tighten": 0.418,
+     "adapt": 0.343,
+     "implied": 0.0377,
+     "endgame_push": 0.0,
+     "fold_prior": 0.2836,
+     "fold_slope": 0.1379,
+     "called_penalty": 0.0991,
+     "realize": 0.7504,
+     "prior_n": 8.1896,
+     "range_tighten": 0.535
+    }
+   }
+  },
+  {
+   "name": "mc_tag_g7_mean",
+   "score": 18.999182914832616,
+   "mean": 18.999182914832616,
+   "ci95": 1.065752845049149,
+   "by_field": {
+    "aggressive": 24.15,
+    "balanced": 12.31,
+    "exploitative": 16.03,
+    "mixed": 21.13,
+    "passive": 21.38
+   },
+   "spec": {
+    "type": "montecarlo",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "mc_tag_g7_mean",
+    "params": {
+     "open_pct": 0.1331,
+     "pos_widen": 0.1272,
+     "steal_widen": 0.0786,
+     "open_size": 2.7961,
+     "threebet_pct": 0.0416,
+     "resteal_rate": 0.135,
+     "call_margin": 0.1041,
+     "value_eq": 0.5382,
+     "raise_eq": 0.6549,
+     "value_size": 1.1144,
+     "bluff_size": 0.7515,
+     "bluff_rate": 0.25,
+     "semibluff_rate": 0.8106,
+     "cbet_rate": 0.8645,
+     "shove_bb": 11.1605,
+     "push_widen": 1.4634,
+     "call_shove_margin": 0.0235,
+     "commit_spr": 1.3674,
+     "icm_risk": 0.7874,
+     "bigstack_pressure": 0.344,
+     "multiway_tighten": 0.3836,
+     "adapt": 0.4312,
+     "implied": 0.0454,
+     "endgame_push": 0.1503,
+     "fold_prior": 0.2537,
+     "fold_slope": 0.1193,
+     "called_penalty": 0.1112,
+     "realize": 0.7661,
+     "prior_n": 3.6761,
+     "range_tighten": 0.487
+    }
+   }
+  },
+  {
+   "name": "mc_tag_g2_7",
+   "score": 18.689471570189657,
+   "mean": 18.689471570189657,
+   "ci95": 0.9969704051089893,
+   "by_field": {
+    "aggressive": 24.34,
+    "balanced": 13.4,
+    "exploitative": 14.56,
+    "mixed": 21.1,
+    "passive": 20.05
+   },
+   "spec": {
+    "type": "montecarlo",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "mc_tag_g2_7",
+    "params": {
+     "open_pct": 0.0815,
+     "pos_widen": 0.1331,
+     "steal_widen": 0.0522,
+     "open_size": 2.5816,
+     "threebet_pct": 0.0279,
+     "resteal_rate": 0.171,
+     "call_margin": 0.0892,
+     "value_eq": 0.5885,
+     "raise_eq": 0.6168,
+     "value_size": 1.0988,
+     "bluff_size": 0.6382,
+     "bluff_rate": 0.1729,
+     "semibluff_rate": 0.7907,
+     "cbet_rate": 0.9907,
+     "shove_bb": 8.3755,
+     "push_widen": 1.4579,
+     "call_shove_margin": 0.01,
+     "commit_spr": 1.4695,
+     "icm_risk": 1.1077,
+     "bigstack_pressure": 0.265,
+     "multiway_tighten": 0.3903,
+     "adapt": 0.513,
+     "implied": 0.0671,
+     "endgame_push": 0.0,
+     "fold_prior": 0.2297,
+     "fold_slope": 0.1245,
+     "called_penalty": 0.1051,
+     "realize": 0.7576,
+     "prior_n": 5.8345,
+     "range_tighten": 0.5039
+    }
+   }
+  },
+  {
+   "name": "mc_tag_g3_4",
+   "score": 17.950987493990706,
+   "mean": 17.950987493990706,
+   "ci95": 1.1077547512605799,
+   "by_field": {
+    "aggressive": 23.02,
+    "balanced": 11.4,
+    "exploitative": 16.35,
+    "mixed": 18.95,
+    "passive": 20.03
+   },
+   "spec": {
+    "type": "montecarlo",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "mc_tag_g3_4",
+    "params": {
+     "open_pct": 0.0927,
+     "pos_widen": 0.2125,
+     "steal_widen": 0.1111,
+     "open_size": 2.4646,
+     "threebet_pct": 0.093,
+     "resteal_rate": 0.1874,
+     "call_margin": 0.0859,
+     "value_eq": 0.5614,
+     "raise_eq": 0.6132,
+     "value_size": 1.0773,
+     "bluff_size": 0.6307,
+     "bluff_rate": 0.1407,
+     "semibluff_rate": 0.7862,
+     "cbet_rate": 0.772,
+     "shove_bb": 12.3318,
+     "push_widen": 1.443,
+     "call_shove_margin": 0.0092,
+     "commit_spr": 1.5332,
+     "icm_risk": 0.6929,
+     "bigstack_pressure": 0.3249,
+     "multiway_tighten": 0.3751,
+     "adapt": 0.8661,
+     "implied": 0.0364,
+     "endgame_push": 0.0285,
+     "fold_prior": 0.2239,
+     "fold_slope": 0.1235,
+     "called_penalty": 0.1047,
+     "realize": 0.7883,
+     "prior_n": 6.9708,
+     "range_tighten": 0.507
+    }
+   }
+  },
+  {
+   "name": "mc_tag_base",
+   "score": 15.935420441173292,
+   "mean": 15.935420441173292,
+   "ci95": 1.049711300704382,
+   "by_field": {
+    "aggressive": 21.48,
+    "balanced": 12.41,
+    "exploitative": 12.89,
+    "mixed": 17.64,
+    "passive": 15.26
+   },
+   "spec": {
+    "type": "montecarlo",
+    "styles": [
+     "tight",
+     "aggressive"
+    ],
+    "name": "mc_tag_base",
+    "params": {
+     "open_pct": 0.11,
+     "pos_widen": 0.14,
+     "steal_widen": 0.1,
+     "open_size": 2.5,
+     "threebet_pct": 0.035,
+     "resteal_rate": 0.08,
+     "call_margin": 0.06,
+     "value_eq": 0.56,
+     "raise_eq": 0.68,
+     "value_size": 0.85,
+     "bluff_size": 0.5,
+     "bluff_rate": 0.25,
+     "semibluff_rate": 0.6,
+     "cbet_rate": 0.8,
+     "shove_bb": 10.0,
+     "push_widen": 1.0,
+     "call_shove_margin": 0.0,
+     "commit_spr": 1.2,
+     "icm_risk": 1.0,
+     "bigstack_pressure": 0.3,
+     "multiway_tighten": 0.3,
+     "adapt": 0.5,
+     "implied": 0.04,
+     "endgame_push": 0.0,
+     "fold_prior": 0.35,
+     "fold_slope": 0.18,
+     "called_penalty": 0.06,
+     "realize": 0.85,
+     "prior_n": 12.0,
+     "range_tighten": 0.6
+    }
+   }
+  }
+ ],
+ "settings": {
+  "generations": 8,
+  "popsize": 12,
+  "screen_tables": 200,
+  "final_tables": 1200,
+  "seed": 52,
+  "n_random": 48
+ }
+}

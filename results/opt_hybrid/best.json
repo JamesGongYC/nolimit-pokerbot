@@ -1,0 +1,38 @@
+{
+ "type": "hybrid",
+ "styles": [
+  "tight",
+  "aggressive",
+  "exploitative"
+ ],
+ "params": {
+  "table": "pokerbot/data/qtable_pf.json",
+  "open_pct": 0.2271,
+  "pos_widen": 0.0686,
+  "steal_widen": 0.0746,
+  "open_size": 3.6168,
+  "threebet_pct": 0.0221,
+  "resteal_rate": 0.1143,
+  "call_margin": 0.143,
+  "value_eq": 0.6736,
+  "raise_eq": 0.6182,
+  "value_size": 0.9222,
+  "bluff_size": 0.7417,
+  "bluff_rate": 0.3724,
+  "semibluff_rate": 0.46,
+  "cbet_rate": 0.8685,
+  "shove_bb": 2.9997,
+  "push_widen": 0.6633,
+  "call_shove_margin": -0.0565,
+  "commit_spr": 1.2315,
+  "icm_risk": 0.2537,
+  "bigstack_pressure": 0.4583,
+  "multiway_tighten": 0.2078,
+  "adapt": 0.895,
+  "implied": 0.0876,
+  "endgame_push": 0.1718
+ },
+ "name": "hybrid_q_g9_mean",
+ "train_cpu_s": 1626.7,
+ "train_wall_s": 253.3
+}

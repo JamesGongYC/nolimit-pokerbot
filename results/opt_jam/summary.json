@@ -1,0 +1,162 @@
+{
+ "method": "cem",
+ "space": "allin",
+ "base": "jam_25",
+ "objective": "mean",
+ "train_cpu_s": 1397.8,
+ "wall_s": 235.5,
+ "finalists": [
+  {
+   "name": "jam_25_g3_5",
+   "score": 18.738272061910173,
+   "mean": 18.738272061910173,
+   "ci95": 0.6939701181142947,
+   "by_field": {
+    "aggressive": 25.03,
+    "balanced": 12.28,
+    "exploitative": 18.14,
+    "mixed": 20.0,
+    "passive": 18.25
+   },
+   "spec": {
+    "type": "allin",
+    "params": {
+     "push_pct": 0.1119,
+     "call_pct": 0.1249,
+     "ref_bb": 5.0393,
+     "stack_exp": 0.6235,
+     "post_class": 4
+    },
+    "name": "jam_25_g3_5"
+   }
+  },
+  {
+   "name": "jam_25_g5_11",
+   "score": 18.680816003877435,
+   "mean": 18.680816003877435,
+   "ci95": 0.6846476373762246,
+   "by_field": {
+    "aggressive": 25.04,
+    "balanced": 12.6,
+    "exploitative": 18.79,
+    "mixed": 19.42,
+    "passive": 17.57
+   },
+   "spec": {
+    "type": "allin",
+    "params": {
+     "push_pct": 0.0996,
+     "call_pct": 0.1369,
+     "ref_bb": 4.0187,
+     "stack_exp": 0.601,
+     "post_class": 4
+    },
+    "name": "jam_25_g5_11"
+   }
+  },
+  {
+   "name": "jam_25_g7_mean",
+   "score": 18.55050927728806,
+   "mean": 18.55050927728806,
+   "ci95": 0.6851412258391313,
+   "by_field": {
+    "aggressive": 24.96,
+    "balanced": 12.07,
+    "exploitative": 18.46,
+    "mixed": 19.65,
+    "passive": 17.61
+   },
+   "spec": {
+    "type": "allin",
+    "params": {
+     "push_pct": 0.097,
+     "call_pct": 0.1476,
+     "ref_bb": 4.6918,
+     "stack_exp": 0.6566,
+     "post_class": 4
+    },
+    "name": "jam_25_g7_mean"
+   }
+  },
+  {
+   "name": "jam_25_g6_1",
+   "score": 18.518579196764847,
+   "mean": 18.518579196764847,
+   "ci95": 0.7022819871734244,
+   "by_field": {
+    "aggressive": 25.06,
+    "balanced": 11.85,
+    "exploitative": 18.89,
+    "mixed": 19.24,
+    "passive": 17.56
+   },
+   "spec": {
+    "type": "allin",
+    "params": {
+     "push_pct": 0.0966,
+     "call_pct": 0.1885,
+     "ref_bb": 4.2571,
+     "stack_exp": 0.6119,
+     "post_class": 4
+    },
+    "name": "jam_25_g6_1"
+   }
+  },
+  {
+   "name": "jam_25_g2_4",
+   "score": 18.11651574983719,
+   "mean": 18.11651574983719,
+   "ci95": 0.7477322978001734,
+   "by_field": {
+    "aggressive": 23.37,
+    "balanced": 11.53,
+    "exploitative": 17.51,
+    "mixed": 19.8,
+    "passive": 18.36
+   },
+   "spec": {
+    "type": "allin",
+    "params": {
+     "push_pct": 0.2367,
+     "call_pct": 0.1669,
+     "ref_bb": 5.1304,
+     "stack_exp": 0.6556,
+     "post_class": 4
+    },
+    "name": "jam_25_g2_4"
+   }
+  },
+  {
+   "name": "jam_25_base",
+   "score": 10.633832817094273,
+   "mean": 10.633832817094273,
+   "ci95": 0.8414375117929697,
+   "by_field": {
+    "aggressive": 14.36,
+    "balanced": 7.26,
+    "exploitative": 9.53,
+    "mixed": 10.66,
+    "passive": 11.36
+   },
+   "spec": {
+    "type": "allin",
+    "params": {
+     "push_pct": 0.25,
+     "call_pct": 0.12,
+     "ref_bb": 15.0,
+     "stack_exp": 0.0,
+     "post_class": 2
+    },
+    "name": "jam_25_base"
+   }
+  }
+ ],
+ "settings": {
+  "generations": 8,
+  "popsize": 16,
+  "screen_tables": 300,
+  "final_tables": 1500,
+  "seed": 51,
+  "n_random": 48
+ }
+}

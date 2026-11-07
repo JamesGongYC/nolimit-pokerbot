@@ -1,0 +1,8 @@
+{
+  "_comment": "Synthetic regional field for official-format sims (~36 entries). A guess at the mix of 60-minute bots; NOT the real competitors.",
+  "entries": ["random", "random", "station", "station", "station", "maniac", "maniac_soft", "maniac_soft",
+              "shover20", "shover40", "shover20", "nit", "nit_loose", "nit",
+              "heur_tag", "heur_lag", "heur_tp", "heur_lp", "heur_bluffy", "heur_default",
+              "eq_default", "eq_tag", "eq_lag", "eq_value", "eq_icm", "eq_bully", "eq_shover", "eq_exploit",
+              "linear_default", "hybrid_default", "hybrid_tag", "hybrid_icm", "lookup_pf", "hybrid_q", "eq_static"]
+}

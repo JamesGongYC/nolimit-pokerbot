@@ -1,0 +1,24 @@
+{
+  "_comment": "Values marked PROVISIONAL are not published; replace them with the starter-kit files at the event (see docs/ASSUMPTIONS.md). Confirmed values cite rules.html.",
+  "name": "sequoia-nolimit-2026-provisional",
+  "table_size": 8,
+  "starting_stack": 2000,
+  "max_hands": 200,
+  "hands_per_level": 25,
+  "_blinds_comment": "Level 1 (10/20) and 25 hands/level are CONFIRMED. Later levels are PROVISIONAL (homepage demo shows 50/100, consistent with level 4 here).",
+  "blind_levels": [
+    [10, 20, 0], [15, 30, 0], [25, 50, 0], [50, 100, 0],
+    [75, 150, 0], [100, 200, 0], [150, 300, 0], [200, 400, 0]
+  ],
+  "_payouts_comment": "PROVISIONAL placement points for 1st..8th. Official payout structure ships with the starter kit.",
+  "payouts": [50, 30, 20, 0, 0, 0, 0, 0],
+  "_tie_comment": "Players busting on the same hand: 'stack' = larger start-of-hand stack places higher (equal stacks split); 'split' = split those places evenly. PROVISIONAL.",
+  "bust_tie_rule": "stack",
+  "variant": {"name": "nlhe"},
+  "decision_time_limit_ms": 1.0,
+  "enforce_time_limit": true,
+  "invalid_raise_policy": "fallback",
+  "submission_size_limit_mb": 100,
+  "tournament_weights": [1, 2, 3, 4, 5, 6],
+  "iterations_per_tournament": 10000
+}
